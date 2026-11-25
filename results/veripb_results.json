@@ -1,0 +1,62 @@
+[
+  {
+    "instance": "Scrambled_Schoolbook_vs_Wallace_6x6",
+    "k_bits": 6,
+    "vars": 369,
+    "clauses": 1174,
+    "pbp_lines": 6135,
+    "emit_ms": 532.44,
+    "veripb_check_ms": 37.24,
+    "veripb_status": "s VERIFIED UNSATISFIABLE",
+    "cnf_path": "results/veripb_proofs/scrambled_miter_6x6.cnf",
+    "pbp_path": "results/veripb_proofs/scrambled_miter_6x6.pbp"
+  },
+  {
+    "instance": "Scrambled_Schoolbook_vs_Wallace_8x8",
+    "k_bits": 8,
+    "vars": 685,
+    "clauses": 2206,
+    "pbp_lines": 11872,
+    "emit_ms": 1641.24,
+    "veripb_check_ms": 43.9,
+    "veripb_status": "s VERIFIED UNSATISFIABLE",
+    "cnf_path": "results/veripb_proofs/scrambled_miter_8x8.cnf",
+    "pbp_path": "results/veripb_proofs/scrambled_miter_8x8.pbp"
+  },
+  {
+    "instance": "Scrambled_Schoolbook_vs_Wallace_10x10",
+    "k_bits": 10,
+    "vars": 1097,
+    "clauses": 3558,
+    "pbp_lines": 19406,
+    "emit_ms": 3524.36,
+    "veripb_check_ms": 87.79,
+    "veripb_status": "s VERIFIED UNSATISFIABLE",
+    "cnf_path": "results/veripb_proofs/scrambled_miter_10x10.cnf",
+    "pbp_path": "results/veripb_proofs/scrambled_miter_10x10.pbp"
+  },
+  {
+    "instance": "Scrambled_Schoolbook_vs_Wallace_12x12",
+    "k_bits": 12,
+    "vars": 1605,
+    "clauses": 5230,
+    "pbp_lines": 28793,
+    "emit_ms": 6483.17,
+    "veripb_check_ms": 213.82,
+    "veripb_status": "s VERIFIED UNSATISFIABLE",
+    "cnf_path": "results/veripb_proofs/scrambled_miter_12x12.cnf",
+    "pbp_path": "results/veripb_proofs/scrambled_miter_12x12.pbp"
+  },
+  {
+    "instance": "Scrambled_Schoolbook_vs_Wallace_16x16",
+    "k_bits": 16,
+    "vars": 2909,
+    "clauses": 9534,
+    "pbp_lines": 53042,
+    "emit_ms": 28230.76,
+    "veripb_check_ms": 400.94,
+    "veripb_status": "s VERIFIED UNSATISFIABLE",
+    "cnf_path": "results/veripb_proofs/scrambled_miter_16x16.cnf",
+    "pbp_path": "results/veripb_proofs/scrambled_miter_16x16.pbp"
+  }
+]

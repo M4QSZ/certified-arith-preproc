@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+build/
+*.egg-info/
+results/*.pbp
+results/*.cnf
+results/veripb_proofs/
+.DS_Store
