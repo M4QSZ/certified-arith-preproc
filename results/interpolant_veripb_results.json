@@ -1,0 +1,146 @@
+[
+  {
+    "instance": "Scrambled_PHP08_07_OR2_Tseitin16",
+    "vars": 922,
+    "clauses": 1408,
+    "cut_size": 2,
+    "num_fibers": 4,
+    "fiber_engines": {
+      "PARITY_RED_CP": 2,
+      "PHP_CP": 2
+    },
+    "witness_vars": 32,
+    "pbp_lines": 1168,
+    "emit_ms": 29.41,
+    "veripb_check_ms": 5.67,
+    "veripb_status": "s VERIFIED UNSATISFIABLE",
+    "cnf_path": "results/interpolant_proofs/Scrambled_PHP08_07_OR2_Tseitin16.cnf",
+    "pbp_path": "results/interpolant_proofs/Scrambled_PHP08_07_OR2_Tseitin16.pbp"
+  },
+  {
+    "instance": "Scrambled_PHP10_09_OR2_Tseitin20",
+    "vars": 1592,
+    "clauses": 2520,
+    "cut_size": 2,
+    "num_fibers": 4,
+    "fiber_engines": {
+      "PHP_CP": 2,
+      "PARITY_RED_CP": 2
+    },
+    "witness_vars": 40,
+    "pbp_lines": 1934,
+    "emit_ms": 81.69,
+    "veripb_check_ms": 8.22,
+    "veripb_status": "s VERIFIED UNSATISFIABLE",
+    "cnf_path": "results/interpolant_proofs/Scrambled_PHP10_09_OR2_Tseitin20.cnf",
+    "pbp_path": "results/interpolant_proofs/Scrambled_PHP10_09_OR2_Tseitin20.pbp"
+  },
+  {
+    "instance": "Scrambled_PHP13_12_OR2_Tseitin28",
+    "vars": 3157,
+    "clauses": 5196,
+    "cut_size": 2,
+    "num_fibers": 4,
+    "fiber_engines": {
+      "PARITY_RED_CP": 2,
+      "PHP_CP": 2
+    },
+    "witness_vars": 56,
+    "pbp_lines": 3694,
+    "emit_ms": 141.63,
+    "veripb_check_ms": 23.57,
+    "veripb_status": "s VERIFIED UNSATISFIABLE",
+    "cnf_path": "results/interpolant_proofs/Scrambled_PHP13_12_OR2_Tseitin28.cnf",
+    "pbp_path": "results/interpolant_proofs/Scrambled_PHP13_12_OR2_Tseitin28.pbp"
+  },
+  {
+    "instance": "Scrambled_PHP16_15_OR2_Tseitin36",
+    "vars": 5496,
+    "clauses": 9312,
+    "cut_size": 2,
+    "num_fibers": 4,
+    "fiber_engines": {
+      "PHP_CP": 2,
+      "PARITY_RED_CP": 2
+    },
+    "witness_vars": 72,
+    "pbp_lines": 6264,
+    "emit_ms": 382.21,
+    "veripb_check_ms": 35.19,
+    "veripb_status": "s VERIFIED UNSATISFIABLE",
+    "cnf_path": "results/interpolant_proofs/Scrambled_PHP16_15_OR2_Tseitin36.cnf",
+    "pbp_path": "results/interpolant_proofs/Scrambled_PHP16_15_OR2_Tseitin36.pbp"
+  },
+  {
+    "instance": "Scrambled_PHP20_19_OR2_Tseitin44",
+    "vars": 10052,
+    "clauses": 17536,
+    "cut_size": 2,
+    "num_fibers": 4,
+    "fiber_engines": {
+      "PHP_CP": 2,
+      "PARITY_RED_CP": 2
+    },
+    "witness_vars": 88,
+    "pbp_lines": 11156,
+    "emit_ms": 875.37,
+    "veripb_check_ms": 55.98,
+    "veripb_status": "s VERIFIED UNSATISFIABLE",
+    "cnf_path": "results/interpolant_proofs/Scrambled_PHP20_19_OR2_Tseitin44.cnf",
+    "pbp_path": "results/interpolant_proofs/Scrambled_PHP20_19_OR2_Tseitin44.pbp"
+  },
+  {
+    "instance": "Scrambled_PHP24_23_OR2_Tseitin52",
+    "vars": 16656,
+    "clauses": 29664,
+    "cut_size": 2,
+    "num_fibers": 4,
+    "fiber_engines": {
+      "PHP_CP": 2,
+      "PARITY_RED_CP": 2
+    },
+    "witness_vars": 104,
+    "pbp_lines": 18160,
+    "emit_ms": 1973.84,
+    "veripb_check_ms": 87.74,
+    "veripb_status": "s VERIFIED UNSATISFIABLE",
+    "cnf_path": "results/interpolant_proofs/Scrambled_PHP24_23_OR2_Tseitin52.cnf",
+    "pbp_path": "results/interpolant_proofs/Scrambled_PHP24_23_OR2_Tseitin52.pbp"
+  },
+  {
+    "instance": "Scrambled_PHP12_11_OR3_Expander30",
+    "vars": 8820,
+    "clauses": 12360,
+    "cut_size": 3,
+    "num_fibers": 8,
+    "fiber_engines": {
+      "PARITY_RED_CP": 4,
+      "PHP_CP": 4
+    },
+    "witness_vars": 120,
+    "pbp_lines": 10124,
+    "emit_ms": 431.84,
+    "veripb_check_ms": 47.54,
+    "veripb_status": "s VERIFIED UNSATISFIABLE",
+    "cnf_path": "results/interpolant_proofs/Scrambled_PHP12_11_OR3_Expander30.cnf",
+    "pbp_path": "results/interpolant_proofs/Scrambled_PHP12_11_OR3_Expander30.pbp"
+  },
+  {
+    "instance": "Scrambled_PHP14_13_OR3_Expander36",
+    "vars": 13419,
+    "clauses": 18964,
+    "cut_size": 3,
+    "num_fibers": 8,
+    "fiber_engines": {
+      "PARITY_RED_CP": 4,
+      "PHP_CP": 4
+    },
+    "witness_vars": 144,
+    "pbp_lines": 15124,
+    "emit_ms": 764.32,
+    "veripb_check_ms": 63.31,
+    "veripb_status": "s VERIFIED UNSATISFIABLE",
+    "cnf_path": "results/interpolant_proofs/Scrambled_PHP14_13_OR3_Expander36.cnf",
+    "pbp_path": "results/interpolant_proofs/Scrambled_PHP14_13_OR3_Expander36.pbp"
+  }
+]

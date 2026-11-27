@@ -1,0 +1,199 @@
+{
+  "attack_id": "ATAQUE-15",
+  "title": "Non-Aligned Context Tree-SLP Recompression & Syntactic-vs-Semantic Dichotomy",
+  "lean_suite": "proofs/krajicek_nonaligned_context_slp.lean",
+  "suite_a_nonaligned_recompression": [
+    {
+      "exponent_m": 6,
+      "periodic_spine_len": 192,
+      "periodic_rules_g1_g2": [
+        11,
+        19
+      ],
+      "periodic_unify_ok": true,
+      "periodic_rounds": 3,
+      "periodic_time_ms": 1.45,
+      "periodic_mutated_rejected": true,
+      "periodic_mutated_ms": 1.073,
+      "thue_morse_spine_len": 64,
+      "thue_morse_rules_g1_g2": [
+        14,
+        20
+      ],
+      "thue_morse_unify_ok": true,
+      "thue_morse_rounds": 4,
+      "thue_morse_time_ms": 1.067,
+      "thue_morse_mutated_rejected": true,
+      "thue_morse_mutated_ms": 1.126
+    },
+    {
+      "exponent_m": 12,
+      "periodic_spine_len": 12288,
+      "periodic_rules_g1_g2": [
+        17,
+        31
+      ],
+      "periodic_unify_ok": true,
+      "periodic_rounds": 3,
+      "periodic_time_ms": 1.519,
+      "periodic_mutated_rejected": true,
+      "periodic_mutated_ms": 1.334,
+      "thue_morse_spine_len": 4096,
+      "thue_morse_rules_g1_g2": [
+        26,
+        38
+      ],
+      "thue_morse_unify_ok": true,
+      "thue_morse_rounds": 12,
+      "thue_morse_time_ms": 5.515,
+      "thue_morse_mutated_rejected": true,
+      "thue_morse_mutated_ms": 3.59
+    },
+    {
+      "exponent_m": 20,
+      "periodic_spine_len": 3145728,
+      "periodic_rules_g1_g2": [
+        25,
+        47
+      ],
+      "periodic_unify_ok": true,
+      "periodic_rounds": 3,
+      "periodic_time_ms": 2.142,
+      "periodic_mutated_rejected": true,
+      "periodic_mutated_ms": 2.553,
+      "thue_morse_spine_len": 1048576,
+      "thue_morse_rules_g1_g2": [
+        42,
+        62
+      ],
+      "thue_morse_unify_ok": true,
+      "thue_morse_rounds": 24,
+      "thue_morse_time_ms": 28.621,
+      "thue_morse_mutated_rejected": true,
+      "thue_morse_mutated_ms": 13.123
+    },
+    {
+      "exponent_m": 32,
+      "periodic_spine_len": 12884901888,
+      "periodic_rules_g1_g2": [
+        37,
+        71
+      ],
+      "periodic_unify_ok": true,
+      "periodic_rounds": 3,
+      "periodic_time_ms": 4.632,
+      "periodic_mutated_rejected": true,
+      "periodic_mutated_ms": 3.639,
+      "thue_morse_spine_len": 4294967296,
+      "thue_morse_rules_g1_g2": [
+        66,
+        98
+      ],
+      "thue_morse_unify_ok": true,
+      "thue_morse_rounds": 42,
+      "thue_morse_time_ms": 86.632,
+      "thue_morse_mutated_rejected": true,
+      "thue_morse_mutated_ms": 45.351
+    },
+    {
+      "exponent_m": 48,
+      "periodic_spine_len": 844424930131968,
+      "periodic_rules_g1_g2": [
+        53,
+        103
+      ],
+      "periodic_unify_ok": true,
+      "periodic_rounds": 3,
+      "periodic_time_ms": 8.18,
+      "periodic_mutated_rejected": true,
+      "periodic_mutated_ms": 7.914,
+      "thue_morse_spine_len": 281474976710656,
+      "thue_morse_rules_g1_g2": [
+        98,
+        146
+      ],
+      "thue_morse_unify_ok": true,
+      "thue_morse_rounds": 66,
+      "thue_morse_time_ms": 281.96,
+      "thue_morse_mutated_rejected": true,
+      "thue_morse_mutated_ms": 117.931
+    },
+    {
+      "exponent_m": 60,
+      "periodic_spine_len": 3458764513820540928,
+      "periodic_rules_g1_g2": [
+        65,
+        127
+      ],
+      "periodic_unify_ok": true,
+      "periodic_rounds": 3,
+      "periodic_time_ms": 10.057,
+      "periodic_mutated_rejected": true,
+      "periodic_mutated_ms": 10.022,
+      "thue_morse_spine_len": 1152921504606846976,
+      "thue_morse_rules_g1_g2": [
+        122,
+        182
+      ],
+      "thue_morse_unify_ok": true,
+      "thue_morse_rounds": 84,
+      "thue_morse_time_ms": 423.794,
+      "thue_morse_mutated_rejected": true,
+      "thue_morse_mutated_ms": 155.639
+    }
+  ],
+  "suite_b_materialized_cf_chains": [
+    {
+      "k_cuts": 2,
+      "k_cf_lines": 7,
+      "total_intermediate_spine_depth": 768,
+      "emitted_approx_steps": 17,
+      "theoretical_bound_c_ax_plus_2_k": 35,
+      "all_steps_are_approx_verified": true,
+      "compile_and_verify_ms": 3.347
+    },
+    {
+      "k_cuts": 4,
+      "k_cf_lines": 13,
+      "total_intermediate_spine_depth": 1536,
+      "emitted_approx_steps": 33,
+      "theoretical_bound_c_ax_plus_2_k": 65,
+      "all_steps_are_approx_verified": true,
+      "compile_and_verify_ms": 5.541
+    },
+    {
+      "k_cuts": 6,
+      "k_cf_lines": 19,
+      "total_intermediate_spine_depth": 2304,
+      "emitted_approx_steps": 49,
+      "theoretical_bound_c_ax_plus_2_k": 95,
+      "all_steps_are_approx_verified": true,
+      "compile_and_verify_ms": 7.567
+    },
+    {
+      "k_cuts": 8,
+      "k_cf_lines": 25,
+      "total_intermediate_spine_depth": 3072,
+      "emitted_approx_steps": 65,
+      "theoretical_bound_c_ax_plus_2_k": 125,
+      "all_steps_are_approx_verified": true,
+      "compile_and_verify_ms": 12.389
+    }
+  ],
+  "total_verified_approx_steps_suite_b": 164,
+  "suite_c_dichotomy": {
+    "taut_var0_vs_taut_var1": {
+      "syntactic_fla_equal": false,
+      "semantic_bool_equal": true,
+      "one_step_are_approx": false,
+      "min_verified_ba_steps": 2
+    },
+    "xor3_left_vs_right_assoc": {
+      "syntactic_fla_equal": false,
+      "semantic_bool_equal": true,
+      "one_step_are_approx": false,
+      "constructive_verified_ba_steps": 807
+    }
+  },
+  "total_wall_time_ms": 1562.593
+}

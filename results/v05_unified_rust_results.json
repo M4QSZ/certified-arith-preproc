@@ -1,0 +1,189 @@
+{
+  "engine": "cap-veronese-rs v0.5.0",
+  "veripb_version": "3.0.2",
+  "unsat_verified_count": 11,
+  "sat_controls_rejected_count": 4,
+  "false_positives": 0,
+  "unsat_benchmarks": [
+    {
+      "attack_group": "ATAQUE-01",
+      "instance": "Lifted_PHP12_11_OverlappingXOR3",
+      "vars": 52587,
+      "clauses": 67200,
+      "ext_vars": 456,
+      "cut_size": 0,
+      "max_deg_used": 1,
+      "pbp_lines": 260594,
+      "rust_emit_ms": 857.35,
+      "veripb_check_ms": 947.17,
+      "total_ms": 1804.52,
+      "veripb_status": "s VERIFIED UNSATISFIABLE"
+    },
+    {
+      "attack_group": "ATAQUE-01",
+      "instance": "Lifted_PHP11_10_Deg2Sponge_MAJ3",
+      "vars": 356789,
+      "clauses": 413952,
+      "ext_vars": 1386,
+      "cut_size": 0,
+      "max_deg_used": 2,
+      "pbp_lines": 2690342,
+      "rust_emit_ms": 5204.74,
+      "veripb_check_ms": 7811.44,
+      "total_ms": 13016.18,
+      "veripb_status": "s VERIFIED UNSATISFIABLE"
+    },
+    {
+      "attack_group": "ATAQUE-01",
+      "instance": "Lifted_PHP65_o_Keccak4L_Scrambled",
+      "vars": 17373,
+      "clauses": 21284,
+      "ext_vars": 301,
+      "cut_size": 0,
+      "max_deg_used": 2,
+      "pbp_lines": 138720,
+      "rust_emit_ms": 321.96,
+      "veripb_check_ms": 359.42,
+      "total_ms": 681.38,
+      "veripb_status": "s VERIFIED UNSATISFIABLE"
+    },
+    {
+      "attack_group": "ATAQUE-02",
+      "instance": "Goldreich_XORMAJ3_n28_m36_Scrambled",
+      "vars": 1180,
+      "clauses": 1728,
+      "ext_vars": 46277,
+      "cut_size": 0,
+      "max_deg_used": 3,
+      "pbp_lines": 2042161,
+      "rust_emit_ms": 1477.3,
+      "veripb_check_ms": 6973.17,
+      "total_ms": 8450.47,
+      "veripb_status": "s VERIFIED UNSATISFIABLE"
+    },
+    {
+      "attack_group": "ATAQUE-02",
+      "instance": "Interpolant_OR_s1s2_PHP_Goldreich",
+      "vars": 2898,
+      "clauses": 3616,
+      "ext_vars": 4248,
+      "cut_size": 2,
+      "max_deg_used": 3,
+      "pbp_lines": 191446,
+      "rust_emit_ms": 110.51,
+      "veripb_check_ms": 441.97,
+      "total_ms": 552.48,
+      "veripb_status": "s VERIFIED UNSATISFIABLE"
+    },
+    {
+      "attack_group": "ATAQUE-04",
+      "instance": "Miter_Mult_12x12_Scrambled",
+      "vars": 1605,
+      "clauses": 5230,
+      "ext_vars": 0,
+      "cut_size": 0,
+      "max_deg_used": 0,
+      "pbp_lines": 28793,
+      "rust_emit_ms": 345.63,
+      "veripb_check_ms": 132.62,
+      "total_ms": 478.25,
+      "veripb_status": "s VERIFIED UNSATISFIABLE"
+    },
+    {
+      "attack_group": "ATAQUE-04",
+      "instance": "Miter_Mult_16x16_Scrambled",
+      "vars": 2909,
+      "clauses": 9534,
+      "ext_vars": 0,
+      "cut_size": 0,
+      "max_deg_used": 0,
+      "pbp_lines": 53042,
+      "rust_emit_ms": 981.97,
+      "veripb_check_ms": 355.5,
+      "total_ms": 1337.47,
+      "veripb_status": "s VERIFIED UNSATISFIABLE"
+    },
+    {
+      "attack_group": "ATAQUE-04",
+      "instance": "Miter_Mult_20x20_Scrambled",
+      "vars": 4597,
+      "clauses": 15118,
+      "ext_vars": 0,
+      "cut_size": 0,
+      "max_deg_used": 0,
+      "pbp_lines": 84626,
+      "rust_emit_ms": 2527.17,
+      "veripb_check_ms": 791.73,
+      "total_ms": 3318.9,
+      "veripb_status": "s VERIFIED UNSATISFIABLE"
+    },
+    {
+      "attack_group": "ATAQUE-04",
+      "instance": "Trunc_Miter_12x12_low12",
+      "vars": 1581,
+      "clauses": 5170,
+      "ext_vars": 0,
+      "cut_size": 0,
+      "max_deg_used": 0,
+      "pbp_lines": 28580,
+      "rust_emit_ms": 188.2,
+      "veripb_check_ms": 99.22,
+      "total_ms": 287.42,
+      "veripb_status": "s VERIFIED UNSATISFIABLE"
+    },
+    {
+      "attack_group": "v0.4-Reg",
+      "instance": "Shifted_Cubic_Sponge_Miter_Scrambled",
+      "vars": 2615,
+      "clauses": 3264,
+      "ext_vars": 207,
+      "cut_size": 0,
+      "max_deg_used": 3,
+      "pbp_lines": 16329,
+      "rust_emit_ms": 15.23,
+      "veripb_check_ms": 44.94,
+      "total_ms": 60.17,
+      "veripb_status": "s VERIFIED UNSATISFIABLE"
+    },
+    {
+      "attack_group": "v0.4-Reg",
+      "instance": "WireElim_OR_s1s2_PHP13_12_Tseitin28",
+      "vars": 3157,
+      "clauses": 5196,
+      "ext_vars": 56,
+      "cut_size": 2,
+      "max_deg_used": 1,
+      "pbp_lines": 3694,
+      "rust_emit_ms": 23.6,
+      "veripb_check_ms": 12.79,
+      "total_ms": 36.39,
+      "veripb_status": "s VERIFIED UNSATISFIABLE"
+    }
+  ],
+  "sat_soundness_controls": [
+    {
+      "instance": "SAT_Cubic_XOR3_AND3_6Local_V44_even",
+      "exit_code": 10,
+      "rejected_cleanly": true,
+      "ms": 45.52
+    },
+    {
+      "instance": "SAT_Goldreich_XOR3_MAJ5_7Local_V44_even",
+      "exit_code": 10,
+      "rejected_cleanly": true,
+      "ms": 73.35
+    },
+    {
+      "instance": "SAT_Homological_K5_XOR3_SYM3_6Local_V40_even",
+      "exit_code": 10,
+      "rejected_cleanly": true,
+      "ms": 32.38
+    },
+    {
+      "instance": "SAT_PHP10_10_OR2_Goldreich_XOR3_MAJ5_V36",
+      "exit_code": 10,
+      "rejected_cleanly": true,
+      "ms": 333.05
+    }
+  ]
+}

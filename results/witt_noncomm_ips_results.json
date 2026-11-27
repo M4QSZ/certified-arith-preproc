@@ -1,0 +1,3197 @@
+{
+  "metadata": {
+    "attack": "ATAQUE-06",
+    "title": "Non-Commutative IPS over Truncated Witt Rings W_k(F_2) ~= Z/2^kZ",
+    "n_values": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "rings": [
+      "F_2",
+      "Q",
+      "Z/4Z (W_2(F_2))",
+      "Z/8Z (W_3(F_2))"
+    ]
+  },
+  "by_n": {
+    "2": {
+      "witt_binary_value": {
+        "homogeneous_deg1": {
+          "degree": 1,
+          "cuts": {
+            "d=0": {
+              "rows": 1,
+              "cols": 2,
+              "rank_F2": 1,
+              "rank_Q": 1,
+              "snf_Z": [
+                1
+              ],
+              "invariant_factors_Z4": [
+                1
+              ],
+              "module_rank_Z4": 1,
+              "zero_divisor_gap_Z4": 0,
+              "invariant_factors_Z8": [
+                1
+              ],
+              "module_rank_Z8": 1,
+              "zero_divisor_gap_Z8": 0
+            },
+            "d=1": {
+              "rows": 2,
+              "cols": 1,
+              "rank_F2": 1,
+              "rank_Q": 1,
+              "snf_Z": [
+                1
+              ],
+              "invariant_factors_Z4": [
+                1
+              ],
+              "module_rank_Z4": 1,
+              "zero_divisor_gap_Z4": 0,
+              "invariant_factors_Z8": [
+                1
+              ],
+              "module_rank_Z8": 1,
+              "zero_divisor_gap_Z8": 0
+            }
+          },
+          "nisan_abp_bound_F2": 2,
+          "nisan_abp_bound_Q": 2,
+          "nisan_abp_bound_Z4": 2,
+          "nisan_abp_bound_Z8": 2
+        },
+        "inhomogeneous_bimodal_le1": {
+          "rows": 3,
+          "cols": 3,
+          "rank_F2": 2,
+          "rank_Q": 2,
+          "snf_Z": [
+            1,
+            1
+          ],
+          "invariant_factors_Z4": [
+            1,
+            1
+          ],
+          "module_rank_Z4": 2,
+          "zero_divisor_gap_Z4": 0,
+          "invariant_factors_Z8": [
+            1,
+            1
+          ],
+          "module_rank_Z8": 2,
+          "zero_divisor_gap_Z8": 0
+        }
+      },
+      "e2_ordered": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 4,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 2,
+            "cols": 2,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 4,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 3,
+        "nisan_abp_bound_Q": 3,
+        "nisan_abp_bound_Z4": 3,
+        "nisan_abp_bound_Z8": 3
+      },
+      "e2_symmetrized": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 4,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 2,
+            "cols": 2,
+            "rank_F2": 2,
+            "rank_Q": 2,
+            "snf_Z": [
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1
+            ],
+            "module_rank_Z4": 2,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1
+            ],
+            "module_rank_Z8": 2,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 4,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 4,
+        "nisan_abp_bound_Q": 4,
+        "nisan_abp_bound_Z4": 4,
+        "nisan_abp_bound_Z8": 4
+      },
+      "e2_symmetrized_witt_carry_2x": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 4,
+            "rank_F2": 0,
+            "rank_Q": 1,
+            "snf_Z": [
+              2
+            ],
+            "invariant_factors_Z4": [
+              2
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 1,
+            "invariant_factors_Z8": [
+              2
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 1
+          },
+          "d=1": {
+            "rows": 2,
+            "cols": 2,
+            "rank_F2": 0,
+            "rank_Q": 2,
+            "snf_Z": [
+              2,
+              2
+            ],
+            "invariant_factors_Z4": [
+              2,
+              2
+            ],
+            "module_rank_Z4": 2,
+            "zero_divisor_gap_Z4": 2,
+            "invariant_factors_Z8": [
+              2,
+              2
+            ],
+            "module_rank_Z8": 2,
+            "zero_divisor_gap_Z8": 2
+          },
+          "d=2": {
+            "rows": 4,
+            "cols": 1,
+            "rank_F2": 0,
+            "rank_Q": 1,
+            "snf_Z": [
+              2
+            ],
+            "invariant_factors_Z4": [
+              2
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 1,
+            "invariant_factors_Z8": [
+              2
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 1
+          }
+        },
+        "nisan_abp_bound_F2": 0,
+        "nisan_abp_bound_Q": 4,
+        "nisan_abp_bound_Z4": 4,
+        "nisan_abp_bound_Z8": 4
+      },
+      "power2_noncomm": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 4,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 2,
+            "cols": 2,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 4,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 3,
+        "nisan_abp_bound_Q": 3,
+        "nisan_abp_bound_Z4": 3,
+        "nisan_abp_bound_Z8": 3
+      },
+      "power2_comm_ordered": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 4,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 2,
+            "cols": 2,
+            "rank_F2": 2,
+            "rank_Q": 2,
+            "snf_Z": [
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1
+            ],
+            "module_rank_Z4": 2,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1
+            ],
+            "module_rank_Z8": 2,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 4,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 4,
+        "nisan_abp_bound_Q": 4,
+        "nisan_abp_bound_Z4": 4,
+        "nisan_abp_bound_Z8": 4
+      },
+      "power2_separation": {
+        "F2_ratio_comm_over_nc": 1.333333,
+        "Q_ratio_comm_over_nc": 1.333333,
+        "Z4_ratio_comm_over_nc": 1.333333,
+        "Z8_ratio_comm_over_nc": 1.333333
+      },
+      "power3_noncomm": {
+        "degree": 3,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 8,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 2,
+            "cols": 4,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 4,
+            "cols": 2,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=3": {
+            "rows": 8,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 4,
+        "nisan_abp_bound_Q": 4,
+        "nisan_abp_bound_Z4": 4,
+        "nisan_abp_bound_Z8": 4
+      },
+      "power3_comm_ordered": {
+        "degree": 3,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 8,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 2,
+            "cols": 4,
+            "rank_F2": 2,
+            "rank_Q": 2,
+            "snf_Z": [
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1
+            ],
+            "module_rank_Z4": 2,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1
+            ],
+            "module_rank_Z8": 2,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 4,
+            "cols": 2,
+            "rank_F2": 2,
+            "rank_Q": 2,
+            "snf_Z": [
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1
+            ],
+            "module_rank_Z4": 2,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1
+            ],
+            "module_rank_Z8": 2,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=3": {
+            "rows": 8,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 6,
+        "nisan_abp_bound_Q": 6,
+        "nisan_abp_bound_Z4": 6,
+        "nisan_abp_bound_Z8": 6
+      },
+      "power3_separation": {
+        "F2_ratio_comm_over_nc": 1.5,
+        "Q_ratio_comm_over_nc": 1.5,
+        "Z4_ratio_comm_over_nc": 1.5,
+        "Z8_ratio_comm_over_nc": 1.5
+      }
+    },
+    "3": {
+      "witt_binary_value": {
+        "homogeneous_deg1": {
+          "degree": 1,
+          "cuts": {
+            "d=0": {
+              "rows": 1,
+              "cols": 3,
+              "rank_F2": 1,
+              "rank_Q": 1,
+              "snf_Z": [
+                1
+              ],
+              "invariant_factors_Z4": [
+                1
+              ],
+              "module_rank_Z4": 1,
+              "zero_divisor_gap_Z4": 0,
+              "invariant_factors_Z8": [
+                1
+              ],
+              "module_rank_Z8": 1,
+              "zero_divisor_gap_Z8": 0
+            },
+            "d=1": {
+              "rows": 3,
+              "cols": 1,
+              "rank_F2": 1,
+              "rank_Q": 1,
+              "snf_Z": [
+                1
+              ],
+              "invariant_factors_Z4": [
+                1
+              ],
+              "module_rank_Z4": 1,
+              "zero_divisor_gap_Z4": 0,
+              "invariant_factors_Z8": [
+                1
+              ],
+              "module_rank_Z8": 1,
+              "zero_divisor_gap_Z8": 0
+            }
+          },
+          "nisan_abp_bound_F2": 2,
+          "nisan_abp_bound_Q": 2,
+          "nisan_abp_bound_Z4": 2,
+          "nisan_abp_bound_Z8": 2
+        },
+        "inhomogeneous_bimodal_le1": {
+          "rows": 4,
+          "cols": 4,
+          "rank_F2": 2,
+          "rank_Q": 2,
+          "snf_Z": [
+            1,
+            1
+          ],
+          "invariant_factors_Z4": [
+            1,
+            1
+          ],
+          "module_rank_Z4": 2,
+          "zero_divisor_gap_Z4": 0,
+          "invariant_factors_Z8": [
+            1,
+            1
+          ],
+          "module_rank_Z8": 2,
+          "zero_divisor_gap_Z8": 0
+        }
+      },
+      "e2_ordered": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 9,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 3,
+            "cols": 3,
+            "rank_F2": 2,
+            "rank_Q": 2,
+            "snf_Z": [
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1
+            ],
+            "module_rank_Z4": 2,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1
+            ],
+            "module_rank_Z8": 2,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 9,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 4,
+        "nisan_abp_bound_Q": 4,
+        "nisan_abp_bound_Z4": 4,
+        "nisan_abp_bound_Z8": 4
+      },
+      "e2_symmetrized": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 9,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 3,
+            "cols": 3,
+            "rank_F2": 2,
+            "rank_Q": 3,
+            "snf_Z": [
+              1,
+              1,
+              2
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              2
+            ],
+            "module_rank_Z4": 3,
+            "zero_divisor_gap_Z4": 1,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              2
+            ],
+            "module_rank_Z8": 3,
+            "zero_divisor_gap_Z8": 1
+          },
+          "d=2": {
+            "rows": 9,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 4,
+        "nisan_abp_bound_Q": 5,
+        "nisan_abp_bound_Z4": 5,
+        "nisan_abp_bound_Z8": 5
+      },
+      "e2_symmetrized_witt_carry_2x": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 9,
+            "rank_F2": 0,
+            "rank_Q": 1,
+            "snf_Z": [
+              2
+            ],
+            "invariant_factors_Z4": [
+              2
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 1,
+            "invariant_factors_Z8": [
+              2
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 1
+          },
+          "d=1": {
+            "rows": 3,
+            "cols": 3,
+            "rank_F2": 0,
+            "rank_Q": 3,
+            "snf_Z": [
+              2,
+              2,
+              4
+            ],
+            "invariant_factors_Z4": [
+              2,
+              2
+            ],
+            "module_rank_Z4": 2,
+            "zero_divisor_gap_Z4": 2,
+            "invariant_factors_Z8": [
+              2,
+              2,
+              4
+            ],
+            "module_rank_Z8": 3,
+            "zero_divisor_gap_Z8": 3
+          },
+          "d=2": {
+            "rows": 9,
+            "cols": 1,
+            "rank_F2": 0,
+            "rank_Q": 1,
+            "snf_Z": [
+              2
+            ],
+            "invariant_factors_Z4": [
+              2
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 1,
+            "invariant_factors_Z8": [
+              2
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 1
+          }
+        },
+        "nisan_abp_bound_F2": 0,
+        "nisan_abp_bound_Q": 5,
+        "nisan_abp_bound_Z4": 4,
+        "nisan_abp_bound_Z8": 5
+      },
+      "power2_noncomm": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 9,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 3,
+            "cols": 3,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 9,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 3,
+        "nisan_abp_bound_Q": 3,
+        "nisan_abp_bound_Z4": 3,
+        "nisan_abp_bound_Z8": 3
+      },
+      "power2_comm_ordered": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 9,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 3,
+            "cols": 3,
+            "rank_F2": 3,
+            "rank_Q": 3,
+            "snf_Z": [
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 3,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 3,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 9,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 5,
+        "nisan_abp_bound_Q": 5,
+        "nisan_abp_bound_Z4": 5,
+        "nisan_abp_bound_Z8": 5
+      },
+      "power2_separation": {
+        "F2_ratio_comm_over_nc": 1.666667,
+        "Q_ratio_comm_over_nc": 1.666667,
+        "Z4_ratio_comm_over_nc": 1.666667,
+        "Z8_ratio_comm_over_nc": 1.666667
+      },
+      "power3_noncomm": {
+        "degree": 3,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 27,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 3,
+            "cols": 9,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 9,
+            "cols": 3,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=3": {
+            "rows": 27,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 4,
+        "nisan_abp_bound_Q": 4,
+        "nisan_abp_bound_Z4": 4,
+        "nisan_abp_bound_Z8": 4
+      },
+      "power3_comm_ordered": {
+        "degree": 3,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 27,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 3,
+            "cols": 9,
+            "rank_F2": 3,
+            "rank_Q": 3,
+            "snf_Z": [
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 3,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 3,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 9,
+            "cols": 3,
+            "rank_F2": 3,
+            "rank_Q": 3,
+            "snf_Z": [
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 3,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 3,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=3": {
+            "rows": 27,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 8,
+        "nisan_abp_bound_Q": 8,
+        "nisan_abp_bound_Z4": 8,
+        "nisan_abp_bound_Z8": 8
+      },
+      "power3_separation": {
+        "F2_ratio_comm_over_nc": 2.0,
+        "Q_ratio_comm_over_nc": 2.0,
+        "Z4_ratio_comm_over_nc": 2.0,
+        "Z8_ratio_comm_over_nc": 2.0
+      }
+    },
+    "4": {
+      "witt_binary_value": {
+        "homogeneous_deg1": {
+          "degree": 1,
+          "cuts": {
+            "d=0": {
+              "rows": 1,
+              "cols": 4,
+              "rank_F2": 1,
+              "rank_Q": 1,
+              "snf_Z": [
+                1
+              ],
+              "invariant_factors_Z4": [
+                1
+              ],
+              "module_rank_Z4": 1,
+              "zero_divisor_gap_Z4": 0,
+              "invariant_factors_Z8": [
+                1
+              ],
+              "module_rank_Z8": 1,
+              "zero_divisor_gap_Z8": 0
+            },
+            "d=1": {
+              "rows": 4,
+              "cols": 1,
+              "rank_F2": 1,
+              "rank_Q": 1,
+              "snf_Z": [
+                1
+              ],
+              "invariant_factors_Z4": [
+                1
+              ],
+              "module_rank_Z4": 1,
+              "zero_divisor_gap_Z4": 0,
+              "invariant_factors_Z8": [
+                1
+              ],
+              "module_rank_Z8": 1,
+              "zero_divisor_gap_Z8": 0
+            }
+          },
+          "nisan_abp_bound_F2": 2,
+          "nisan_abp_bound_Q": 2,
+          "nisan_abp_bound_Z4": 2,
+          "nisan_abp_bound_Z8": 2
+        },
+        "inhomogeneous_bimodal_le1": {
+          "rows": 5,
+          "cols": 5,
+          "rank_F2": 2,
+          "rank_Q": 2,
+          "snf_Z": [
+            1,
+            1
+          ],
+          "invariant_factors_Z4": [
+            1,
+            1
+          ],
+          "module_rank_Z4": 2,
+          "zero_divisor_gap_Z4": 0,
+          "invariant_factors_Z8": [
+            1,
+            1
+          ],
+          "module_rank_Z8": 2,
+          "zero_divisor_gap_Z8": 0
+        }
+      },
+      "e2_ordered": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 16,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 4,
+            "cols": 4,
+            "rank_F2": 3,
+            "rank_Q": 3,
+            "snf_Z": [
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 3,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 3,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 16,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 5,
+        "nisan_abp_bound_Q": 5,
+        "nisan_abp_bound_Z4": 5,
+        "nisan_abp_bound_Z8": 5
+      },
+      "e2_symmetrized": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 16,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 4,
+            "cols": 4,
+            "rank_F2": 4,
+            "rank_Q": 4,
+            "snf_Z": [
+              1,
+              1,
+              1,
+              3
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 4,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 4,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 16,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 6,
+        "nisan_abp_bound_Q": 6,
+        "nisan_abp_bound_Z4": 6,
+        "nisan_abp_bound_Z8": 6
+      },
+      "e2_symmetrized_witt_carry_2x": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 16,
+            "rank_F2": 0,
+            "rank_Q": 1,
+            "snf_Z": [
+              2
+            ],
+            "invariant_factors_Z4": [
+              2
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 1,
+            "invariant_factors_Z8": [
+              2
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 1
+          },
+          "d=1": {
+            "rows": 4,
+            "cols": 4,
+            "rank_F2": 0,
+            "rank_Q": 4,
+            "snf_Z": [
+              2,
+              2,
+              2,
+              6
+            ],
+            "invariant_factors_Z4": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "module_rank_Z4": 4,
+            "zero_divisor_gap_Z4": 4,
+            "invariant_factors_Z8": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "module_rank_Z8": 4,
+            "zero_divisor_gap_Z8": 4
+          },
+          "d=2": {
+            "rows": 16,
+            "cols": 1,
+            "rank_F2": 0,
+            "rank_Q": 1,
+            "snf_Z": [
+              2
+            ],
+            "invariant_factors_Z4": [
+              2
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 1,
+            "invariant_factors_Z8": [
+              2
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 1
+          }
+        },
+        "nisan_abp_bound_F2": 0,
+        "nisan_abp_bound_Q": 6,
+        "nisan_abp_bound_Z4": 6,
+        "nisan_abp_bound_Z8": 6
+      },
+      "power2_noncomm": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 16,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 4,
+            "cols": 4,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 16,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 3,
+        "nisan_abp_bound_Q": 3,
+        "nisan_abp_bound_Z4": 3,
+        "nisan_abp_bound_Z8": 3
+      },
+      "power2_comm_ordered": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 16,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 4,
+            "cols": 4,
+            "rank_F2": 4,
+            "rank_Q": 4,
+            "snf_Z": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 4,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 4,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 16,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 6,
+        "nisan_abp_bound_Q": 6,
+        "nisan_abp_bound_Z4": 6,
+        "nisan_abp_bound_Z8": 6
+      },
+      "power2_separation": {
+        "F2_ratio_comm_over_nc": 2.0,
+        "Q_ratio_comm_over_nc": 2.0,
+        "Z4_ratio_comm_over_nc": 2.0,
+        "Z8_ratio_comm_over_nc": 2.0
+      },
+      "power3_noncomm": {
+        "degree": 3,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 64,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 4,
+            "cols": 16,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 16,
+            "cols": 4,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=3": {
+            "rows": 64,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 4,
+        "nisan_abp_bound_Q": 4,
+        "nisan_abp_bound_Z4": 4,
+        "nisan_abp_bound_Z8": 4
+      },
+      "power3_comm_ordered": {
+        "degree": 3,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 64,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 4,
+            "cols": 16,
+            "rank_F2": 4,
+            "rank_Q": 4,
+            "snf_Z": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 4,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 4,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 16,
+            "cols": 4,
+            "rank_F2": 4,
+            "rank_Q": 4,
+            "snf_Z": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 4,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 4,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=3": {
+            "rows": 64,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 10,
+        "nisan_abp_bound_Q": 10,
+        "nisan_abp_bound_Z4": 10,
+        "nisan_abp_bound_Z8": 10
+      },
+      "power3_separation": {
+        "F2_ratio_comm_over_nc": 2.5,
+        "Q_ratio_comm_over_nc": 2.5,
+        "Z4_ratio_comm_over_nc": 2.5,
+        "Z8_ratio_comm_over_nc": 2.5
+      }
+    },
+    "5": {
+      "witt_binary_value": {
+        "homogeneous_deg1": {
+          "degree": 1,
+          "cuts": {
+            "d=0": {
+              "rows": 1,
+              "cols": 5,
+              "rank_F2": 1,
+              "rank_Q": 1,
+              "snf_Z": [
+                1
+              ],
+              "invariant_factors_Z4": [
+                1
+              ],
+              "module_rank_Z4": 1,
+              "zero_divisor_gap_Z4": 0,
+              "invariant_factors_Z8": [
+                1
+              ],
+              "module_rank_Z8": 1,
+              "zero_divisor_gap_Z8": 0
+            },
+            "d=1": {
+              "rows": 5,
+              "cols": 1,
+              "rank_F2": 1,
+              "rank_Q": 1,
+              "snf_Z": [
+                1
+              ],
+              "invariant_factors_Z4": [
+                1
+              ],
+              "module_rank_Z4": 1,
+              "zero_divisor_gap_Z4": 0,
+              "invariant_factors_Z8": [
+                1
+              ],
+              "module_rank_Z8": 1,
+              "zero_divisor_gap_Z8": 0
+            }
+          },
+          "nisan_abp_bound_F2": 2,
+          "nisan_abp_bound_Q": 2,
+          "nisan_abp_bound_Z4": 2,
+          "nisan_abp_bound_Z8": 2
+        },
+        "inhomogeneous_bimodal_le1": {
+          "rows": 6,
+          "cols": 6,
+          "rank_F2": 2,
+          "rank_Q": 2,
+          "snf_Z": [
+            1,
+            1
+          ],
+          "invariant_factors_Z4": [
+            1,
+            1
+          ],
+          "module_rank_Z4": 2,
+          "zero_divisor_gap_Z4": 0,
+          "invariant_factors_Z8": [
+            1,
+            1
+          ],
+          "module_rank_Z8": 2,
+          "zero_divisor_gap_Z8": 0
+        }
+      },
+      "e2_ordered": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 25,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 5,
+            "cols": 5,
+            "rank_F2": 4,
+            "rank_Q": 4,
+            "snf_Z": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 4,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 4,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 25,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 6,
+        "nisan_abp_bound_Q": 6,
+        "nisan_abp_bound_Z4": 6,
+        "nisan_abp_bound_Z8": 6
+      },
+      "e2_symmetrized": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 25,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 5,
+            "cols": 5,
+            "rank_F2": 4,
+            "rank_Q": 5,
+            "snf_Z": [
+              1,
+              1,
+              1,
+              1,
+              4
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 4,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1,
+              1,
+              4
+            ],
+            "module_rank_Z8": 5,
+            "zero_divisor_gap_Z8": 1
+          },
+          "d=2": {
+            "rows": 25,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 6,
+        "nisan_abp_bound_Q": 7,
+        "nisan_abp_bound_Z4": 6,
+        "nisan_abp_bound_Z8": 7
+      },
+      "e2_symmetrized_witt_carry_2x": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 25,
+            "rank_F2": 0,
+            "rank_Q": 1,
+            "snf_Z": [
+              2
+            ],
+            "invariant_factors_Z4": [
+              2
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 1,
+            "invariant_factors_Z8": [
+              2
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 1
+          },
+          "d=1": {
+            "rows": 5,
+            "cols": 5,
+            "rank_F2": 0,
+            "rank_Q": 5,
+            "snf_Z": [
+              2,
+              2,
+              2,
+              2,
+              8
+            ],
+            "invariant_factors_Z4": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "module_rank_Z4": 4,
+            "zero_divisor_gap_Z4": 4,
+            "invariant_factors_Z8": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "module_rank_Z8": 4,
+            "zero_divisor_gap_Z8": 4
+          },
+          "d=2": {
+            "rows": 25,
+            "cols": 1,
+            "rank_F2": 0,
+            "rank_Q": 1,
+            "snf_Z": [
+              2
+            ],
+            "invariant_factors_Z4": [
+              2
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 1,
+            "invariant_factors_Z8": [
+              2
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 1
+          }
+        },
+        "nisan_abp_bound_F2": 0,
+        "nisan_abp_bound_Q": 7,
+        "nisan_abp_bound_Z4": 6,
+        "nisan_abp_bound_Z8": 6
+      },
+      "power2_noncomm": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 25,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 5,
+            "cols": 5,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 25,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 3,
+        "nisan_abp_bound_Q": 3,
+        "nisan_abp_bound_Z4": 3,
+        "nisan_abp_bound_Z8": 3
+      },
+      "power2_comm_ordered": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 25,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 5,
+            "cols": 5,
+            "rank_F2": 5,
+            "rank_Q": 5,
+            "snf_Z": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 5,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 5,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 25,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 7,
+        "nisan_abp_bound_Q": 7,
+        "nisan_abp_bound_Z4": 7,
+        "nisan_abp_bound_Z8": 7
+      },
+      "power2_separation": {
+        "F2_ratio_comm_over_nc": 2.333333,
+        "Q_ratio_comm_over_nc": 2.333333,
+        "Z4_ratio_comm_over_nc": 2.333333,
+        "Z8_ratio_comm_over_nc": 2.333333
+      },
+      "power3_noncomm": {
+        "degree": 3,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 125,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 5,
+            "cols": 25,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 25,
+            "cols": 5,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=3": {
+            "rows": 125,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 4,
+        "nisan_abp_bound_Q": 4,
+        "nisan_abp_bound_Z4": 4,
+        "nisan_abp_bound_Z8": 4
+      },
+      "power3_comm_ordered": {
+        "degree": 3,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 125,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 5,
+            "cols": 25,
+            "rank_F2": 5,
+            "rank_Q": 5,
+            "snf_Z": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 5,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 5,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 25,
+            "cols": 5,
+            "rank_F2": 5,
+            "rank_Q": 5,
+            "snf_Z": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 5,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 5,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=3": {
+            "rows": 125,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 12,
+        "nisan_abp_bound_Q": 12,
+        "nisan_abp_bound_Z4": 12,
+        "nisan_abp_bound_Z8": 12
+      },
+      "power3_separation": {
+        "F2_ratio_comm_over_nc": 3.0,
+        "Q_ratio_comm_over_nc": 3.0,
+        "Z4_ratio_comm_over_nc": 3.0,
+        "Z8_ratio_comm_over_nc": 3.0
+      }
+    },
+    "6": {
+      "witt_binary_value": {
+        "homogeneous_deg1": {
+          "degree": 1,
+          "cuts": {
+            "d=0": {
+              "rows": 1,
+              "cols": 6,
+              "rank_F2": 1,
+              "rank_Q": 1,
+              "snf_Z": [
+                1
+              ],
+              "invariant_factors_Z4": [
+                1
+              ],
+              "module_rank_Z4": 1,
+              "zero_divisor_gap_Z4": 0,
+              "invariant_factors_Z8": [
+                1
+              ],
+              "module_rank_Z8": 1,
+              "zero_divisor_gap_Z8": 0
+            },
+            "d=1": {
+              "rows": 6,
+              "cols": 1,
+              "rank_F2": 1,
+              "rank_Q": 1,
+              "snf_Z": [
+                1
+              ],
+              "invariant_factors_Z4": [
+                1
+              ],
+              "module_rank_Z4": 1,
+              "zero_divisor_gap_Z4": 0,
+              "invariant_factors_Z8": [
+                1
+              ],
+              "module_rank_Z8": 1,
+              "zero_divisor_gap_Z8": 0
+            }
+          },
+          "nisan_abp_bound_F2": 2,
+          "nisan_abp_bound_Q": 2,
+          "nisan_abp_bound_Z4": 2,
+          "nisan_abp_bound_Z8": 2
+        },
+        "inhomogeneous_bimodal_le1": {
+          "rows": 7,
+          "cols": 7,
+          "rank_F2": 2,
+          "rank_Q": 2,
+          "snf_Z": [
+            1,
+            1
+          ],
+          "invariant_factors_Z4": [
+            1,
+            1
+          ],
+          "module_rank_Z4": 2,
+          "zero_divisor_gap_Z4": 0,
+          "invariant_factors_Z8": [
+            1,
+            1
+          ],
+          "module_rank_Z8": 2,
+          "zero_divisor_gap_Z8": 0
+        }
+      },
+      "e2_ordered": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 36,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 6,
+            "cols": 6,
+            "rank_F2": 5,
+            "rank_Q": 5,
+            "snf_Z": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 5,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 5,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 36,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 7,
+        "nisan_abp_bound_Q": 7,
+        "nisan_abp_bound_Z4": 7,
+        "nisan_abp_bound_Z8": 7
+      },
+      "e2_symmetrized": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 36,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 6,
+            "cols": 6,
+            "rank_F2": 6,
+            "rank_Q": 6,
+            "snf_Z": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              5
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 6,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 6,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 36,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 8,
+        "nisan_abp_bound_Q": 8,
+        "nisan_abp_bound_Z4": 8,
+        "nisan_abp_bound_Z8": 8
+      },
+      "e2_symmetrized_witt_carry_2x": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 36,
+            "rank_F2": 0,
+            "rank_Q": 1,
+            "snf_Z": [
+              2
+            ],
+            "invariant_factors_Z4": [
+              2
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 1,
+            "invariant_factors_Z8": [
+              2
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 1
+          },
+          "d=1": {
+            "rows": 6,
+            "cols": 6,
+            "rank_F2": 0,
+            "rank_Q": 6,
+            "snf_Z": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              10
+            ],
+            "invariant_factors_Z4": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "module_rank_Z4": 6,
+            "zero_divisor_gap_Z4": 6,
+            "invariant_factors_Z8": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "module_rank_Z8": 6,
+            "zero_divisor_gap_Z8": 6
+          },
+          "d=2": {
+            "rows": 36,
+            "cols": 1,
+            "rank_F2": 0,
+            "rank_Q": 1,
+            "snf_Z": [
+              2
+            ],
+            "invariant_factors_Z4": [
+              2
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 1,
+            "invariant_factors_Z8": [
+              2
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 1
+          }
+        },
+        "nisan_abp_bound_F2": 0,
+        "nisan_abp_bound_Q": 8,
+        "nisan_abp_bound_Z4": 8,
+        "nisan_abp_bound_Z8": 8
+      },
+      "power2_noncomm": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 36,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 6,
+            "cols": 6,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 36,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 3,
+        "nisan_abp_bound_Q": 3,
+        "nisan_abp_bound_Z4": 3,
+        "nisan_abp_bound_Z8": 3
+      },
+      "power2_comm_ordered": {
+        "degree": 2,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 36,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 6,
+            "cols": 6,
+            "rank_F2": 6,
+            "rank_Q": 6,
+            "snf_Z": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 6,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 6,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 36,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 8,
+        "nisan_abp_bound_Q": 8,
+        "nisan_abp_bound_Z4": 8,
+        "nisan_abp_bound_Z8": 8
+      },
+      "power2_separation": {
+        "F2_ratio_comm_over_nc": 2.666667,
+        "Q_ratio_comm_over_nc": 2.666667,
+        "Z4_ratio_comm_over_nc": 2.666667,
+        "Z8_ratio_comm_over_nc": 2.666667
+      },
+      "power3_noncomm": {
+        "degree": 3,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 216,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 6,
+            "cols": 36,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 36,
+            "cols": 6,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=3": {
+            "rows": 216,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 4,
+        "nisan_abp_bound_Q": 4,
+        "nisan_abp_bound_Z4": 4,
+        "nisan_abp_bound_Z8": 4
+      },
+      "power3_comm_ordered": {
+        "degree": 3,
+        "cuts": {
+          "d=0": {
+            "rows": 1,
+            "cols": 216,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=1": {
+            "rows": 6,
+            "cols": 36,
+            "rank_F2": 6,
+            "rank_Q": 6,
+            "snf_Z": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 6,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 6,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=2": {
+            "rows": 36,
+            "cols": 6,
+            "rank_F2": 6,
+            "rank_Q": 6,
+            "snf_Z": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "invariant_factors_Z4": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z4": 6,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "module_rank_Z8": 6,
+            "zero_divisor_gap_Z8": 0
+          },
+          "d=3": {
+            "rows": 216,
+            "cols": 1,
+            "rank_F2": 1,
+            "rank_Q": 1,
+            "snf_Z": [
+              1
+            ],
+            "invariant_factors_Z4": [
+              1
+            ],
+            "module_rank_Z4": 1,
+            "zero_divisor_gap_Z4": 0,
+            "invariant_factors_Z8": [
+              1
+            ],
+            "module_rank_Z8": 1,
+            "zero_divisor_gap_Z8": 0
+          }
+        },
+        "nisan_abp_bound_F2": 14,
+        "nisan_abp_bound_Q": 14,
+        "nisan_abp_bound_Z4": 14,
+        "nisan_abp_bound_Z8": 14
+      },
+      "power3_separation": {
+        "F2_ratio_comm_over_nc": 3.5,
+        "Q_ratio_comm_over_nc": 3.5,
+        "Z4_ratio_comm_over_nc": 3.5,
+        "Z8_ratio_comm_over_nc": 3.5
+      }
+    }
+  }
+}

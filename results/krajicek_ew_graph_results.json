@@ -1,0 +1,2358 @@
+{
+  "paper": "Jan Krajicek, Extended Frege proofs, circuits and rewriting (arXiv:2606.13367v2, 11.X.2026)",
+  "v2_datta_dutta_self_tests": {
+    "fanout2_single_occurrence_approx": true,
+    "fanout2_simultaneous_both_approx": false,
+    "single_occurrence_witness": {
+      "path": [
+        0
+      ],
+      "axiom": "disjCompl",
+      "dir": "fwd"
+    },
+    "shared_dag_size": 4,
+    "unshared_one_dag_size": 5,
+    "status": "PASS"
+  },
+  "total_hash_cons_nodes_allocated": 283132,
+  "benchmarks": [
+    {
+      "name": "taut_lem_x_or_not_x",
+      "family": "tautology",
+      "search_mode": "exact_bidirectional_bfs",
+      "verified_all_approx_steps": true,
+      "verified_semantic_invariance": true,
+      "num_vars": 1,
+      "vars": [
+        "x1"
+      ],
+      "src_expr": "(x1 v ~x1)",
+      "dst_expr": "1",
+      "distance_steps": 1,
+      "src_dag_size": 3,
+      "dst_dag_size": 1,
+      "peak_dag_size": 3,
+      "peak_dag_step": 0,
+      "dag_blowup_ratio": 1.0,
+      "total_chain_dag_size": 4,
+      "src_formula_size": 4,
+      "dst_formula_size": 1,
+      "peak_formula_size": 4,
+      "src_and_depth": 0,
+      "dst_and_depth": 0,
+      "peak_and_depth": 0,
+      "src_max_gate_fanout": 1,
+      "peak_max_gate_fanout": 1,
+      "peak_max_gate_tree_occ": 1,
+      "root_fourier_sensitivity": {
+        "avg_sensitivity": 0.0,
+        "fourier_l1": 1.0,
+        "spectral_entropy": 0.0
+      },
+      "subcircuit_energy_start": {
+        "subcircuit_sens_sum": 2.0,
+        "subcircuit_fourier_l1_sum": 3.0
+      },
+      "subcircuit_energy_peak": {
+        "subcircuit_sens_sum": 2.0,
+        "subcircuit_fourier_l1_sum": 3.0
+      },
+      "subcircuit_energy_end": {
+        "subcircuit_sens_sum": 0.0,
+        "subcircuit_fourier_l1_sum": 1.0
+      },
+      "axiom_usage": {
+        "disjCompl:fwd": 1
+      },
+      "elapsed_ms": 0.05,
+      "chain_exprs": [
+        "(x1 v ~x1)",
+        "1"
+      ],
+      "step_witnesses": [
+        {
+          "step": 0,
+          "axiom": "disjCompl",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 3,
+          "dag_size_after": 1
+        }
+      ]
+    },
+    {
+      "name": "taut_fanout2_lem_and_lem",
+      "family": "tautology_unsharing",
+      "search_mode": "exact_bidirectional_bfs",
+      "verified_all_approx_steps": true,
+      "verified_semantic_invariance": true,
+      "num_vars": 1,
+      "vars": [
+        "x1"
+      ],
+      "src_expr": "((x1 v ~x1) & (x1 v ~x1))",
+      "dst_expr": "1",
+      "distance_steps": 3,
+      "src_dag_size": 4,
+      "dst_dag_size": 1,
+      "peak_dag_size": 5,
+      "peak_dag_step": 1,
+      "dag_blowup_ratio": 1.25,
+      "total_chain_dag_size": 13,
+      "src_formula_size": 9,
+      "dst_formula_size": 1,
+      "peak_formula_size": 9,
+      "src_and_depth": 1,
+      "dst_and_depth": 0,
+      "peak_and_depth": 1,
+      "src_max_gate_fanout": 2,
+      "peak_max_gate_fanout": 2,
+      "peak_max_gate_tree_occ": 2,
+      "root_fourier_sensitivity": {
+        "avg_sensitivity": 0.0,
+        "fourier_l1": 1.0,
+        "spectral_entropy": 0.0
+      },
+      "subcircuit_energy_start": {
+        "subcircuit_sens_sum": 2.0,
+        "subcircuit_fourier_l1_sum": 4.0
+      },
+      "subcircuit_energy_peak": {
+        "subcircuit_sens_sum": 2.0,
+        "subcircuit_fourier_l1_sum": 5.0
+      },
+      "subcircuit_energy_end": {
+        "subcircuit_sens_sum": 0.0,
+        "subcircuit_fourier_l1_sum": 1.0
+      },
+      "axiom_usage": {
+        "disjCompl:fwd": 2,
+        "conjOneLeft:fwd": 1
+      },
+      "elapsed_ms": 0.17,
+      "chain_exprs": [
+        "((x1 v ~x1) & (x1 v ~x1))",
+        "(1 & (x1 v ~x1))",
+        "(x1 v ~x1)",
+        "1"
+      ],
+      "step_witnesses": [
+        {
+          "step": 0,
+          "axiom": "disjCompl",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 4,
+          "dag_size_after": 5
+        },
+        {
+          "step": 1,
+          "axiom": "conjOneLeft",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 5,
+          "dag_size_after": 3
+        },
+        {
+          "step": 2,
+          "axiom": "disjCompl",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 3,
+          "dag_size_after": 1
+        }
+      ]
+    },
+    {
+      "name": "double_negation_elim",
+      "family": "tautology",
+      "search_mode": "constructive_verified_chain",
+      "verified_all_approx_steps": true,
+      "verified_semantic_invariance": true,
+      "num_vars": 1,
+      "vars": [
+        "x1"
+      ],
+      "src_expr": "~~x1",
+      "dst_expr": "x1",
+      "distance_steps": 13,
+      "src_dag_size": 3,
+      "dst_dag_size": 1,
+      "peak_dag_size": 6,
+      "peak_dag_step": 5,
+      "dag_blowup_ratio": 2.0,
+      "total_chain_dag_size": 67,
+      "src_formula_size": 3,
+      "dst_formula_size": 1,
+      "peak_formula_size": 12,
+      "src_and_depth": 0,
+      "dst_and_depth": 0,
+      "peak_and_depth": 1,
+      "src_max_gate_fanout": 1,
+      "peak_max_gate_fanout": 2,
+      "peak_max_gate_tree_occ": 3,
+      "root_fourier_sensitivity": {
+        "avg_sensitivity": 1.0,
+        "fourier_l1": 1.0,
+        "spectral_entropy": 0.0
+      },
+      "subcircuit_energy_start": {
+        "subcircuit_sens_sum": 3.0,
+        "subcircuit_fourier_l1_sum": 3.0
+      },
+      "subcircuit_energy_peak": {
+        "subcircuit_sens_sum": 5.0,
+        "subcircuit_fourier_l1_sum": 6.0
+      },
+      "subcircuit_energy_end": {
+        "subcircuit_sens_sum": 1.0,
+        "subcircuit_fourier_l1_sum": 1.0
+      },
+      "axiom_usage": {
+        "conjOneLeft:bwd": 1,
+        "disjCompl:bwd": 1,
+        "disjComm:fwd": 1,
+        "conjComm:fwd": 4,
+        "conjDistrib:fwd": 1,
+        "conjCompl:fwd": 1,
+        "conjCompl:bwd": 1,
+        "conjDistrib:bwd": 1,
+        "disjCompl:fwd": 1,
+        "conjOneLeft:fwd": 1
+      },
+      "elapsed_ms": 1151.12,
+      "chain_exprs": [
+        "~~x1",
+        "(1 & ~~x1)",
+        "((x1 v ~x1) & ~~x1)",
+        "((~x1 v x1) & ~~x1)",
+        "(~~x1 & (~x1 v x1))",
+        "((~~x1 & ~x1) v (~~x1 & x1))",
+        "((~x1 & ~~x1) v (~~x1 & x1))",
+        "(0 v (~~x1 & x1))",
+        "(0 v (x1 & ~~x1))",
+        "((x1 & ~x1) v (x1 & ~~x1))",
+        "(x1 & (~x1 v ~~x1))",
+        "((~x1 v ~~x1) & x1)",
+        "(1 & x1)",
+        "x1"
+      ],
+      "step_witnesses": [
+        {
+          "step": 0,
+          "axiom": "conjOneLeft",
+          "dir": "bwd",
+          "path": [],
+          "dag_size_before": 3,
+          "dag_size_after": 5
+        },
+        {
+          "step": 1,
+          "axiom": "disjCompl",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 5,
+          "dag_size_after": 5
+        },
+        {
+          "step": 2,
+          "axiom": "disjComm",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 5,
+          "dag_size_after": 5
+        },
+        {
+          "step": 3,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 5,
+          "dag_size_after": 5
+        },
+        {
+          "step": 4,
+          "axiom": "conjDistrib",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 5,
+          "dag_size_after": 6
+        },
+        {
+          "step": 5,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 6,
+          "dag_size_after": 6
+        },
+        {
+          "step": 6,
+          "axiom": "conjCompl",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 6,
+          "dag_size_after": 6
+        },
+        {
+          "step": 7,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            1
+          ],
+          "dag_size_before": 6,
+          "dag_size_after": 6
+        },
+        {
+          "step": 8,
+          "axiom": "conjCompl",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 6,
+          "dag_size_after": 6
+        },
+        {
+          "step": 9,
+          "axiom": "conjDistrib",
+          "dir": "bwd",
+          "path": [],
+          "dag_size_before": 6,
+          "dag_size_after": 5
+        },
+        {
+          "step": 10,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 5,
+          "dag_size_after": 5
+        },
+        {
+          "step": 11,
+          "axiom": "disjCompl",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 5,
+          "dag_size_after": 3
+        },
+        {
+          "step": 12,
+          "axiom": "conjOneLeft",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 3,
+          "dag_size_after": 1
+        }
+      ]
+    },
+    {
+      "name": "demorgan_disj",
+      "family": "demorgan",
+      "search_mode": "constructive_verified_chain",
+      "verified_all_approx_steps": true,
+      "verified_semantic_invariance": true,
+      "num_vars": 2,
+      "vars": [
+        "x1",
+        "x2"
+      ],
+      "src_expr": "~((x1 v x2))",
+      "dst_expr": "(~x1 & ~x2)",
+      "distance_steps": 50,
+      "src_dag_size": 4,
+      "dst_dag_size": 5,
+      "peak_dag_size": 16,
+      "peak_dag_step": 39,
+      "dag_blowup_ratio": 3.2,
+      "total_chain_dag_size": 533,
+      "src_formula_size": 4,
+      "dst_formula_size": 5,
+      "peak_formula_size": 30,
+      "src_and_depth": 0,
+      "dst_and_depth": 1,
+      "peak_and_depth": 3,
+      "src_max_gate_fanout": 1,
+      "peak_max_gate_fanout": 4,
+      "peak_max_gate_tree_occ": 5,
+      "root_fourier_sensitivity": {
+        "avg_sensitivity": 1.0,
+        "fourier_l1": 2.0,
+        "spectral_entropy": 2.0
+      },
+      "subcircuit_energy_start": {
+        "subcircuit_sens_sum": 4.0,
+        "subcircuit_fourier_l1_sum": 6.0
+      },
+      "subcircuit_energy_peak": {
+        "subcircuit_sens_sum": 10.0,
+        "subcircuit_fourier_l1_sum": 21.0
+      },
+      "subcircuit_energy_end": {
+        "subcircuit_sens_sum": 5.0,
+        "subcircuit_fourier_l1_sum": 6.0
+      },
+      "axiom_usage": {
+        "conjOneLeft:bwd": 4,
+        "disjCompl:bwd": 4,
+        "conjComm:fwd": 9,
+        "disjDistrib:fwd": 2,
+        "disjCompl:fwd": 3,
+        "conjOneLeft:fwd": 3,
+        "disjAssoc:fwd": 2,
+        "disjComm:fwd": 3,
+        "disjDistrib:bwd": 1,
+        "conjDistrib:fwd": 3,
+        "conjCompl:fwd": 3,
+        "conjCompl:bwd": 4,
+        "disjZeroLeft:bwd": 3,
+        "disjZeroLeft:fwd": 2,
+        "conjAssoc:fwd": 2,
+        "conjDistrib:bwd": 2
+      },
+      "elapsed_ms": 4.09,
+      "chain_exprs": [
+        "~((x1 v x2))",
+        "(1 & ~((x1 v x2)))",
+        "((x1 v ~x1) & ~((x1 v x2)))",
+        "((x1 v (1 & ~x1)) & ~((x1 v x2)))",
+        "((x1 v (~x1 & 1)) & ~((x1 v x2)))",
+        "(((x1 v ~x1) & (x1 v 1)) & ~((x1 v x2)))",
+        "((1 & (x1 v 1)) & ~((x1 v x2)))",
+        "((x1 v 1) & ~((x1 v x2)))",
+        "((x1 v (x2 v ~x2)) & ~((x1 v x2)))",
+        "(((x1 v x2) v ~x2) & ~((x1 v x2)))",
+        "((1 & ((x1 v x2) v ~x2)) & ~((x1 v x2)))",
+        "(((x2 v ~x2) & ((x1 v x2) v ~x2)) & ~((x1 v x2)))",
+        "(((x2 v (1 & ~x2)) & ((x1 v x2) v ~x2)) & ~((x1 v x2)))",
+        "(((x2 v (~x2 & 1)) & ((x1 v x2) v ~x2)) & ~((x1 v x2)))",
+        "((((x2 v ~x2) & (x2 v 1)) & ((x1 v x2) v ~x2)) & ~((x1 v x2)))",
+        "(((1 & (x2 v 1)) & ((x1 v x2) v ~x2)) & ~((x1 v x2)))",
+        "(((x2 v 1) & ((x1 v x2) v ~x2)) & ~((x1 v x2)))",
+        "(((x2 v (x1 v ~x1)) & ((x1 v x2) v ~x2)) & ~((x1 v x2)))",
+        "((((x2 v x1) v ~x1) & ((x1 v x2) v ~x2)) & ~((x1 v x2)))",
+        "((((x1 v x2) v ~x1) & ((x1 v x2) v ~x2)) & ~((x1 v x2)))",
+        "(((x1 v x2) v (~x1 & ~x2)) & ~((x1 v x2)))",
+        "(~((x1 v x2)) & ((x1 v x2) v (~x1 & ~x2)))",
+        "((~((x1 v x2)) & (x1 v x2)) v (~((x1 v x2)) & (~x1 & ~x2)))",
+        "(((x1 v x2) & ~((x1 v x2))) v (~((x1 v x2)) & (~x1 & ~x2)))",
+        "(0 v (~((x1 v x2)) & (~x1 & ~x2)))",
+        "(0 v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "((~x1 & ~~x1) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "((~x1 & (0 v ~~x1)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "((~x1 & (~~x1 v 0)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "(((~x1 & ~~x1) v (~x1 & 0)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "((0 v (~x1 & 0)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "((~x1 & 0) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "((~x1 & (x2 & ~x2)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "((~x1 & (~x2 & x2)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "(((~x1 & ~x2) & x2) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "((0 v ((~x1 & ~x2) & x2)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "(((~x2 & ~~x2) v ((~x1 & ~x2) & x2)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "(((~x2 & (0 v ~~x2)) v ((~x1 & ~x2) & x2)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "(((~x2 & (~~x2 v 0)) v ((~x1 & ~x2) & x2)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "((((~x2 & ~~x2) v (~x2 & 0)) v ((~x1 & ~x2) & x2)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "(((0 v (~x2 & 0)) v ((~x1 & ~x2) & x2)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "(((~x2 & 0) v ((~x1 & ~x2) & x2)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "(((~x2 & (x1 & ~x1)) v ((~x1 & ~x2) & x2)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "(((~x2 & (~x1 & x1)) v ((~x1 & ~x2) & x2)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "((((~x2 & ~x1) & x1) v ((~x1 & ~x2) & x2)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "((((~x1 & ~x2) & x1) v ((~x1 & ~x2) & x2)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "(((~x1 & ~x2) & (x1 v x2)) v ((~x1 & ~x2) & ~((x1 v x2))))",
+        "((~x1 & ~x2) & ((x1 v x2) v ~((x1 v x2))))",
+        "(((x1 v x2) v ~((x1 v x2))) & (~x1 & ~x2))",
+        "(1 & (~x1 & ~x2))",
+        "(~x1 & ~x2)"
+      ],
+      "step_witnesses": [
+        {
+          "step": 0,
+          "axiom": "conjOneLeft",
+          "dir": "bwd",
+          "path": [],
+          "dag_size_before": 4,
+          "dag_size_after": 6
+        },
+        {
+          "step": 1,
+          "axiom": "disjCompl",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 6,
+          "dag_size_after": 7
+        },
+        {
+          "step": 2,
+          "axiom": "conjOneLeft",
+          "dir": "bwd",
+          "path": [
+            0,
+            1
+          ],
+          "dag_size_before": 7,
+          "dag_size_after": 9
+        },
+        {
+          "step": 3,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            1
+          ],
+          "dag_size_before": 9,
+          "dag_size_after": 9
+        },
+        {
+          "step": 4,
+          "axiom": "disjDistrib",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 9,
+          "dag_size_after": 10
+        },
+        {
+          "step": 5,
+          "axiom": "disjCompl",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 8
+        },
+        {
+          "step": 6,
+          "axiom": "conjOneLeft",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 8,
+          "dag_size_after": 7
+        },
+        {
+          "step": 7,
+          "axiom": "disjCompl",
+          "dir": "bwd",
+          "path": [
+            0,
+            1
+          ],
+          "dag_size_before": 7,
+          "dag_size_after": 8
+        },
+        {
+          "step": 8,
+          "axiom": "disjAssoc",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 8,
+          "dag_size_after": 7
+        },
+        {
+          "step": 9,
+          "axiom": "conjOneLeft",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 7,
+          "dag_size_after": 9
+        },
+        {
+          "step": 10,
+          "axiom": "disjCompl",
+          "dir": "bwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 9,
+          "dag_size_after": 9
+        },
+        {
+          "step": 11,
+          "axiom": "conjOneLeft",
+          "dir": "bwd",
+          "path": [
+            0,
+            0,
+            1
+          ],
+          "dag_size_before": 9,
+          "dag_size_after": 11
+        },
+        {
+          "step": 12,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            0,
+            1
+          ],
+          "dag_size_before": 11,
+          "dag_size_after": 11
+        },
+        {
+          "step": 13,
+          "axiom": "disjDistrib",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 11,
+          "dag_size_after": 12
+        },
+        {
+          "step": 14,
+          "axiom": "disjCompl",
+          "dir": "fwd",
+          "path": [
+            0,
+            0,
+            0
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 11
+        },
+        {
+          "step": 15,
+          "axiom": "conjOneLeft",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 11,
+          "dag_size_after": 10
+        },
+        {
+          "step": 16,
+          "axiom": "disjCompl",
+          "dir": "bwd",
+          "path": [
+            0,
+            0,
+            1
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 11
+        },
+        {
+          "step": 17,
+          "axiom": "disjAssoc",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 11,
+          "dag_size_after": 11
+        },
+        {
+          "step": 18,
+          "axiom": "disjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            0,
+            0
+          ],
+          "dag_size_before": 11,
+          "dag_size_after": 10
+        },
+        {
+          "step": 19,
+          "axiom": "disjDistrib",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 9
+        },
+        {
+          "step": 20,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 9,
+          "dag_size_after": 9
+        },
+        {
+          "step": 21,
+          "axiom": "conjDistrib",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 9,
+          "dag_size_after": 10
+        },
+        {
+          "step": 22,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 10
+        },
+        {
+          "step": 23,
+          "axiom": "conjCompl",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 10
+        },
+        {
+          "step": 24,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            1
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 10
+        },
+        {
+          "step": 25,
+          "axiom": "conjCompl",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 11
+        },
+        {
+          "step": 26,
+          "axiom": "disjZeroLeft",
+          "dir": "bwd",
+          "path": [
+            0,
+            1
+          ],
+          "dag_size_before": 11,
+          "dag_size_after": 13
+        },
+        {
+          "step": 27,
+          "axiom": "disjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            1
+          ],
+          "dag_size_before": 13,
+          "dag_size_after": 13
+        },
+        {
+          "step": 28,
+          "axiom": "conjDistrib",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 13,
+          "dag_size_after": 14
+        },
+        {
+          "step": 29,
+          "axiom": "conjCompl",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 14,
+          "dag_size_after": 12
+        },
+        {
+          "step": 30,
+          "axiom": "disjZeroLeft",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 11
+        },
+        {
+          "step": 31,
+          "axiom": "conjCompl",
+          "dir": "bwd",
+          "path": [
+            0,
+            1
+          ],
+          "dag_size_before": 11,
+          "dag_size_after": 11
+        },
+        {
+          "step": 32,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            1
+          ],
+          "dag_size_before": 11,
+          "dag_size_after": 11
+        },
+        {
+          "step": 33,
+          "axiom": "conjAssoc",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 11,
+          "dag_size_after": 10
+        },
+        {
+          "step": 34,
+          "axiom": "disjZeroLeft",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 12
+        },
+        {
+          "step": 35,
+          "axiom": "conjCompl",
+          "dir": "bwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 13
+        },
+        {
+          "step": 36,
+          "axiom": "disjZeroLeft",
+          "dir": "bwd",
+          "path": [
+            0,
+            0,
+            1
+          ],
+          "dag_size_before": 13,
+          "dag_size_after": 15
+        },
+        {
+          "step": 37,
+          "axiom": "disjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            0,
+            1
+          ],
+          "dag_size_before": 15,
+          "dag_size_after": 15
+        },
+        {
+          "step": 38,
+          "axiom": "conjDistrib",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 15,
+          "dag_size_after": 16
+        },
+        {
+          "step": 39,
+          "axiom": "conjCompl",
+          "dir": "fwd",
+          "path": [
+            0,
+            0,
+            0
+          ],
+          "dag_size_before": 16,
+          "dag_size_after": 14
+        },
+        {
+          "step": 40,
+          "axiom": "disjZeroLeft",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 14,
+          "dag_size_after": 13
+        },
+        {
+          "step": 41,
+          "axiom": "conjCompl",
+          "dir": "bwd",
+          "path": [
+            0,
+            0,
+            1
+          ],
+          "dag_size_before": 13,
+          "dag_size_after": 13
+        },
+        {
+          "step": 42,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            0,
+            1
+          ],
+          "dag_size_before": 13,
+          "dag_size_after": 13
+        },
+        {
+          "step": 43,
+          "axiom": "conjAssoc",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 13,
+          "dag_size_after": 13
+        },
+        {
+          "step": 44,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            0,
+            0
+          ],
+          "dag_size_before": 13,
+          "dag_size_after": 12
+        },
+        {
+          "step": 45,
+          "axiom": "conjDistrib",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 10
+        },
+        {
+          "step": 46,
+          "axiom": "conjDistrib",
+          "dir": "bwd",
+          "path": [],
+          "dag_size_before": 10,
+          "dag_size_after": 9
+        },
+        {
+          "step": 47,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 9,
+          "dag_size_after": 9
+        },
+        {
+          "step": 48,
+          "axiom": "disjCompl",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 9,
+          "dag_size_after": 7
+        },
+        {
+          "step": 49,
+          "axiom": "conjOneLeft",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 7,
+          "dag_size_after": 5
+        }
+      ]
+    },
+    {
+      "name": "demorgan_conj",
+      "family": "demorgan",
+      "search_mode": "constructive_verified_chain",
+      "verified_all_approx_steps": true,
+      "verified_semantic_invariance": true,
+      "num_vars": 2,
+      "vars": [
+        "x1",
+        "x2"
+      ],
+      "src_expr": "~((x1 & x2))",
+      "dst_expr": "(~x1 v ~x2)",
+      "distance_steps": 52,
+      "src_dag_size": 4,
+      "dst_dag_size": 5,
+      "peak_dag_size": 15,
+      "peak_dag_step": 15,
+      "dag_blowup_ratio": 3.0,
+      "total_chain_dag_size": 571,
+      "src_formula_size": 4,
+      "dst_formula_size": 5,
+      "peak_formula_size": 26,
+      "src_and_depth": 1,
+      "dst_and_depth": 0,
+      "peak_and_depth": 3,
+      "src_max_gate_fanout": 1,
+      "peak_max_gate_fanout": 4,
+      "peak_max_gate_tree_occ": 4,
+      "root_fourier_sensitivity": {
+        "avg_sensitivity": 1.0,
+        "fourier_l1": 2.0,
+        "spectral_entropy": 2.0
+      },
+      "subcircuit_energy_start": {
+        "subcircuit_sens_sum": 4.0,
+        "subcircuit_fourier_l1_sum": 6.0
+      },
+      "subcircuit_energy_peak": {
+        "subcircuit_sens_sum": 9.0,
+        "subcircuit_fourier_l1_sum": 19.0
+      },
+      "subcircuit_energy_end": {
+        "subcircuit_sens_sum": 5.0,
+        "subcircuit_fourier_l1_sum": 6.0
+      },
+      "axiom_usage": {
+        "conjOneLeft:bwd": 4,
+        "disjCompl:bwd": 4,
+        "conjComm:fwd": 8,
+        "disjDistrib:fwd": 2,
+        "disjCompl:fwd": 3,
+        "conjOneLeft:fwd": 3,
+        "disjComm:fwd": 6,
+        "disjAssoc:fwd": 2,
+        "disjDistrib:bwd": 1,
+        "conjDistrib:fwd": 3,
+        "conjCompl:fwd": 3,
+        "conjCompl:bwd": 4,
+        "disjZeroLeft:bwd": 3,
+        "disjZeroLeft:fwd": 2,
+        "conjAssoc:fwd": 2,
+        "conjDistrib:bwd": 2
+      },
+      "elapsed_ms": 4.86,
+      "chain_exprs": [
+        "~((x1 & x2))",
+        "(1 & ~((x1 & x2)))",
+        "((~x1 v ~~x1) & ~((x1 & x2)))",
+        "((~x1 v (1 & ~~x1)) & ~((x1 & x2)))",
+        "((~x1 v (~~x1 & 1)) & ~((x1 & x2)))",
+        "(((~x1 v ~~x1) & (~x1 v 1)) & ~((x1 & x2)))",
+        "((1 & (~x1 v 1)) & ~((x1 & x2)))",
+        "((~x1 v 1) & ~((x1 & x2)))",
+        "((~x1 v (x2 v ~x2)) & ~((x1 & x2)))",
+        "((~x1 v (~x2 v x2)) & ~((x1 & x2)))",
+        "(((~x1 v ~x2) v x2) & ~((x1 & x2)))",
+        "((1 & ((~x1 v ~x2) v x2)) & ~((x1 & x2)))",
+        "(((~x2 v ~~x2) & ((~x1 v ~x2) v x2)) & ~((x1 & x2)))",
+        "(((~x2 v (1 & ~~x2)) & ((~x1 v ~x2) v x2)) & ~((x1 & x2)))",
+        "(((~x2 v (~~x2 & 1)) & ((~x1 v ~x2) v x2)) & ~((x1 & x2)))",
+        "((((~x2 v ~~x2) & (~x2 v 1)) & ((~x1 v ~x2) v x2)) & ~((x1 & x2)))",
+        "(((1 & (~x2 v 1)) & ((~x1 v ~x2) v x2)) & ~((x1 & x2)))",
+        "(((~x2 v 1) & ((~x1 v ~x2) v x2)) & ~((x1 & x2)))",
+        "(((~x2 v (x1 v ~x1)) & ((~x1 v ~x2) v x2)) & ~((x1 & x2)))",
+        "(((~x2 v (~x1 v x1)) & ((~x1 v ~x2) v x2)) & ~((x1 & x2)))",
+        "((((~x2 v ~x1) v x1) & ((~x1 v ~x2) v x2)) & ~((x1 & x2)))",
+        "((((~x1 v ~x2) v x1) & ((~x1 v ~x2) v x2)) & ~((x1 & x2)))",
+        "(((~x1 v ~x2) v (x1 & x2)) & ~((x1 & x2)))",
+        "(((x1 & x2) v (~x1 v ~x2)) & ~((x1 & x2)))",
+        "(~((x1 & x2)) & ((x1 & x2) v (~x1 v ~x2)))",
+        "((~((x1 & x2)) & (x1 & x2)) v (~((x1 & x2)) & (~x1 v ~x2)))",
+        "(((x1 & x2) & ~((x1 & x2))) v (~((x1 & x2)) & (~x1 v ~x2)))",
+        "(0 v (~((x1 & x2)) & (~x1 v ~x2)))",
+        "(0 v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "((x1 & ~x1) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "((x1 & (0 v ~x1)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "((x1 & (~x1 v 0)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "(((x1 & ~x1) v (x1 & 0)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "((0 v (x1 & 0)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "((x1 & 0) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "((x1 & (x2 & ~x2)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "(((x1 & x2) & ~x2) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "((0 v ((x1 & x2) & ~x2)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "(((x2 & ~x2) v ((x1 & x2) & ~x2)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "(((x2 & (0 v ~x2)) v ((x1 & x2) & ~x2)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "(((x2 & (~x2 v 0)) v ((x1 & x2) & ~x2)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "((((x2 & ~x2) v (x2 & 0)) v ((x1 & x2) & ~x2)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "(((0 v (x2 & 0)) v ((x1 & x2) & ~x2)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "(((x2 & 0) v ((x1 & x2) & ~x2)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "(((x2 & (x1 & ~x1)) v ((x1 & x2) & ~x2)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "((((x2 & x1) & ~x1) v ((x1 & x2) & ~x2)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "((((x1 & x2) & ~x1) v ((x1 & x2) & ~x2)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "(((x1 & x2) & (~x1 v ~x2)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "(((~x1 v ~x2) & (x1 & x2)) v ((~x1 v ~x2) & ~((x1 & x2))))",
+        "((~x1 v ~x2) & ((x1 & x2) v ~((x1 & x2))))",
+        "(((x1 & x2) v ~((x1 & x2))) & (~x1 v ~x2))",
+        "(1 & (~x1 v ~x2))",
+        "(~x1 v ~x2)"
+      ],
+      "step_witnesses": [
+        {
+          "step": 0,
+          "axiom": "conjOneLeft",
+          "dir": "bwd",
+          "path": [],
+          "dag_size_before": 4,
+          "dag_size_after": 6
+        },
+        {
+          "step": 1,
+          "axiom": "disjCompl",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 6,
+          "dag_size_after": 8
+        },
+        {
+          "step": 2,
+          "axiom": "conjOneLeft",
+          "dir": "bwd",
+          "path": [
+            0,
+            1
+          ],
+          "dag_size_before": 8,
+          "dag_size_after": 10
+        },
+        {
+          "step": 3,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            1
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 10
+        },
+        {
+          "step": 4,
+          "axiom": "disjDistrib",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 11
+        },
+        {
+          "step": 5,
+          "axiom": "disjCompl",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 11,
+          "dag_size_after": 9
+        },
+        {
+          "step": 6,
+          "axiom": "conjOneLeft",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 9,
+          "dag_size_after": 8
+        },
+        {
+          "step": 7,
+          "axiom": "disjCompl",
+          "dir": "bwd",
+          "path": [
+            0,
+            1
+          ],
+          "dag_size_before": 8,
+          "dag_size_after": 9
+        },
+        {
+          "step": 8,
+          "axiom": "disjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            1
+          ],
+          "dag_size_before": 9,
+          "dag_size_after": 9
+        },
+        {
+          "step": 9,
+          "axiom": "disjAssoc",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 9,
+          "dag_size_after": 9
+        },
+        {
+          "step": 10,
+          "axiom": "conjOneLeft",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 9,
+          "dag_size_after": 11
+        },
+        {
+          "step": 11,
+          "axiom": "disjCompl",
+          "dir": "bwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 11,
+          "dag_size_after": 12
+        },
+        {
+          "step": 12,
+          "axiom": "conjOneLeft",
+          "dir": "bwd",
+          "path": [
+            0,
+            0,
+            1
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 14
+        },
+        {
+          "step": 13,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            0,
+            1
+          ],
+          "dag_size_before": 14,
+          "dag_size_after": 14
+        },
+        {
+          "step": 14,
+          "axiom": "disjDistrib",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 14,
+          "dag_size_after": 15
+        },
+        {
+          "step": 15,
+          "axiom": "disjCompl",
+          "dir": "fwd",
+          "path": [
+            0,
+            0,
+            0
+          ],
+          "dag_size_before": 15,
+          "dag_size_after": 13
+        },
+        {
+          "step": 16,
+          "axiom": "conjOneLeft",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 13,
+          "dag_size_after": 12
+        },
+        {
+          "step": 17,
+          "axiom": "disjCompl",
+          "dir": "bwd",
+          "path": [
+            0,
+            0,
+            1
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 12
+        },
+        {
+          "step": 18,
+          "axiom": "disjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            0,
+            1
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 12
+        },
+        {
+          "step": 19,
+          "axiom": "disjAssoc",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 12
+        },
+        {
+          "step": 20,
+          "axiom": "disjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            0,
+            0
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 11
+        },
+        {
+          "step": 21,
+          "axiom": "disjDistrib",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 11,
+          "dag_size_after": 9
+        },
+        {
+          "step": 22,
+          "axiom": "disjComm",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 9,
+          "dag_size_after": 9
+        },
+        {
+          "step": 23,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 9,
+          "dag_size_after": 9
+        },
+        {
+          "step": 24,
+          "axiom": "conjDistrib",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 9,
+          "dag_size_after": 10
+        },
+        {
+          "step": 25,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 10
+        },
+        {
+          "step": 26,
+          "axiom": "conjCompl",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 10
+        },
+        {
+          "step": 27,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            1
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 10
+        },
+        {
+          "step": 28,
+          "axiom": "conjCompl",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 10
+        },
+        {
+          "step": 29,
+          "axiom": "disjZeroLeft",
+          "dir": "bwd",
+          "path": [
+            0,
+            1
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 12
+        },
+        {
+          "step": 30,
+          "axiom": "disjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            1
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 12
+        },
+        {
+          "step": 31,
+          "axiom": "conjDistrib",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 13
+        },
+        {
+          "step": 32,
+          "axiom": "conjCompl",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 13,
+          "dag_size_after": 12
+        },
+        {
+          "step": 33,
+          "axiom": "disjZeroLeft",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 11
+        },
+        {
+          "step": 34,
+          "axiom": "conjCompl",
+          "dir": "bwd",
+          "path": [
+            0,
+            1
+          ],
+          "dag_size_before": 11,
+          "dag_size_after": 11
+        },
+        {
+          "step": 35,
+          "axiom": "conjAssoc",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 11,
+          "dag_size_after": 10
+        },
+        {
+          "step": 36,
+          "axiom": "disjZeroLeft",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 12
+        },
+        {
+          "step": 37,
+          "axiom": "conjCompl",
+          "dir": "bwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 12
+        },
+        {
+          "step": 38,
+          "axiom": "disjZeroLeft",
+          "dir": "bwd",
+          "path": [
+            0,
+            0,
+            1
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 14
+        },
+        {
+          "step": 39,
+          "axiom": "disjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            0,
+            1
+          ],
+          "dag_size_before": 14,
+          "dag_size_after": 14
+        },
+        {
+          "step": 40,
+          "axiom": "conjDistrib",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 14,
+          "dag_size_after": 15
+        },
+        {
+          "step": 41,
+          "axiom": "conjCompl",
+          "dir": "fwd",
+          "path": [
+            0,
+            0,
+            0
+          ],
+          "dag_size_before": 15,
+          "dag_size_after": 14
+        },
+        {
+          "step": 42,
+          "axiom": "disjZeroLeft",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 14,
+          "dag_size_after": 13
+        },
+        {
+          "step": 43,
+          "axiom": "conjCompl",
+          "dir": "bwd",
+          "path": [
+            0,
+            0,
+            1
+          ],
+          "dag_size_before": 13,
+          "dag_size_after": 13
+        },
+        {
+          "step": 44,
+          "axiom": "conjAssoc",
+          "dir": "fwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 13,
+          "dag_size_after": 13
+        },
+        {
+          "step": 45,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            0,
+            0,
+            0
+          ],
+          "dag_size_before": 13,
+          "dag_size_after": 12
+        },
+        {
+          "step": 46,
+          "axiom": "conjDistrib",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 12,
+          "dag_size_after": 10
+        },
+        {
+          "step": 47,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 10,
+          "dag_size_after": 10
+        },
+        {
+          "step": 48,
+          "axiom": "conjDistrib",
+          "dir": "bwd",
+          "path": [],
+          "dag_size_before": 10,
+          "dag_size_after": 9
+        },
+        {
+          "step": 49,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 9,
+          "dag_size_after": 9
+        },
+        {
+          "step": 50,
+          "axiom": "disjCompl",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 9,
+          "dag_size_after": 7
+        },
+        {
+          "step": 51,
+          "axiom": "conjOneLeft",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 7,
+          "dag_size_after": 5
+        }
+      ]
+    },
+    {
+      "name": "modus_ponens_lemma21_raw",
+      "family": "modus_ponens",
+      "search_mode": "lemma21_exact_simulation",
+      "verified_all_approx_steps": true,
+      "verified_semantic_invariance": true,
+      "num_vars": 2,
+      "vars": [
+        "x1",
+        "x2"
+      ],
+      "src_expr": "(x2 v ~x2)",
+      "dst_expr": "1",
+      "distance_steps": 10,
+      "src_dag_size": 3,
+      "dst_dag_size": 1,
+      "peak_dag_size": 9,
+      "peak_dag_step": 6,
+      "dag_blowup_ratio": 3.0,
+      "total_chain_dag_size": 67,
+      "src_formula_size": 4,
+      "dst_formula_size": 1,
+      "peak_formula_size": 20,
+      "src_and_depth": 0,
+      "dst_and_depth": 0,
+      "peak_and_depth": 1,
+      "src_max_gate_fanout": 1,
+      "peak_max_gate_fanout": 3,
+      "peak_max_gate_tree_occ": 3,
+      "root_fourier_sensitivity": {
+        "avg_sensitivity": 0.0,
+        "fourier_l1": 1.0,
+        "spectral_entropy": 0.0
+      },
+      "subcircuit_energy_start": {
+        "subcircuit_sens_sum": 2.0,
+        "subcircuit_fourier_l1_sum": 3.0
+      },
+      "subcircuit_energy_peak": {
+        "subcircuit_sens_sum": 2.0,
+        "subcircuit_fourier_l1_sum": 9.0
+      },
+      "subcircuit_energy_end": {
+        "subcircuit_sens_sum": 0.0,
+        "subcircuit_fourier_l1_sum": 1.0
+      },
+      "axiom_usage": {
+        "disjZeroLeft:bwd": 1,
+        "negOne:bwd": 1,
+        "disjCompl:bwd": 2,
+        "disjCompl:fwd": 2,
+        "conjOneLeft:bwd": 1,
+        "disjDistrib:bwd": 1,
+        "conjComm:fwd": 1,
+        "conjOneLeft:fwd": 1
+      },
+      "elapsed_ms": 0.05,
+      "chain_exprs": [
+        "(x2 v ~x2)",
+        "(0 v (x2 v ~x2))",
+        "(~1 v (x2 v ~x2))",
+        "(~((x1 v ~x1)) v (x2 v ~x2))",
+        "(~((x1 v ~x1)) v 1)",
+        "(1 & (~((x1 v ~x1)) v 1))",
+        "((~((x1 v ~x1)) v ~~((x1 v ~x1))) & (~((x1 v ~x1)) v 1))",
+        "(~((x1 v ~x1)) v (~~((x1 v ~x1)) & 1))",
+        "(~((x1 v ~x1)) v (1 & ~~((x1 v ~x1))))",
+        "(~((x1 v ~x1)) v ~~((x1 v ~x1)))",
+        "1"
+      ],
+      "step_witnesses": [
+        {
+          "step": 0,
+          "axiom": "disjZeroLeft",
+          "dir": "bwd",
+          "path": [],
+          "dag_size_before": 3,
+          "dag_size_after": 5
+        },
+        {
+          "step": 1,
+          "axiom": "negOne",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 5,
+          "dag_size_after": 6
+        },
+        {
+          "step": 2,
+          "axiom": "disjCompl",
+          "dir": "bwd",
+          "path": [
+            0,
+            0
+          ],
+          "dag_size_before": 6,
+          "dag_size_after": 8
+        },
+        {
+          "step": 3,
+          "axiom": "disjCompl",
+          "dir": "fwd",
+          "path": [
+            1
+          ],
+          "dag_size_before": 8,
+          "dag_size_after": 6
+        },
+        {
+          "step": 4,
+          "axiom": "conjOneLeft",
+          "dir": "bwd",
+          "path": [],
+          "dag_size_before": 6,
+          "dag_size_after": 7
+        },
+        {
+          "step": 5,
+          "axiom": "disjCompl",
+          "dir": "bwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 7,
+          "dag_size_after": 9
+        },
+        {
+          "step": 6,
+          "axiom": "disjDistrib",
+          "dir": "bwd",
+          "path": [],
+          "dag_size_before": 9,
+          "dag_size_after": 8
+        },
+        {
+          "step": 7,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            1
+          ],
+          "dag_size_before": 8,
+          "dag_size_after": 8
+        },
+        {
+          "step": 8,
+          "axiom": "conjOneLeft",
+          "dir": "fwd",
+          "path": [
+            1
+          ],
+          "dag_size_before": 8,
+          "dag_size_after": 6
+        },
+        {
+          "step": 9,
+          "axiom": "disjCompl",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 6,
+          "dag_size_after": 1
+        }
+      ]
+    },
+    {
+      "name": "xor2_commutativity",
+      "family": "xor",
+      "search_mode": "exact_bidirectional_bfs",
+      "verified_all_approx_steps": true,
+      "verified_semantic_invariance": true,
+      "num_vars": 2,
+      "vars": [
+        "x1",
+        "x2"
+      ],
+      "src_expr": "((x1 & ~x2) v (~x1 & x2))",
+      "dst_expr": "((x2 & ~x1) v (~x2 & x1))",
+      "distance_steps": 3,
+      "src_dag_size": 7,
+      "dst_dag_size": 7,
+      "peak_dag_size": 7,
+      "peak_dag_step": 0,
+      "dag_blowup_ratio": 1.0,
+      "total_chain_dag_size": 28,
+      "src_formula_size": 9,
+      "dst_formula_size": 9,
+      "peak_formula_size": 9,
+      "src_and_depth": 1,
+      "dst_and_depth": 1,
+      "peak_and_depth": 1,
+      "src_max_gate_fanout": 1,
+      "peak_max_gate_fanout": 1,
+      "peak_max_gate_tree_occ": 1,
+      "root_fourier_sensitivity": {
+        "avg_sensitivity": 2.0,
+        "fourier_l1": 1.0,
+        "spectral_entropy": 0.0
+      },
+      "subcircuit_energy_start": {
+        "subcircuit_sens_sum": 8.0,
+        "subcircuit_fourier_l1_sum": 9.0
+      },
+      "subcircuit_energy_peak": {
+        "subcircuit_sens_sum": 8.0,
+        "subcircuit_fourier_l1_sum": 9.0
+      },
+      "subcircuit_energy_end": {
+        "subcircuit_sens_sum": 8.0,
+        "subcircuit_fourier_l1_sum": 9.0
+      },
+      "axiom_usage": {
+        "conjComm:fwd": 2,
+        "disjComm:fwd": 1
+      },
+      "elapsed_ms": 0.22,
+      "chain_exprs": [
+        "((x1 & ~x2) v (~x1 & x2))",
+        "((~x2 & x1) v (~x1 & x2))",
+        "((~x1 & x2) v (~x2 & x1))",
+        "((x2 & ~x1) v (~x2 & x1))"
+      ],
+      "step_witnesses": [
+        {
+          "step": 0,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 7,
+          "dag_size_after": 7
+        },
+        {
+          "step": 1,
+          "axiom": "disjComm",
+          "dir": "fwd",
+          "path": [],
+          "dag_size_before": 7,
+          "dag_size_after": 7
+        },
+        {
+          "step": 2,
+          "axiom": "conjComm",
+          "dir": "fwd",
+          "path": [
+            0
+          ],
+          "dag_size_before": 7,
+          "dag_size_after": 7
+        }
+      ]
+    },
+    {
+      "name": "xor3_associativity",
+      "family": "xor",
+      "search_mode": "constructive_verified_chain",
+      "verified_all_approx_steps": true,
+      "verified_semantic_invariance": true,
+      "num_vars": 3,
+      "vars": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "src_expr": "((((x1 & ~x2) v (~x1 & x2)) & ~x3) v (~(((x1 & ~x2) v (~x1 & x2))) & x3))",
+      "dst_expr": "((x1 & ~(((x2 & ~x3) v (~x2 & x3)))) v (~x1 & ((x2 & ~x3) v (~x2 & x3))))",
+      "distance_steps": 807,
+      "src_dag_size": 13,
+      "dst_dag_size": 13,
+      "peak_dag_size": 34,
+      "peak_dag_step": 395,
+      "dag_blowup_ratio": 2.615,
+      "total_chain_dag_size": 19193,
+      "src_formula_size": 25,
+      "dst_formula_size": 25,
+      "peak_formula_size": 76,
+      "src_and_depth": 2,
+      "dst_and_depth": 2,
+      "peak_and_depth": 5,
+      "src_max_gate_fanout": 2,
+      "peak_max_gate_fanout": 7,
+      "peak_max_gate_tree_occ": 8,
+      "root_fourier_sensitivity": {
+        "avg_sensitivity": 3.0,
+        "fourier_l1": 1.0,
+        "spectral_entropy": 0.0
+      },
+      "subcircuit_energy_start": {
+        "subcircuit_sens_sum": 18.0,
+        "subcircuit_fourier_l1_sum": 17.0
+      },
+      "subcircuit_energy_peak": {
+        "subcircuit_sens_sum": 31.0,
+        "subcircuit_fourier_l1_sum": 47.0
+      },
+      "subcircuit_energy_end": {
+        "subcircuit_sens_sum": 18.0,
+        "subcircuit_fourier_l1_sum": 17.0
+      },
+      "axiom_usage": {
+        "conjOneLeft:bwd": 33,
+        "disjCompl:bwd": 38,
+        "conjComm:fwd": 202,
+        "disjDistrib:fwd": 11,
+        "disjCompl:fwd": 40,
+        "conjOneLeft:fwd": 35,
+        "disjAssoc:fwd": 6,
+        "disjComm:fwd": 73,
+        "disjDistrib:bwd": 11,
+        "conjDistrib:fwd": 53,
+        "conjCompl:fwd": 50,
+        "conjCompl:bwd": 50,
+        "disjZeroLeft:bwd": 45,
+        "disjZeroLeft:fwd": 45,
+        "conjAssoc:fwd": 25,
+        "conjDistrib:bwd": 55,
+        "conjAssoc:bwd": 29,
+        "disjAssoc:bwd": 6
+      },
+      "elapsed_ms": 283.73,
+      "chain_exprs_sample": {
+        "first_5": [
+          "((((x1 & ~x2) v (~x1 & x2)) & ~x3) v (~(((x1 & ~x2) v (~x1 & x2))) & x3))",
+          "((((x1 & ~x2) v (~x1 & x2)) & ~x3) v ((1 & ~(((x1 & ~x2) v (~x1 & x2)))) & x3))",
+          "((((x1 & ~x2) v (~x1 & x2)) & ~x3) v ((((x1 & ~x2) v ~((x1 & ~x2))) & ~(((x1 & ~x2) v (~x1 & x2)))) & x3))",
+          "((((x1 & ~x2) v (~x1 & x2)) & ~x3) v ((((x1 & ~x2) v (1 & ~((x1 & ~x2)))) & ~(((x1 & ~x2) v (~x1 & x2)))) & x3))",
+          "((((x1 & ~x2) v (~x1 & x2)) & ~x3) v ((((x1 & ~x2) v (~((x1 & ~x2)) & 1)) & ~(((x1 & ~x2) v (~x1 & x2)))) & x3))"
+        ],
+        "peak": "((((((1 & x3) v (0 & ~x3)) & x2) v (((0 & x3) v (1 & ~x3)) & ~x2)) & x1) v ((~x3 & ((~x2 & ((~x1 & ~~x1) v (~x1 & 0))) v ((~x1 & x2) & ~x1))) v ((((~x1 v x2)...",
+        "last_5": [
+          "((x1 & (((x2 & ~x3) v (~((x2 & ~x3)) & 1)) & ~(((x2 & ~x3) v (~x2 & x3))))) v (~x1 & ((x2 & ~x3) v (~x2 & x3))))",
+          "((x1 & (((x2 & ~x3) v (1 & ~((x2 & ~x3)))) & ~(((x2 & ~x3) v (~x2 & x3))))) v (~x1 & ((x2 & ~x3) v (~x2 & x3))))",
+          "((x1 & (((x2 & ~x3) v ~((x2 & ~x3))) & ~(((x2 & ~x3) v (~x2 & x3))))) v (~x1 & ((x2 & ~x3) v (~x2 & x3))))",
+          "((x1 & (1 & ~(((x2 & ~x3) v (~x2 & x3))))) v (~x1 & ((x2 & ~x3) v (~x2 & x3))))",
+          "((x1 & ~(((x2 & ~x3) v (~x2 & x3)))) v (~x1 & ((x2 & ~x3) v (~x2 & x3))))"
+        ]
+      }
+    },
+    {
+      "name": "maj3_dnf_to_cnf",
+      "family": "maj3",
+      "search_mode": "constructive_verified_chain",
+      "verified_all_approx_steps": true,
+      "verified_semantic_invariance": true,
+      "num_vars": 3,
+      "vars": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "src_expr": "(((x1 & x2) v (x1 & x3)) v (x2 & x3))",
+      "dst_expr": "(((x1 v x2) & (x1 v x3)) & (x2 v x3))",
+      "distance_steps": 396,
+      "src_dag_size": 8,
+      "dst_dag_size": 8,
+      "peak_dag_size": 28,
+      "peak_dag_step": 232,
+      "dag_blowup_ratio": 3.5,
+      "total_chain_dag_size": 8334,
+      "src_formula_size": 11,
+      "dst_formula_size": 11,
+      "peak_formula_size": 49,
+      "src_and_depth": 1,
+      "dst_and_depth": 2,
+      "peak_and_depth": 4,
+      "src_max_gate_fanout": 1,
+      "peak_max_gate_fanout": 5,
+      "peak_max_gate_tree_occ": 5,
+      "root_fourier_sensitivity": {
+        "avg_sensitivity": 1.5,
+        "fourier_l1": 2.0,
+        "spectral_entropy": 2.0
+      },
+      "subcircuit_energy_start": {
+        "subcircuit_sens_sum": 8.75,
+        "subcircuit_fourier_l1_sum": 13.5
+      },
+      "subcircuit_energy_peak": {
+        "subcircuit_sens_sum": 21.5,
+        "subcircuit_fourier_l1_sum": 39.0
+      },
+      "subcircuit_energy_end": {
+        "subcircuit_sens_sum": 8.75,
+        "subcircuit_fourier_l1_sum": 13.5
+      },
+      "axiom_usage": {
+        "conjOneLeft:bwd": 12,
+        "disjCompl:bwd": 17,
+        "conjComm:fwd": 107,
+        "conjDistrib:fwd": 30,
+        "conjAssoc:bwd": 17,
+        "disjZeroLeft:bwd": 23,
+        "conjCompl:bwd": 26,
+        "conjDistrib:bwd": 32,
+        "disjComm:fwd": 32,
+        "disjCompl:fwd": 17,
+        "conjOneLeft:fwd": 12,
+        "disjDistrib:bwd": 2,
+        "conjCompl:fwd": 26,
+        "disjZeroLeft:fwd": 23,
+        "conjAssoc:fwd": 16,
+        "disjDistrib:fwd": 4
+      },
+      "elapsed_ms": 1410.19,
+      "chain_exprs_sample": {
+        "first_5": [
+          "(((x1 & x2) v (x1 & x3)) v (x2 & x3))",
+          "(1 & (((x1 & x2) v (x1 & x3)) v (x2 & x3)))",
+          "((x1 v ~x1) & (((x1 & x2) v (x1 & x3)) v (x2 & x3)))",
+          "((((x1 & x2) v (x1 & x3)) v (x2 & x3)) & (x1 v ~x1))",
+          "(((((x1 & x2) v (x1 & x3)) v (x2 & x3)) & x1) v ((((x1 & x2) v (x1 & x3)) v (x2 & x3)) & ~x1))"
+        ],
+        "peak": "((((1 & x2) v (((1 & x3) v (0 & ~x3)) & ~x2)) & x1) v (((((1 & x3) v ((~x3 & ~~x3) v (~x3 & 0))) & x2) v (((x2 & x3) & (x2 v x3)) & ~x2)) & ~x1))",
+        "last_5": [
+          "(((((x1 v x2) & (x1 v x3)) & (x2 v x3)) & x1) v ((((x1 v x2) & (x1 v x3)) & (x2 v x3)) & ~x1))",
+          "((((x1 v x2) & (x1 v x3)) & (x2 v x3)) & (x1 v ~x1))",
+          "((x1 v ~x1) & (((x1 v x2) & (x1 v x3)) & (x2 v x3)))",
+          "(1 & (((x1 v x2) & (x1 v x3)) & (x2 v x3)))",
+          "(((x1 v x2) & (x1 v x3)) & (x2 v x3))"
+        ]
+      }
+    },
+    {
+      "name": "not_php_2_1_dnf_to_1",
+      "family": "php",
+      "search_mode": "constructive_verified_chain",
+      "verified_all_approx_steps": true,
+      "verified_semantic_invariance": true,
+      "num_vars": 2,
+      "vars": [
+        "p11",
+        "p21"
+      ],
+      "src_expr": "((~p11 v ~p21) v (p11 & p21))",
+      "dst_expr": "1",
+      "distance_steps": 79,
+      "src_dag_size": 7,
+      "dst_dag_size": 1,
+      "peak_dag_size": 17,
+      "peak_dag_step": 12,
+      "dag_blowup_ratio": 2.429,
+      "total_chain_dag_size": 950,
+      "src_formula_size": 9,
+      "dst_formula_size": 1,
+      "peak_formula_size": 32,
+      "src_and_depth": 1,
+      "dst_and_depth": 0,
+      "peak_and_depth": 2,
+      "src_max_gate_fanout": 1,
+      "peak_max_gate_fanout": 6,
+      "peak_max_gate_tree_occ": 6,
+      "root_fourier_sensitivity": {
+        "avg_sensitivity": 0.0,
+        "fourier_l1": 1.0,
+        "spectral_entropy": 0.0
+      },
+      "subcircuit_energy_start": {
+        "subcircuit_sens_sum": 6.0,
+        "subcircuit_fourier_l1_sum": 9.0
+      },
+      "subcircuit_energy_peak": {
+        "subcircuit_sens_sum": 11.0,
+        "subcircuit_fourier_l1_sum": 22.0
+      },
+      "subcircuit_energy_end": {
+        "subcircuit_sens_sum": 0.0,
+        "subcircuit_fourier_l1_sum": 1.0
+      },
+      "axiom_usage": {
+        "conjOneLeft:bwd": 2,
+        "disjCompl:bwd": 2,
+        "conjComm:fwd": 22,
+        "conjDistrib:fwd": 7,
+        "disjZeroLeft:bwd": 5,
+        "disjComm:fwd": 8,
+        "conjCompl:fwd": 4,
+        "disjZeroLeft:fwd": 5,
+        "conjDistrib:bwd": 7,
+        "conjAssoc:bwd": 2,
+        "conjCompl:bwd": 4,
+        "disjCompl:fwd": 5,
+        "conjOneLeft:fwd": 4,
+        "disjDistrib:bwd": 1,
+        "conjAssoc:fwd": 1
+      },
+      "elapsed_ms": 860.21,
+      "chain_exprs_sample": {
+        "first_5": [
+          "((~p11 v ~p21) v (p11 & p21))",
+          "(1 & ((~p11 v ~p21) v (p11 & p21)))",
+          "((p11 v ~p11) & ((~p11 v ~p21) v (p11 & p21)))",
+          "(((~p11 v ~p21) v (p11 & p21)) & (p11 v ~p11))",
+          "((((~p11 v ~p21) v (p11 & p21)) & p11) v (((~p11 v ~p21) v (p11 & p21)) & ~p11))"
+        ],
+        "peak": "(((((p11 & ~p11) v (p11 & 0)) v (~p21 & p11)) v ((p11 & p21) & p11)) v (((~p11 v ~p21) v (p11 & p21)) & ~p11))",
+        "last_5": [
+          "((1 & p11) v ((0 v 1) & ~p11))",
+          "((1 & p11) v (1 & ~p11))",
+          "(p11 v (1 & ~p11))",
+          "(p11 v ~p11)",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "not_php_2_1_negcnf_to_1",
+      "family": "php",
+      "search_mode": "constructive_verified_chain",
+      "verified_all_approx_steps": true,
+      "verified_semantic_invariance": true,
+      "num_vars": 2,
+      "vars": [
+        "p11",
+        "p21"
+      ],
+      "src_expr": "~(((p11 & p21) & (~p11 v ~p21)))",
+      "dst_expr": "1",
+      "distance_steps": 258,
+      "src_dag_size": 8,
+      "dst_dag_size": 1,
+      "peak_dag_size": 19,
+      "peak_dag_step": 15,
+      "dag_blowup_ratio": 2.375,
+      "total_chain_dag_size": 3361,
+      "src_formula_size": 10,
+      "dst_formula_size": 1,
+      "peak_formula_size": 60,
+      "src_and_depth": 2,
+      "dst_and_depth": 0,
+      "peak_and_depth": 3,
+      "src_max_gate_fanout": 1,
+      "peak_max_gate_fanout": 6,
+      "peak_max_gate_tree_occ": 8,
+      "root_fourier_sensitivity": {
+        "avg_sensitivity": 0.0,
+        "fourier_l1": 1.0,
+        "spectral_entropy": 0.0
+      },
+      "subcircuit_energy_start": {
+        "subcircuit_sens_sum": 6.0,
+        "subcircuit_fourier_l1_sum": 10.0
+      },
+      "subcircuit_energy_peak": {
+        "subcircuit_sens_sum": 9.0,
+        "subcircuit_fourier_l1_sum": 24.0
+      },
+      "subcircuit_energy_end": {
+        "subcircuit_sens_sum": 0.0,
+        "subcircuit_fourier_l1_sum": 1.0
+      },
+      "axiom_usage": {
+        "conjOneLeft:bwd": 15,
+        "disjCompl:bwd": 16,
+        "conjComm:fwd": 55,
+        "disjDistrib:fwd": 6,
+        "disjCompl:fwd": 16,
+        "conjOneLeft:fwd": 14,
+        "disjComm:fwd": 25,
+        "disjAssoc:fwd": 6,
+        "disjDistrib:bwd": 4,
+        "conjDistrib:fwd": 18,
+        "conjCompl:fwd": 15,
+        "conjCompl:bwd": 18,
+        "disjZeroLeft:bwd": 14,
+        "disjZeroLeft:fwd": 11,
+        "conjAssoc:fwd": 8,
+        "conjDistrib:bwd": 15,
+        "conjAssoc:bwd": 2
+      },
+      "elapsed_ms": 40.15,
+      "chain_exprs_sample": {
+        "first_5": [
+          "~(((p11 & p21) & (~p11 v ~p21)))",
+          "(1 & ~(((p11 & p21) & (~p11 v ~p21))))",
+          "((~((p11 & p21)) v ~~((p11 & p21))) & ~(((p11 & p21) & (~p11 v ~p21))))",
+          "((~((p11 & p21)) v (1 & ~~((p11 & p21)))) & ~(((p11 & p21) & (~p11 v ~p21))))",
+          "((~((p11 & p21)) v (~~((p11 & p21)) & 1)) & ~(((p11 & p21) & (~p11 v ~p21))))"
+        ],
+        "peak": "((((~((~p11 v ~p21)) v ~~((~p11 v ~p21))) & (~((~p11 v ~p21)) v 1)) & ((~((p11 & p21)) v ~((~p11 v ~p21))) v (~p11 v ~p21))) & ~(((p11 & p21) & (~p11 v ~p21))))",
+        "last_5": [
+          "((1 & p11) v ((0 v 1) & ~p11))",
+          "((1 & p11) v (1 & ~p11))",
+          "(p11 v (1 & ~p11))",
+          "(p11 v ~p11)",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "not_php_3_2_to_1",
+      "family": "php",
+      "search_mode": "constructive_verified_chain",
+      "verified_all_approx_steps": true,
+      "verified_semantic_invariance": true,
+      "num_vars": 6,
+      "vars": [
+        "p11",
+        "p12",
+        "p21",
+        "p22",
+        "p31",
+        "p32"
+      ],
+      "src_expr": "(((((((((~p11 & ~p12) v (~p21 & ~p22)) v (~p31 & ~p32)) v (p11 & p21)) v (p11 & p31)) v (p21 & p31)) v (p12 & p22)) v (p12 & p32)) v (p22 & p32))",
+      "dst_expr": "1",
+      "distance_steps": 1568,
+      "src_dag_size": 29,
+      "dst_dag_size": 1,
+      "peak_dag_size": 67,
+      "peak_dag_step": 150,
+      "dag_blowup_ratio": 2.31,
+      "total_chain_dag_size": 73668,
+      "src_formula_size": 41,
+      "dst_formula_size": 1,
+      "peak_formula_size": 164,
+      "src_and_depth": 1,
+      "dst_and_depth": 0,
+      "peak_and_depth": 6,
+      "src_max_gate_fanout": 1,
+      "peak_max_gate_fanout": 12,
+      "peak_max_gate_tree_occ": 13,
+      "root_fourier_sensitivity": {
+        "avg_sensitivity": 0.0,
+        "fourier_l1": 1.0,
+        "spectral_entropy": 0.0
+      },
+      "subcircuit_energy_start": {
+        "subcircuit_sens_sum": 28.3125,
+        "subcircuit_fourier_l1_sum": 62.375
+      },
+      "subcircuit_energy_peak": {
+        "subcircuit_sens_sum": 51.6875,
+        "subcircuit_fourier_l1_sum": 120.875
+      },
+      "subcircuit_energy_end": {
+        "subcircuit_sens_sum": 0.0,
+        "subcircuit_fourier_l1_sum": 1.0
+      },
+      "axiom_usage": {
+        "conjOneLeft:bwd": 44,
+        "disjCompl:bwd": 44,
+        "conjComm:fwd": 513,
+        "conjDistrib:fwd": 148,
+        "conjAssoc:bwd": 38,
+        "disjZeroLeft:bwd": 79,
+        "disjComm:fwd": 128,
+        "conjCompl:fwd": 69,
+        "disjZeroLeft:fwd": 79,
+        "conjAssoc:fwd": 19,
+        "conjCompl:bwd": 69,
+        "conjDistrib:bwd": 155,
+        "disjCompl:fwd": 76,
+        "conjOneLeft:fwd": 75,
+        "disjDistrib:bwd": 32
+      },
+      "elapsed_ms": 1227.26,
+      "chain_exprs_sample": {
+        "first_5": [
+          "(((((((((~p11 & ~p12) v (~p21 & ~p22)) v (~p31 & ~p32)) v (p11 & p21)) v (p11 & p31)) v (p21 & p31)) v (p12 & p22)) v (p12 & p32)) v (p22 & p32))",
+          "(1 & (((((((((~p11 & ~p12) v (~p21 & ~p22)) v (~p31 & ~p32)) v (p11 & p21)) v (p11 & p31)) v (p21 & p31)) v (p12 & p22)) v (p12 & p32)) v (p22 & p32)))",
+          "((p11 v ~p11) & (((((((((~p11 & ~p12) v (~p21 & ~p22)) v (~p31 & ~p32)) v (p11 & p21)) v (p11 & p31)) v (p21 & p31)) v (p12 & p22)) v (p12 & p32)) v (p22 & p...",
+          "((((((((((~p11 & ~p12) v (~p21 & ~p22)) v (~p31 & ~p32)) v (p11 & p21)) v (p11 & p31)) v (p21 & p31)) v (p12 & p22)) v (p12 & p32)) v (p22 & p32)) & (p11 v ~...",
+          "(((((((((((~p11 & ~p12) v (~p21 & ~p22)) v (~p31 & ~p32)) v (p11 & p21)) v (p11 & p31)) v (p21 & p31)) v (p12 & p22)) v (p12 & p32)) v (p22 & p32)) & p11) v ..."
+        ],
+        "peak": "(((((((((((((((~p22 & ~~p22) v (~p22 & 0)) & p21) v ((~p31 & ~p32) & p21)) v (p21 & p21)) v (p31 & p21)) v ((p21 & p31) & p21)) v (p22 & p21)) v (p32 & p21))...",
+        "last_5": [
+          "((1 & p11) v ((p12 v ~p12) & ~p11))",
+          "((1 & p11) v (1 & ~p11))",
+          "(p11 v (1 & ~p11))",
+          "(p11 v ~p11)",
+          "1"
+        ]
+      }
+    }
+  ]
+}

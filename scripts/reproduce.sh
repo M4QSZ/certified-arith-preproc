@@ -16,24 +16,31 @@ done
 
 cd "$REPO_ROOT"
 
-echo "[1/3] Checking Lean 4 local rewrite-rule soundness (proofs/rule_soundness.lean)..."
-lean_out="$(lean proofs/rule_soundness.lean)"
-echo "$lean_out" | tail -n 10
-if echo "$lean_out" | grep -q "sorryAx"; then
-  echo "ERROR: sorryAx detected in Lean output!" >&2
-  exit 1
-fi
+echo "[1/3] Checking all 15 standalone Lean 4.36.0 soundness suites (0 sorryAx)..."
+for lf in proofs/*.lean; do
+  echo "  -> $lf"
+  l_out="$(lean "$lf")"
+  if echo "$l_out" | grep -q "sorryAx"; then
+    echo "ERROR: sorryAx detected in $lf!" >&2
+    exit 1
+  fi
+done
 
-echo "[2/3] Emitting and checking VeriPB 3.0.2 proofs (6x6..16x16 scrambled miters)..."
-uv run --with-editable . python -m certified_arith_preproc.veripb_emitter \
-  --bits 6 8 10 12 16 \
-  --out-dir results/veripb_proofs \
-  --json-out results/veripb_results.json
+echo "[2/3] Building native Rust engines (rust_core/cap-veronese-rs & schoenebeck_rs)..."
+cargo build --release --manifest-path rust_core/Cargo.toml
+cargo build --release --manifest-path schoenebeck_rs/Cargo.toml
 
-echo "[3/3] Running wall-clock solver comparison (timeout=${TIMEOUT}s)..."
-uv run --with-editable '.[benchmarks]' python -m certified_arith_preproc.benchmark_solvers \
-  --timeout "$TIMEOUT" \
-  --cnf-dir cnf_samples \
-  --json-out results/benchmark_results.json
+echo "[3/3] Verifying unified corpus (11 UNSAT + 4 SAT controls) & Fase I-III frontier labs..."
+PYTHONPATH="$REPO_ROOT/src" .venv/bin/python -m certified_arith_preproc.benchmark_v05_unified
+PYTHONPATH="$REPO_ROOT/src" .venv/bin/python -m certified_arith_preproc.krajicek_ew_explorer
+PYTHONPATH="$REPO_ROOT/src" .venv/bin/python -m certified_arith_preproc.krajicek_cf_compiler
+PYTHONPATH="$REPO_ROOT/src" .venv/bin/python -m certified_arith_preproc.krajicek_slp_unifier
+PYTHONPATH="$REPO_ROOT/src" .venv/bin/python -m certified_arith_preproc.krajicek_nonaligned_slp
+PYTHONPATH="$REPO_ROOT/src" .venv/bin/python -m certified_arith_preproc.witt_noncomm_ips_explorer
+PYTHONPATH="$REPO_ROOT/src" .venv/bin/python -m certified_arith_preproc.witt_higher_torsion_snf
+PYTHONPATH="$REPO_ROOT/src" .venv/bin/python -m certified_arith_preproc.witt_kneser_nc_separation
+PYTHONPATH="$REPO_ROOT/src" .venv/bin/python -m certified_arith_preproc.proof_bug_extractor
+PYTHONPATH="$REPO_ROOT/src" .venv/bin/python -m certified_arith_preproc.schoenebeck_rm3_tetrahedral_bench
+PYTHONPATH="$REPO_ROOT/src" .venv/bin/python -m certified_arith_preproc.schoenebeck_rm4_veripb_bench
 
 echo "All reproducibility checks completed."

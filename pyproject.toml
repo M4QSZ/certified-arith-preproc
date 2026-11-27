@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "certified-arith-preproc"
-version = "0.1.0"
-description = "VeriPB-certified arithmetic adder extraction, Veronese dual annihilator synthesis, and coupled sparse Macaulay / cutting-planes preprocessing for scrambled 3-CNF formulas."
+version = "0.8.0"
+description = "VeriPB-certified arithmetic adder extraction, Veronese dual annihilator synthesis, local Zassenhaus gadget inversion, and frontier proof-complexity laboratories (v0.8.0)."
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.10"
@@ -23,6 +23,24 @@ benchmarks = [
 [project.scripts]
 cap-veripb = "certified_arith_preproc.veripb_emitter:main"
 cap-bench = "certified_arith_preproc.benchmark_solvers:main"
+cap-interpolant = "certified_arith_preproc.veripb_interpolant:main"
+cap-bench-interpolant = "certified_arith_preproc.benchmark_interpolants:main"
+cap-veronese = "certified_arith_preproc.veripb_veronese_prg:main"
+cap-bench-veronese = "certified_arith_preproc.benchmark_veronese_prg:main"
+cap-bench-v04 = "certified_arith_preproc.benchmark_higher_veronese_v04:main"
+cap-bench-v05 = "certified_arith_preproc.benchmark_v05_unified:main"
+cap-protocol-xxi = "certified_arith_preproc.protocol_xxi_schoenebeck:main"
+cap-krajicek-ew = "certified_arith_preproc.krajicek_ew_explorer:main"
+cap-witt-nc-ips = "certified_arith_preproc.witt_noncomm_ips_explorer:main"
+cap-dom-g1 = "certified_arith_preproc.dominance_g1_certifier:main"
+cap-bug-extract = "certified_arith_preproc.proof_bug_extractor:main"
+cap-witt-snf = "certified_arith_preproc.witt_higher_torsion_snf:main"
+cap-cf-compiler = "certified_arith_preproc.krajicek_cf_compiler:main"
+cap-schoenebeck-rm3 = "certified_arith_preproc.schoenebeck_rm3_tetrahedral_bench:main"
+cap-witt-kneser = "certified_arith_preproc.witt_kneser_nc_separation:main"
+cap-slp-unifier = "certified_arith_preproc.krajicek_slp_unifier:main"
+cap-schoenebeck-rm4 = "certified_arith_preproc.schoenebeck_rm4_veripb_bench:main"
+cap-nonaligned-slp = "certified_arith_preproc.krajicek_nonaligned_slp:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

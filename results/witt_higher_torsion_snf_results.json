@@ -1,0 +1,3921 @@
+{
+  "metadata": {
+    "attack": "ATAQUE-09",
+    "title": "Universal 2-Adic Torsion Laws in Nisan Matrices for Higher-Degree Witt Carries",
+    "elapsed_seconds": 0.0523
+  },
+  "e2_sym_M1_derangement": {
+    "2": {
+      "rows": 2,
+      "cols": 2,
+      "rank_Q": 2,
+      "rank_F2": 2,
+      "snf_Z": [
+        1,
+        1
+      ],
+      "snf_multiplicities": {
+        "1": 2
+      },
+      "v2_spectrum": [
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 2
+      },
+      "max_v2": 0,
+      "even_invariant_factors": [],
+      "first_full_visibility_witt_depth": 1,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 2,
+        "W_2 (Z/4Z)": 2,
+        "W_3 (Z/8Z)": 2,
+        "W_4 (Z/16Z)": 2,
+        "W_5 (Z/32Z)": 2,
+        "W_6 (Z/64Z)": 2
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 0,
+        "W_3 (Z/8Z)": 0,
+        "W_4 (Z/16Z)": 0,
+        "W_5 (Z/32Z)": 0,
+        "W_6 (Z/64Z)": 0
+      }
+    },
+    "3": {
+      "rows": 3,
+      "cols": 3,
+      "rank_Q": 3,
+      "rank_F2": 2,
+      "snf_Z": [
+        1,
+        1,
+        2
+      ],
+      "snf_multiplicities": {
+        "1": 2,
+        "2": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        1
+      ],
+      "v2_multiplicities": {
+        "0": 2,
+        "1": 1
+      },
+      "max_v2": 1,
+      "even_invariant_factors": [
+        2
+      ],
+      "first_full_visibility_witt_depth": 2,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 2,
+        "W_2 (Z/4Z)": 3,
+        "W_3 (Z/8Z)": 3,
+        "W_4 (Z/16Z)": 3,
+        "W_5 (Z/32Z)": 3,
+        "W_6 (Z/64Z)": 3
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 1,
+        "W_3 (Z/8Z)": 1,
+        "W_4 (Z/16Z)": 1,
+        "W_5 (Z/32Z)": 1,
+        "W_6 (Z/64Z)": 1
+      }
+    },
+    "4": {
+      "rows": 4,
+      "cols": 4,
+      "rank_Q": 4,
+      "rank_F2": 4,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "snf_multiplicities": {
+        "1": 3,
+        "3": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 4
+      },
+      "max_v2": 0,
+      "even_invariant_factors": [],
+      "first_full_visibility_witt_depth": 1,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 4,
+        "W_2 (Z/4Z)": 4,
+        "W_3 (Z/8Z)": 4,
+        "W_4 (Z/16Z)": 4,
+        "W_5 (Z/32Z)": 4,
+        "W_6 (Z/64Z)": 4
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 0,
+        "W_3 (Z/8Z)": 0,
+        "W_4 (Z/16Z)": 0,
+        "W_5 (Z/32Z)": 0,
+        "W_6 (Z/64Z)": 0
+      }
+    },
+    "5": {
+      "rows": 5,
+      "cols": 5,
+      "rank_Q": 5,
+      "rank_F2": 4,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        4
+      ],
+      "snf_multiplicities": {
+        "1": 4,
+        "4": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "v2_multiplicities": {
+        "0": 4,
+        "2": 1
+      },
+      "max_v2": 2,
+      "even_invariant_factors": [
+        4
+      ],
+      "first_full_visibility_witt_depth": 3,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 4,
+        "W_2 (Z/4Z)": 4,
+        "W_3 (Z/8Z)": 5,
+        "W_4 (Z/16Z)": 5,
+        "W_5 (Z/32Z)": 5,
+        "W_6 (Z/64Z)": 5
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 0,
+        "W_3 (Z/8Z)": 1,
+        "W_4 (Z/16Z)": 1,
+        "W_5 (Z/32Z)": 1,
+        "W_6 (Z/64Z)": 1
+      }
+    },
+    "6": {
+      "rows": 6,
+      "cols": 6,
+      "rank_Q": 6,
+      "rank_F2": 6,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        5
+      ],
+      "snf_multiplicities": {
+        "1": 5,
+        "5": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 6
+      },
+      "max_v2": 0,
+      "even_invariant_factors": [],
+      "first_full_visibility_witt_depth": 1,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 6,
+        "W_2 (Z/4Z)": 6,
+        "W_3 (Z/8Z)": 6,
+        "W_4 (Z/16Z)": 6,
+        "W_5 (Z/32Z)": 6,
+        "W_6 (Z/64Z)": 6
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 0,
+        "W_3 (Z/8Z)": 0,
+        "W_4 (Z/16Z)": 0,
+        "W_5 (Z/32Z)": 0,
+        "W_6 (Z/64Z)": 0
+      }
+    },
+    "7": {
+      "rows": 7,
+      "cols": 7,
+      "rank_Q": 7,
+      "rank_F2": 6,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        6
+      ],
+      "snf_multiplicities": {
+        "1": 6,
+        "6": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "v2_multiplicities": {
+        "0": 6,
+        "1": 1
+      },
+      "max_v2": 1,
+      "even_invariant_factors": [
+        6
+      ],
+      "first_full_visibility_witt_depth": 2,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 6,
+        "W_2 (Z/4Z)": 7,
+        "W_3 (Z/8Z)": 7,
+        "W_4 (Z/16Z)": 7,
+        "W_5 (Z/32Z)": 7,
+        "W_6 (Z/64Z)": 7
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 1,
+        "W_3 (Z/8Z)": 1,
+        "W_4 (Z/16Z)": 1,
+        "W_5 (Z/32Z)": 1,
+        "W_6 (Z/64Z)": 1
+      }
+    },
+    "8": {
+      "rows": 8,
+      "cols": 8,
+      "rank_Q": 8,
+      "rank_F2": 8,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        7
+      ],
+      "snf_multiplicities": {
+        "1": 7,
+        "7": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 8
+      },
+      "max_v2": 0,
+      "even_invariant_factors": [],
+      "first_full_visibility_witt_depth": 1,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 8,
+        "W_2 (Z/4Z)": 8,
+        "W_3 (Z/8Z)": 8,
+        "W_4 (Z/16Z)": 8,
+        "W_5 (Z/32Z)": 8,
+        "W_6 (Z/64Z)": 8
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 0,
+        "W_3 (Z/8Z)": 0,
+        "W_4 (Z/16Z)": 0,
+        "W_5 (Z/32Z)": 0,
+        "W_6 (Z/64Z)": 0
+      }
+    },
+    "9": {
+      "rows": 9,
+      "cols": 9,
+      "rank_Q": 9,
+      "rank_F2": 8,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        8
+      ],
+      "snf_multiplicities": {
+        "1": 8,
+        "8": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "v2_multiplicities": {
+        "0": 8,
+        "3": 1
+      },
+      "max_v2": 3,
+      "even_invariant_factors": [
+        8
+      ],
+      "first_full_visibility_witt_depth": 4,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 8,
+        "W_2 (Z/4Z)": 8,
+        "W_3 (Z/8Z)": 8,
+        "W_4 (Z/16Z)": 9,
+        "W_5 (Z/32Z)": 9,
+        "W_6 (Z/64Z)": 9
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 0,
+        "W_3 (Z/8Z)": 0,
+        "W_4 (Z/16Z)": 1,
+        "W_5 (Z/32Z)": 1,
+        "W_6 (Z/64Z)": 1
+      }
+    },
+    "10": {
+      "rows": 10,
+      "cols": 10,
+      "rank_Q": 10,
+      "rank_F2": 10,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        9
+      ],
+      "snf_multiplicities": {
+        "1": 9,
+        "9": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 10
+      },
+      "max_v2": 0,
+      "even_invariant_factors": [],
+      "first_full_visibility_witt_depth": 1,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 10,
+        "W_2 (Z/4Z)": 10,
+        "W_3 (Z/8Z)": 10,
+        "W_4 (Z/16Z)": 10,
+        "W_5 (Z/32Z)": 10,
+        "W_6 (Z/64Z)": 10
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 0,
+        "W_3 (Z/8Z)": 0,
+        "W_4 (Z/16Z)": 0,
+        "W_5 (Z/32Z)": 0,
+        "W_6 (Z/64Z)": 0
+      }
+    },
+    "11": {
+      "rows": 11,
+      "cols": 11,
+      "rank_Q": 11,
+      "rank_F2": 10,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        10
+      ],
+      "snf_multiplicities": {
+        "1": 10,
+        "10": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "v2_multiplicities": {
+        "0": 10,
+        "1": 1
+      },
+      "max_v2": 1,
+      "even_invariant_factors": [
+        10
+      ],
+      "first_full_visibility_witt_depth": 2,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 10,
+        "W_2 (Z/4Z)": 11,
+        "W_3 (Z/8Z)": 11,
+        "W_4 (Z/16Z)": 11,
+        "W_5 (Z/32Z)": 11,
+        "W_6 (Z/64Z)": 11
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 1,
+        "W_3 (Z/8Z)": 1,
+        "W_4 (Z/16Z)": 1,
+        "W_5 (Z/32Z)": 1,
+        "W_6 (Z/64Z)": 1
+      }
+    },
+    "12": {
+      "rows": 12,
+      "cols": 12,
+      "rank_Q": 12,
+      "rank_F2": 12,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        11
+      ],
+      "snf_multiplicities": {
+        "1": 11,
+        "11": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 12
+      },
+      "max_v2": 0,
+      "even_invariant_factors": [],
+      "first_full_visibility_witt_depth": 1,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 12,
+        "W_2 (Z/4Z)": 12,
+        "W_3 (Z/8Z)": 12,
+        "W_4 (Z/16Z)": 12,
+        "W_5 (Z/32Z)": 12,
+        "W_6 (Z/64Z)": 12
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 0,
+        "W_3 (Z/8Z)": 0,
+        "W_4 (Z/16Z)": 0,
+        "W_5 (Z/32Z)": 0,
+        "W_6 (Z/64Z)": 0
+      }
+    },
+    "13": {
+      "rows": 13,
+      "cols": 13,
+      "rank_Q": 13,
+      "rank_F2": 12,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        12
+      ],
+      "snf_multiplicities": {
+        "1": 12,
+        "12": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "v2_multiplicities": {
+        "0": 12,
+        "2": 1
+      },
+      "max_v2": 2,
+      "even_invariant_factors": [
+        12
+      ],
+      "first_full_visibility_witt_depth": 3,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 12,
+        "W_2 (Z/4Z)": 12,
+        "W_3 (Z/8Z)": 13,
+        "W_4 (Z/16Z)": 13,
+        "W_5 (Z/32Z)": 13,
+        "W_6 (Z/64Z)": 13
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 0,
+        "W_3 (Z/8Z)": 1,
+        "W_4 (Z/16Z)": 1,
+        "W_5 (Z/32Z)": 1,
+        "W_6 (Z/64Z)": 1
+      }
+    },
+    "14": {
+      "rows": 14,
+      "cols": 14,
+      "rank_Q": 14,
+      "rank_F2": 14,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        13
+      ],
+      "snf_multiplicities": {
+        "1": 13,
+        "13": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 14
+      },
+      "max_v2": 0,
+      "even_invariant_factors": [],
+      "first_full_visibility_witt_depth": 1,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 14,
+        "W_2 (Z/4Z)": 14,
+        "W_3 (Z/8Z)": 14,
+        "W_4 (Z/16Z)": 14,
+        "W_5 (Z/32Z)": 14,
+        "W_6 (Z/64Z)": 14
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 0,
+        "W_3 (Z/8Z)": 0,
+        "W_4 (Z/16Z)": 0,
+        "W_5 (Z/32Z)": 0,
+        "W_6 (Z/64Z)": 0
+      }
+    },
+    "15": {
+      "rows": 15,
+      "cols": 15,
+      "rank_Q": 15,
+      "rank_F2": 14,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        14
+      ],
+      "snf_multiplicities": {
+        "1": 14,
+        "14": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "v2_multiplicities": {
+        "0": 14,
+        "1": 1
+      },
+      "max_v2": 1,
+      "even_invariant_factors": [
+        14
+      ],
+      "first_full_visibility_witt_depth": 2,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 14,
+        "W_2 (Z/4Z)": 15,
+        "W_3 (Z/8Z)": 15,
+        "W_4 (Z/16Z)": 15,
+        "W_5 (Z/32Z)": 15,
+        "W_6 (Z/64Z)": 15
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 1,
+        "W_3 (Z/8Z)": 1,
+        "W_4 (Z/16Z)": 1,
+        "W_5 (Z/32Z)": 1,
+        "W_6 (Z/64Z)": 1
+      }
+    },
+    "16": {
+      "rows": 16,
+      "cols": 16,
+      "rank_Q": 16,
+      "rank_F2": 16,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        15
+      ],
+      "snf_multiplicities": {
+        "1": 15,
+        "15": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 16
+      },
+      "max_v2": 0,
+      "even_invariant_factors": [],
+      "first_full_visibility_witt_depth": 1,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 16,
+        "W_2 (Z/4Z)": 16,
+        "W_3 (Z/8Z)": 16,
+        "W_4 (Z/16Z)": 16,
+        "W_5 (Z/32Z)": 16,
+        "W_6 (Z/64Z)": 16
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 0,
+        "W_3 (Z/8Z)": 0,
+        "W_4 (Z/16Z)": 0,
+        "W_5 (Z/32Z)": 0,
+        "W_6 (Z/64Z)": 0
+      }
+    },
+    "17": {
+      "rows": 17,
+      "cols": 17,
+      "rank_Q": 17,
+      "rank_F2": 16,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        16
+      ],
+      "snf_multiplicities": {
+        "1": 16,
+        "16": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "v2_multiplicities": {
+        "0": 16,
+        "4": 1
+      },
+      "max_v2": 4,
+      "even_invariant_factors": [
+        16
+      ],
+      "first_full_visibility_witt_depth": 5,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 16,
+        "W_2 (Z/4Z)": 16,
+        "W_3 (Z/8Z)": 16,
+        "W_4 (Z/16Z)": 16,
+        "W_5 (Z/32Z)": 17,
+        "W_6 (Z/64Z)": 17
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 0,
+        "W_3 (Z/8Z)": 0,
+        "W_4 (Z/16Z)": 0,
+        "W_5 (Z/32Z)": 1,
+        "W_6 (Z/64Z)": 1
+      }
+    },
+    "18": {
+      "rows": 18,
+      "cols": 18,
+      "rank_Q": 18,
+      "rank_F2": 18,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        17
+      ],
+      "snf_multiplicities": {
+        "1": 17,
+        "17": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 18
+      },
+      "max_v2": 0,
+      "even_invariant_factors": [],
+      "first_full_visibility_witt_depth": 1,
+      "witt_module_ranks": {
+        "W_1 (Z/2Z)": 18,
+        "W_2 (Z/4Z)": 18,
+        "W_3 (Z/8Z)": 18,
+        "W_4 (Z/16Z)": 18,
+        "W_5 (Z/32Z)": 18,
+        "W_6 (Z/64Z)": 18
+      },
+      "witt_zero_divisor_gaps": {
+        "W_1 (Z/2Z)": 0,
+        "W_2 (Z/4Z)": 0,
+        "W_3 (Z/8Z)": 0,
+        "W_4 (Z/16Z)": 0,
+        "W_5 (Z/32Z)": 0,
+        "W_6 (Z/64Z)": 0
+      }
+    }
+  },
+  "e3_sym_M12_and_johnson": {
+    "3": {
+      "M_1_2_full": {
+        "rows": 3,
+        "cols": 9,
+        "rank_Q": 3,
+        "rank_F2": 3,
+        "snf_Z": [
+          1,
+          1,
+          1
+        ],
+        "snf_multiplicities": {
+          "1": 3
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0
+        ],
+        "v2_multiplicities": {
+          "0": 3
+        },
+        "max_v2": 0,
+        "even_invariant_factors": [],
+        "first_full_visibility_witt_depth": 1,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 3,
+          "W_2 (Z/4Z)": 3,
+          "W_3 (Z/8Z)": 3,
+          "W_4 (Z/16Z)": 3,
+          "W_5 (Z/32Z)": 3,
+          "W_6 (Z/64Z)": 3
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 0,
+          "W_5 (Z/32Z)": 0,
+          "W_6 (Z/64Z)": 0
+        }
+      },
+      "unordered_johnson": {
+        "rows": 3,
+        "cols": 3,
+        "snf_matches_M_1_2_exactly": true
+      }
+    },
+    "4": {
+      "M_1_2_full": {
+        "rows": 4,
+        "cols": 16,
+        "rank_Q": 4,
+        "rank_F2": 3,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "snf_multiplicities": {
+          "1": 3,
+          "2": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "v2_multiplicities": {
+          "0": 3,
+          "1": 1
+        },
+        "max_v2": 1,
+        "even_invariant_factors": [
+          2
+        ],
+        "first_full_visibility_witt_depth": 2,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 3,
+          "W_2 (Z/4Z)": 4,
+          "W_3 (Z/8Z)": 4,
+          "W_4 (Z/16Z)": 4,
+          "W_5 (Z/32Z)": 4,
+          "W_6 (Z/64Z)": 4
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 1,
+          "W_3 (Z/8Z)": 1,
+          "W_4 (Z/16Z)": 1,
+          "W_5 (Z/32Z)": 1,
+          "W_6 (Z/64Z)": 1
+        }
+      },
+      "unordered_johnson": {
+        "rows": 4,
+        "cols": 6,
+        "snf_matches_M_1_2_exactly": true
+      }
+    },
+    "5": {
+      "M_1_2_full": {
+        "rows": 5,
+        "cols": 25,
+        "rank_Q": 5,
+        "rank_F2": 5,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          3
+        ],
+        "snf_multiplicities": {
+          "1": 4,
+          "3": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "v2_multiplicities": {
+          "0": 5
+        },
+        "max_v2": 0,
+        "even_invariant_factors": [],
+        "first_full_visibility_witt_depth": 1,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 5,
+          "W_2 (Z/4Z)": 5,
+          "W_3 (Z/8Z)": 5,
+          "W_4 (Z/16Z)": 5,
+          "W_5 (Z/32Z)": 5,
+          "W_6 (Z/64Z)": 5
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 0,
+          "W_5 (Z/32Z)": 0,
+          "W_6 (Z/64Z)": 0
+        }
+      },
+      "unordered_johnson": {
+        "rows": 5,
+        "cols": 10,
+        "snf_matches_M_1_2_exactly": true
+      }
+    },
+    "6": {
+      "M_1_2_full": {
+        "rows": 6,
+        "cols": 36,
+        "rank_Q": 6,
+        "rank_F2": 5,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          4
+        ],
+        "snf_multiplicities": {
+          "1": 5,
+          "4": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "v2_multiplicities": {
+          "0": 5,
+          "2": 1
+        },
+        "max_v2": 2,
+        "even_invariant_factors": [
+          4
+        ],
+        "first_full_visibility_witt_depth": 3,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 5,
+          "W_2 (Z/4Z)": 5,
+          "W_3 (Z/8Z)": 6,
+          "W_4 (Z/16Z)": 6,
+          "W_5 (Z/32Z)": 6,
+          "W_6 (Z/64Z)": 6
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 1,
+          "W_4 (Z/16Z)": 1,
+          "W_5 (Z/32Z)": 1,
+          "W_6 (Z/64Z)": 1
+        }
+      },
+      "unordered_johnson": {
+        "rows": 6,
+        "cols": 15,
+        "snf_matches_M_1_2_exactly": true
+      }
+    },
+    "7": {
+      "M_1_2_full": {
+        "rows": 7,
+        "cols": 49,
+        "rank_Q": 7,
+        "rank_F2": 7,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          5
+        ],
+        "snf_multiplicities": {
+          "1": 6,
+          "5": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "v2_multiplicities": {
+          "0": 7
+        },
+        "max_v2": 0,
+        "even_invariant_factors": [],
+        "first_full_visibility_witt_depth": 1,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 7,
+          "W_2 (Z/4Z)": 7,
+          "W_3 (Z/8Z)": 7,
+          "W_4 (Z/16Z)": 7,
+          "W_5 (Z/32Z)": 7,
+          "W_6 (Z/64Z)": 7
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 0,
+          "W_5 (Z/32Z)": 0,
+          "W_6 (Z/64Z)": 0
+        }
+      },
+      "unordered_johnson": {
+        "rows": 7,
+        "cols": 21,
+        "snf_matches_M_1_2_exactly": true
+      }
+    },
+    "8": {
+      "M_1_2_full": {
+        "rows": 8,
+        "cols": 64,
+        "rank_Q": 8,
+        "rank_F2": 7,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          6
+        ],
+        "snf_multiplicities": {
+          "1": 7,
+          "6": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "v2_multiplicities": {
+          "0": 7,
+          "1": 1
+        },
+        "max_v2": 1,
+        "even_invariant_factors": [
+          6
+        ],
+        "first_full_visibility_witt_depth": 2,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 7,
+          "W_2 (Z/4Z)": 8,
+          "W_3 (Z/8Z)": 8,
+          "W_4 (Z/16Z)": 8,
+          "W_5 (Z/32Z)": 8,
+          "W_6 (Z/64Z)": 8
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 1,
+          "W_3 (Z/8Z)": 1,
+          "W_4 (Z/16Z)": 1,
+          "W_5 (Z/32Z)": 1,
+          "W_6 (Z/64Z)": 1
+        }
+      },
+      "unordered_johnson": {
+        "rows": 8,
+        "cols": 28,
+        "snf_matches_M_1_2_exactly": true
+      }
+    },
+    "9": {
+      "M_1_2_full": {
+        "rows": 9,
+        "cols": 81,
+        "rank_Q": 9,
+        "rank_F2": 9,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          7
+        ],
+        "snf_multiplicities": {
+          "1": 8,
+          "7": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "v2_multiplicities": {
+          "0": 9
+        },
+        "max_v2": 0,
+        "even_invariant_factors": [],
+        "first_full_visibility_witt_depth": 1,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 9,
+          "W_2 (Z/4Z)": 9,
+          "W_3 (Z/8Z)": 9,
+          "W_4 (Z/16Z)": 9,
+          "W_5 (Z/32Z)": 9,
+          "W_6 (Z/64Z)": 9
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 0,
+          "W_5 (Z/32Z)": 0,
+          "W_6 (Z/64Z)": 0
+        }
+      },
+      "unordered_johnson": {
+        "rows": 9,
+        "cols": 36,
+        "snf_matches_M_1_2_exactly": true
+      }
+    },
+    "10": {
+      "M_1_2_full": {
+        "rows": 10,
+        "cols": 100,
+        "rank_Q": 10,
+        "rank_F2": 9,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          8
+        ],
+        "snf_multiplicities": {
+          "1": 9,
+          "8": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        "v2_multiplicities": {
+          "0": 9,
+          "3": 1
+        },
+        "max_v2": 3,
+        "even_invariant_factors": [
+          8
+        ],
+        "first_full_visibility_witt_depth": 4,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 9,
+          "W_2 (Z/4Z)": 9,
+          "W_3 (Z/8Z)": 9,
+          "W_4 (Z/16Z)": 10,
+          "W_5 (Z/32Z)": 10,
+          "W_6 (Z/64Z)": 10
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 1,
+          "W_5 (Z/32Z)": 1,
+          "W_6 (Z/64Z)": 1
+        }
+      },
+      "unordered_johnson": {
+        "rows": 10,
+        "cols": 45,
+        "snf_matches_M_1_2_exactly": true
+      }
+    },
+    "11": {
+      "M_1_2_full": {
+        "rows": 11,
+        "cols": 121,
+        "rank_Q": 11,
+        "rank_F2": 11,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          9
+        ],
+        "snf_multiplicities": {
+          "1": 10,
+          "9": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "v2_multiplicities": {
+          "0": 11
+        },
+        "max_v2": 0,
+        "even_invariant_factors": [],
+        "first_full_visibility_witt_depth": 1,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 11,
+          "W_2 (Z/4Z)": 11,
+          "W_3 (Z/8Z)": 11,
+          "W_4 (Z/16Z)": 11,
+          "W_5 (Z/32Z)": 11,
+          "W_6 (Z/64Z)": 11
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 0,
+          "W_5 (Z/32Z)": 0,
+          "W_6 (Z/64Z)": 0
+        }
+      },
+      "unordered_johnson": {
+        "rows": 11,
+        "cols": 55,
+        "snf_matches_M_1_2_exactly": true
+      }
+    },
+    "12": {
+      "M_1_2_full": {
+        "rows": 12,
+        "cols": 144,
+        "rank_Q": 12,
+        "rank_F2": 11,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          10
+        ],
+        "snf_multiplicities": {
+          "1": 11,
+          "10": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "v2_multiplicities": {
+          "0": 11,
+          "1": 1
+        },
+        "max_v2": 1,
+        "even_invariant_factors": [
+          10
+        ],
+        "first_full_visibility_witt_depth": 2,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 11,
+          "W_2 (Z/4Z)": 12,
+          "W_3 (Z/8Z)": 12,
+          "W_4 (Z/16Z)": 12,
+          "W_5 (Z/32Z)": 12,
+          "W_6 (Z/64Z)": 12
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 1,
+          "W_3 (Z/8Z)": 1,
+          "W_4 (Z/16Z)": 1,
+          "W_5 (Z/32Z)": 1,
+          "W_6 (Z/64Z)": 1
+        }
+      },
+      "unordered_johnson": {
+        "rows": 12,
+        "cols": 66,
+        "snf_matches_M_1_2_exactly": true
+      }
+    }
+  },
+  "e4_sym_M22_and_kneser": {
+    "4": {
+      "M_2_2_full": {
+        "rows": 16,
+        "cols": 16,
+        "rank_Q": 6,
+        "rank_F2": 6,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "snf_multiplicities": {
+          "1": 6
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "v2_multiplicities": {
+          "0": 6
+        },
+        "max_v2": 0,
+        "even_invariant_factors": [],
+        "first_full_visibility_witt_depth": 1,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 6,
+          "W_2 (Z/4Z)": 6,
+          "W_3 (Z/8Z)": 6,
+          "W_4 (Z/16Z)": 6,
+          "W_5 (Z/32Z)": 6,
+          "W_6 (Z/64Z)": 6
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 0,
+          "W_5 (Z/32Z)": 0,
+          "W_6 (Z/64Z)": 0
+        }
+      },
+      "unordered_kneser_KG_n_2": {
+        "rows": 6,
+        "cols": 6,
+        "snf_matches_M_2_2_exactly": true
+      }
+    },
+    "5": {
+      "M_2_2_full": {
+        "rows": 25,
+        "cols": 25,
+        "rank_Q": 10,
+        "rank_F2": 6,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          6
+        ],
+        "snf_multiplicities": {
+          "1": 6,
+          "2": 3,
+          "6": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "v2_multiplicities": {
+          "0": 6,
+          "1": 4
+        },
+        "max_v2": 1,
+        "even_invariant_factors": [
+          2,
+          2,
+          2,
+          6
+        ],
+        "first_full_visibility_witt_depth": 2,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 6,
+          "W_2 (Z/4Z)": 10,
+          "W_3 (Z/8Z)": 10,
+          "W_4 (Z/16Z)": 10,
+          "W_5 (Z/32Z)": 10,
+          "W_6 (Z/64Z)": 10
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 4,
+          "W_3 (Z/8Z)": 4,
+          "W_4 (Z/16Z)": 4,
+          "W_5 (Z/32Z)": 4,
+          "W_6 (Z/64Z)": 4
+        }
+      },
+      "unordered_kneser_KG_n_2": {
+        "rows": 10,
+        "cols": 10,
+        "snf_matches_M_2_2_exactly": true
+      }
+    },
+    "6": {
+      "M_2_2_full": {
+        "rows": 36,
+        "cols": 36,
+        "rank_Q": 15,
+        "rank_F2": 14,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          3,
+          6
+        ],
+        "snf_multiplicities": {
+          "1": 9,
+          "3": 5,
+          "6": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "v2_multiplicities": {
+          "0": 14,
+          "1": 1
+        },
+        "max_v2": 1,
+        "even_invariant_factors": [
+          6
+        ],
+        "first_full_visibility_witt_depth": 2,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 14,
+          "W_2 (Z/4Z)": 15,
+          "W_3 (Z/8Z)": 15,
+          "W_4 (Z/16Z)": 15,
+          "W_5 (Z/32Z)": 15,
+          "W_6 (Z/64Z)": 15
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 1,
+          "W_3 (Z/8Z)": 1,
+          "W_4 (Z/16Z)": 1,
+          "W_5 (Z/32Z)": 1,
+          "W_6 (Z/64Z)": 1
+        }
+      },
+      "unordered_kneser_KG_n_2": {
+        "rows": 15,
+        "cols": 15,
+        "snf_matches_M_2_2_exactly": true
+      }
+    },
+    "7": {
+      "M_2_2_full": {
+        "rows": 49,
+        "cols": 49,
+        "rank_Q": 21,
+        "rank_F2": 14,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          4,
+          4,
+          4,
+          4,
+          4,
+          20
+        ],
+        "snf_multiplicities": {
+          "1": 14,
+          "2": 1,
+          "4": 5,
+          "20": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "v2_multiplicities": {
+          "0": 14,
+          "1": 1,
+          "2": 6
+        },
+        "max_v2": 2,
+        "even_invariant_factors": [
+          2,
+          4,
+          4,
+          4,
+          4,
+          4,
+          20
+        ],
+        "first_full_visibility_witt_depth": 3,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 14,
+          "W_2 (Z/4Z)": 15,
+          "W_3 (Z/8Z)": 21,
+          "W_4 (Z/16Z)": 21,
+          "W_5 (Z/32Z)": 21,
+          "W_6 (Z/64Z)": 21
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 1,
+          "W_3 (Z/8Z)": 7,
+          "W_4 (Z/16Z)": 7,
+          "W_5 (Z/32Z)": 7,
+          "W_6 (Z/64Z)": 7
+        }
+      },
+      "unordered_kneser_KG_n_2": {
+        "rows": 21,
+        "cols": 21,
+        "snf_matches_M_2_2_exactly": true
+      }
+    },
+    "8": {
+      "M_2_2_full": {
+        "rows": 64,
+        "cols": 64,
+        "rank_Q": 28,
+        "rank_F2": 28,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          15
+        ],
+        "snf_multiplicities": {
+          "1": 20,
+          "5": 7,
+          "15": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "v2_multiplicities": {
+          "0": 28
+        },
+        "max_v2": 0,
+        "even_invariant_factors": [],
+        "first_full_visibility_witt_depth": 1,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 28,
+          "W_2 (Z/4Z)": 28,
+          "W_3 (Z/8Z)": 28,
+          "W_4 (Z/16Z)": 28,
+          "W_5 (Z/32Z)": 28,
+          "W_6 (Z/64Z)": 28
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 0,
+          "W_5 (Z/32Z)": 0,
+          "W_6 (Z/64Z)": 0
+        }
+      },
+      "unordered_kneser_KG_n_2": {
+        "rows": 28,
+        "cols": 28,
+        "snf_matches_M_2_2_exactly": true
+      }
+    },
+    "9": {
+      "M_2_2_full": {
+        "rows": 81,
+        "cols": 81,
+        "rank_Q": 36,
+        "rank_F2": 28,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          42
+        ],
+        "snf_multiplicities": {
+          "1": 27,
+          "3": 1,
+          "6": 7,
+          "42": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "v2_multiplicities": {
+          "0": 28,
+          "1": 8
+        },
+        "max_v2": 1,
+        "even_invariant_factors": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          42
+        ],
+        "first_full_visibility_witt_depth": 2,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 28,
+          "W_2 (Z/4Z)": 36,
+          "W_3 (Z/8Z)": 36,
+          "W_4 (Z/16Z)": 36,
+          "W_5 (Z/32Z)": 36,
+          "W_6 (Z/64Z)": 36
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 8,
+          "W_3 (Z/8Z)": 8,
+          "W_4 (Z/16Z)": 8,
+          "W_5 (Z/32Z)": 8,
+          "W_6 (Z/64Z)": 8
+        }
+      },
+      "unordered_kneser_KG_n_2": {
+        "rows": 36,
+        "cols": 36,
+        "snf_matches_M_2_2_exactly": true
+      }
+    }
+  },
+  "c2_witt_second_carry_Z16": {
+    "4": {
+      "mobius_coeffs_a_k": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "witt_4x_coeffs_mod16": [
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "four_times_e4_sym_M22": {
+        "rows": 16,
+        "cols": 16,
+        "rank_Q": 6,
+        "rank_F2": 0,
+        "snf_Z": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "snf_multiplicities": {
+          "4": 6
+        },
+        "v2_spectrum": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "v2_multiplicities": {
+          "2": 6
+        },
+        "max_v2": 2,
+        "even_invariant_factors": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "first_full_visibility_witt_depth": 3,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 6,
+          "W_4 (Z/16Z)": 6,
+          "W_5 (Z/32Z)": 6,
+          "W_6 (Z/64Z)": 6
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 6,
+          "W_4 (Z/16Z)": 6,
+          "W_5 (Z/32Z)": 6,
+          "W_6 (Z/64Z)": 6
+        },
+        "invariant_factors_Z16": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "module_rank_Z16": 6
+      },
+      "exact_C2_ordered_d2": {
+        "rows": 6,
+        "cols": 6,
+        "rank_Q": 1,
+        "rank_F2": 1,
+        "snf_Z": [
+          1
+        ],
+        "snf_multiplicities": {
+          "1": 1
+        },
+        "v2_spectrum": [
+          0
+        ],
+        "v2_multiplicities": {
+          "0": 1
+        },
+        "max_v2": 0,
+        "even_invariant_factors": [],
+        "first_full_visibility_witt_depth": 1,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 1,
+          "W_2 (Z/4Z)": 1,
+          "W_3 (Z/8Z)": 1,
+          "W_4 (Z/16Z)": 1,
+          "W_5 (Z/32Z)": 1,
+          "W_6 (Z/64Z)": 1
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 0,
+          "W_5 (Z/32Z)": 0,
+          "W_6 (Z/64Z)": 0
+        }
+      },
+      "exact_4C2_ordered_d2_Z16": {
+        "snf_of_mod16_lift": [
+          4
+        ],
+        "invariant_factors_Z16": [
+          4
+        ],
+        "module_rank_Z16": 1
+      },
+      "exact_C2_symmetrized_d2": {
+        "rows": 6,
+        "cols": 6,
+        "rank_Q": 6,
+        "rank_F2": 6,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "snf_multiplicities": {
+          "1": 6
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "v2_multiplicities": {
+          "0": 6
+        },
+        "max_v2": 0,
+        "even_invariant_factors": [],
+        "first_full_visibility_witt_depth": 1,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 6,
+          "W_2 (Z/4Z)": 6,
+          "W_3 (Z/8Z)": 6,
+          "W_4 (Z/16Z)": 6,
+          "W_5 (Z/32Z)": 6,
+          "W_6 (Z/64Z)": 6
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 0,
+          "W_5 (Z/32Z)": 0,
+          "W_6 (Z/64Z)": 0
+        }
+      },
+      "exact_4C2_symmetrized_d2_Z16": {
+        "rows": 6,
+        "cols": 6,
+        "rank_Q": 6,
+        "rank_F2": 0,
+        "snf_Z": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "snf_multiplicities": {
+          "4": 6
+        },
+        "v2_spectrum": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "v2_multiplicities": {
+          "2": 6
+        },
+        "max_v2": 2,
+        "even_invariant_factors": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "first_full_visibility_witt_depth": 3,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 6,
+          "W_4 (Z/16Z)": 6,
+          "W_5 (Z/32Z)": 6,
+          "W_6 (Z/64Z)": 6
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 6,
+          "W_4 (Z/16Z)": 6,
+          "W_5 (Z/32Z)": 6,
+          "W_6 (Z/64Z)": 6
+        },
+        "invariant_factors_Z16": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "module_rank_Z16": 6,
+        "mod16_lift_matches_Z_reduction": true
+      }
+    },
+    "5": {
+      "mobius_coeffs_a_k": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        -4
+      ],
+      "witt_4x_coeffs_mod16": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "four_times_e4_sym_M22": {
+        "rows": 25,
+        "cols": 25,
+        "rank_Q": 10,
+        "rank_F2": 0,
+        "snf_Z": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8,
+          8,
+          8,
+          24
+        ],
+        "snf_multiplicities": {
+          "4": 6,
+          "8": 3,
+          "24": 1
+        },
+        "v2_spectrum": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3
+        ],
+        "v2_multiplicities": {
+          "2": 6,
+          "3": 4
+        },
+        "max_v2": 3,
+        "even_invariant_factors": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8,
+          8,
+          8,
+          24
+        ],
+        "first_full_visibility_witt_depth": 4,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 6,
+          "W_4 (Z/16Z)": 10,
+          "W_5 (Z/32Z)": 10,
+          "W_6 (Z/64Z)": 10
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 6,
+          "W_4 (Z/16Z)": 10,
+          "W_5 (Z/32Z)": 10,
+          "W_6 (Z/64Z)": 10
+        },
+        "invariant_factors_Z16": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8,
+          8,
+          8,
+          8
+        ],
+        "module_rank_Z16": 10
+      },
+      "exact_C2_ordered_d2": {
+        "rows": 10,
+        "cols": 20,
+        "rank_Q": 2,
+        "rank_F2": 2,
+        "snf_Z": [
+          1,
+          1
+        ],
+        "snf_multiplicities": {
+          "1": 2
+        },
+        "v2_spectrum": [
+          0,
+          0
+        ],
+        "v2_multiplicities": {
+          "0": 2
+        },
+        "max_v2": 0,
+        "even_invariant_factors": [],
+        "first_full_visibility_witt_depth": 1,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 2,
+          "W_2 (Z/4Z)": 2,
+          "W_3 (Z/8Z)": 2,
+          "W_4 (Z/16Z)": 2,
+          "W_5 (Z/32Z)": 2,
+          "W_6 (Z/64Z)": 2
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 0,
+          "W_5 (Z/32Z)": 0,
+          "W_6 (Z/64Z)": 0
+        }
+      },
+      "exact_4C2_ordered_d2_Z16": {
+        "snf_of_mod16_lift": [
+          4,
+          4
+        ],
+        "invariant_factors_Z16": [
+          4,
+          4
+        ],
+        "module_rank_Z16": 2
+      },
+      "exact_C2_symmetrized_d2": {
+        "rows": 10,
+        "cols": 20,
+        "rank_Q": 10,
+        "rank_F2": 6,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "snf_multiplicities": {
+          "1": 6,
+          "2": 4
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "v2_multiplicities": {
+          "0": 6,
+          "1": 4
+        },
+        "max_v2": 1,
+        "even_invariant_factors": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "first_full_visibility_witt_depth": 2,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 6,
+          "W_2 (Z/4Z)": 10,
+          "W_3 (Z/8Z)": 10,
+          "W_4 (Z/16Z)": 10,
+          "W_5 (Z/32Z)": 10,
+          "W_6 (Z/64Z)": 10
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 4,
+          "W_3 (Z/8Z)": 4,
+          "W_4 (Z/16Z)": 4,
+          "W_5 (Z/32Z)": 4,
+          "W_6 (Z/64Z)": 4
+        }
+      },
+      "exact_4C2_symmetrized_d2_Z16": {
+        "rows": 10,
+        "cols": 20,
+        "rank_Q": 10,
+        "rank_F2": 0,
+        "snf_Z": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8,
+          8,
+          8,
+          8
+        ],
+        "snf_multiplicities": {
+          "4": 6,
+          "8": 4
+        },
+        "v2_spectrum": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3
+        ],
+        "v2_multiplicities": {
+          "2": 6,
+          "3": 4
+        },
+        "max_v2": 3,
+        "even_invariant_factors": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8,
+          8,
+          8,
+          8
+        ],
+        "first_full_visibility_witt_depth": 4,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 6,
+          "W_4 (Z/16Z)": 10,
+          "W_5 (Z/32Z)": 10,
+          "W_6 (Z/64Z)": 10
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 6,
+          "W_4 (Z/16Z)": 10,
+          "W_5 (Z/32Z)": 10,
+          "W_6 (Z/64Z)": 10
+        },
+        "invariant_factors_Z16": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8,
+          8,
+          8,
+          8
+        ],
+        "module_rank_Z16": 10,
+        "mod16_lift_matches_Z_reduction": true
+      }
+    },
+    "6": {
+      "mobius_coeffs_a_k": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        -4,
+        10
+      ],
+      "witt_4x_coeffs_mod16": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        8
+      ],
+      "four_times_e4_sym_M22": {
+        "rows": 36,
+        "cols": 36,
+        "rank_Q": 15,
+        "rank_F2": 0,
+        "snf_Z": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          12,
+          12,
+          12,
+          12,
+          12,
+          24
+        ],
+        "snf_multiplicities": {
+          "4": 9,
+          "12": 5,
+          "24": 1
+        },
+        "v2_spectrum": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3
+        ],
+        "v2_multiplicities": {
+          "2": 14,
+          "3": 1
+        },
+        "max_v2": 3,
+        "even_invariant_factors": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          12,
+          12,
+          12,
+          12,
+          12,
+          24
+        ],
+        "first_full_visibility_witt_depth": 4,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 14,
+          "W_4 (Z/16Z)": 15,
+          "W_5 (Z/32Z)": 15,
+          "W_6 (Z/64Z)": 15
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 14,
+          "W_4 (Z/16Z)": 15,
+          "W_5 (Z/32Z)": 15,
+          "W_6 (Z/64Z)": 15
+        },
+        "invariant_factors_Z16": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8
+        ],
+        "module_rank_Z16": 15
+      },
+      "exact_C2_ordered_d2": {
+        "rows": 15,
+        "cols": 50,
+        "rank_Q": 3,
+        "rank_F2": 3,
+        "snf_Z": [
+          1,
+          1,
+          1
+        ],
+        "snf_multiplicities": {
+          "1": 3
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0
+        ],
+        "v2_multiplicities": {
+          "0": 3
+        },
+        "max_v2": 0,
+        "even_invariant_factors": [],
+        "first_full_visibility_witt_depth": 1,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 3,
+          "W_2 (Z/4Z)": 3,
+          "W_3 (Z/8Z)": 3,
+          "W_4 (Z/16Z)": 3,
+          "W_5 (Z/32Z)": 3,
+          "W_6 (Z/64Z)": 3
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 0,
+          "W_5 (Z/32Z)": 0,
+          "W_6 (Z/64Z)": 0
+        }
+      },
+      "exact_4C2_ordered_d2_Z16": {
+        "snf_of_mod16_lift": [
+          4,
+          4,
+          4
+        ],
+        "invariant_factors_Z16": [
+          4,
+          4,
+          4
+        ],
+        "module_rank_Z16": 3
+      },
+      "exact_C2_symmetrized_d2": {
+        "rows": 15,
+        "cols": 50,
+        "rank_Q": 15,
+        "rank_F2": 14,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "snf_multiplicities": {
+          "1": 14,
+          "2": 1
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "v2_multiplicities": {
+          "0": 14,
+          "1": 1
+        },
+        "max_v2": 1,
+        "even_invariant_factors": [
+          2
+        ],
+        "first_full_visibility_witt_depth": 2,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 14,
+          "W_2 (Z/4Z)": 15,
+          "W_3 (Z/8Z)": 15,
+          "W_4 (Z/16Z)": 15,
+          "W_5 (Z/32Z)": 15,
+          "W_6 (Z/64Z)": 15
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 1,
+          "W_3 (Z/8Z)": 1,
+          "W_4 (Z/16Z)": 1,
+          "W_5 (Z/32Z)": 1,
+          "W_6 (Z/64Z)": 1
+        }
+      },
+      "exact_4C2_symmetrized_d2_Z16": {
+        "rows": 15,
+        "cols": 50,
+        "rank_Q": 15,
+        "rank_F2": 0,
+        "snf_Z": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8
+        ],
+        "snf_multiplicities": {
+          "4": 14,
+          "8": 1
+        },
+        "v2_spectrum": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3
+        ],
+        "v2_multiplicities": {
+          "2": 14,
+          "3": 1
+        },
+        "max_v2": 3,
+        "even_invariant_factors": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8
+        ],
+        "first_full_visibility_witt_depth": 4,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 14,
+          "W_4 (Z/16Z)": 15,
+          "W_5 (Z/32Z)": 15,
+          "W_6 (Z/64Z)": 15
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 14,
+          "W_4 (Z/16Z)": 15,
+          "W_5 (Z/32Z)": 15,
+          "W_6 (Z/64Z)": 15
+        },
+        "invariant_factors_Z16": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8
+        ],
+        "module_rank_Z16": 15,
+        "mod16_lift_matches_Z_reduction": true
+      }
+    },
+    "7": {
+      "mobius_coeffs_a_k": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        -4,
+        10,
+        -20
+      ],
+      "witt_4x_coeffs_mod16": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        8,
+        0
+      ],
+      "four_times_e4_sym_M22": {
+        "rows": 49,
+        "cols": 49,
+        "rank_Q": 21,
+        "rank_F2": 0,
+        "snf_Z": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8,
+          16,
+          16,
+          16,
+          16,
+          16,
+          80
+        ],
+        "snf_multiplicities": {
+          "4": 14,
+          "8": 1,
+          "16": 5,
+          "80": 1
+        },
+        "v2_spectrum": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "v2_multiplicities": {
+          "2": 14,
+          "3": 1,
+          "4": 6
+        },
+        "max_v2": 4,
+        "even_invariant_factors": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8,
+          16,
+          16,
+          16,
+          16,
+          16,
+          80
+        ],
+        "first_full_visibility_witt_depth": 5,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 14,
+          "W_4 (Z/16Z)": 15,
+          "W_5 (Z/32Z)": 21,
+          "W_6 (Z/64Z)": 21
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 14,
+          "W_4 (Z/16Z)": 15,
+          "W_5 (Z/32Z)": 21,
+          "W_6 (Z/64Z)": 21
+        },
+        "invariant_factors_Z16": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8
+        ],
+        "module_rank_Z16": 15
+      },
+      "exact_C2_ordered_d2": {
+        "rows": 21,
+        "cols": 112,
+        "rank_Q": 4,
+        "rank_F2": 4,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "snf_multiplicities": {
+          "1": 4
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "v2_multiplicities": {
+          "0": 4
+        },
+        "max_v2": 0,
+        "even_invariant_factors": [],
+        "first_full_visibility_witt_depth": 1,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 4,
+          "W_2 (Z/4Z)": 4,
+          "W_3 (Z/8Z)": 4,
+          "W_4 (Z/16Z)": 4,
+          "W_5 (Z/32Z)": 4,
+          "W_6 (Z/64Z)": 4
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 0,
+          "W_5 (Z/32Z)": 0,
+          "W_6 (Z/64Z)": 0
+        }
+      },
+      "exact_4C2_ordered_d2_Z16": {
+        "snf_of_mod16_lift": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "invariant_factors_Z16": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "module_rank_Z16": 4
+      },
+      "exact_C2_symmetrized_d2": {
+        "rows": 21,
+        "cols": 112,
+        "rank_Q": 21,
+        "rank_F2": 14,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "snf_multiplicities": {
+          "1": 14,
+          "2": 1,
+          "4": 6
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "v2_multiplicities": {
+          "0": 14,
+          "1": 1,
+          "2": 6
+        },
+        "max_v2": 2,
+        "even_invariant_factors": [
+          2,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "first_full_visibility_witt_depth": 3,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 14,
+          "W_2 (Z/4Z)": 15,
+          "W_3 (Z/8Z)": 21,
+          "W_4 (Z/16Z)": 21,
+          "W_5 (Z/32Z)": 21,
+          "W_6 (Z/64Z)": 21
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 1,
+          "W_3 (Z/8Z)": 7,
+          "W_4 (Z/16Z)": 7,
+          "W_5 (Z/32Z)": 7,
+          "W_6 (Z/64Z)": 7
+        }
+      },
+      "exact_4C2_symmetrized_d2_Z16": {
+        "rows": 21,
+        "cols": 112,
+        "rank_Q": 21,
+        "rank_F2": 0,
+        "snf_Z": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
+        "snf_multiplicities": {
+          "4": 14,
+          "8": 1,
+          "16": 6
+        },
+        "v2_spectrum": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "v2_multiplicities": {
+          "2": 14,
+          "3": 1,
+          "4": 6
+        },
+        "max_v2": 4,
+        "even_invariant_factors": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
+        "first_full_visibility_witt_depth": 5,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 14,
+          "W_4 (Z/16Z)": 15,
+          "W_5 (Z/32Z)": 21,
+          "W_6 (Z/64Z)": 21
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 14,
+          "W_4 (Z/16Z)": 15,
+          "W_5 (Z/32Z)": 21,
+          "W_6 (Z/64Z)": 21
+        },
+        "invariant_factors_Z16": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          8
+        ],
+        "module_rank_Z16": 15,
+        "mod16_lift_matches_Z_reduction": true
+      }
+    },
+    "8": {
+      "mobius_coeffs_a_k": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        -4,
+        10,
+        -20,
+        34
+      ],
+      "witt_4x_coeffs_mod16": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        8,
+        0,
+        8
+      ],
+      "four_times_e4_sym_M22": {
+        "rows": 64,
+        "cols": 64,
+        "rank_Q": 28,
+        "rank_F2": 0,
+        "snf_Z": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          60
+        ],
+        "snf_multiplicities": {
+          "4": 20,
+          "20": 7,
+          "60": 1
+        },
+        "v2_spectrum": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "v2_multiplicities": {
+          "2": 28
+        },
+        "max_v2": 2,
+        "even_invariant_factors": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          60
+        ],
+        "first_full_visibility_witt_depth": 3,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 28,
+          "W_4 (Z/16Z)": 28,
+          "W_5 (Z/32Z)": 28,
+          "W_6 (Z/64Z)": 28
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 28,
+          "W_4 (Z/16Z)": 28,
+          "W_5 (Z/32Z)": 28,
+          "W_6 (Z/64Z)": 28
+        },
+        "invariant_factors_Z16": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "module_rank_Z16": 28
+      },
+      "exact_C2_ordered_d2": {
+        "rows": 28,
+        "cols": 238,
+        "rank_Q": 5,
+        "rank_F2": 5,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "snf_multiplicities": {
+          "1": 5
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "v2_multiplicities": {
+          "0": 5
+        },
+        "max_v2": 0,
+        "even_invariant_factors": [],
+        "first_full_visibility_witt_depth": 1,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 5,
+          "W_2 (Z/4Z)": 5,
+          "W_3 (Z/8Z)": 5,
+          "W_4 (Z/16Z)": 5,
+          "W_5 (Z/32Z)": 5,
+          "W_6 (Z/64Z)": 5
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 0,
+          "W_5 (Z/32Z)": 0,
+          "W_6 (Z/64Z)": 0
+        }
+      },
+      "exact_4C2_ordered_d2_Z16": {
+        "snf_of_mod16_lift": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "invariant_factors_Z16": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "module_rank_Z16": 5
+      },
+      "exact_C2_symmetrized_d2": {
+        "rows": 28,
+        "cols": 238,
+        "rank_Q": 28,
+        "rank_F2": 28,
+        "snf_Z": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "snf_multiplicities": {
+          "1": 28
+        },
+        "v2_spectrum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "v2_multiplicities": {
+          "0": 28
+        },
+        "max_v2": 0,
+        "even_invariant_factors": [],
+        "first_full_visibility_witt_depth": 1,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 28,
+          "W_2 (Z/4Z)": 28,
+          "W_3 (Z/8Z)": 28,
+          "W_4 (Z/16Z)": 28,
+          "W_5 (Z/32Z)": 28,
+          "W_6 (Z/64Z)": 28
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 0,
+          "W_4 (Z/16Z)": 0,
+          "W_5 (Z/32Z)": 0,
+          "W_6 (Z/64Z)": 0
+        }
+      },
+      "exact_4C2_symmetrized_d2_Z16": {
+        "rows": 28,
+        "cols": 238,
+        "rank_Q": 28,
+        "rank_F2": 0,
+        "snf_Z": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "snf_multiplicities": {
+          "4": 28
+        },
+        "v2_spectrum": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "v2_multiplicities": {
+          "2": 28
+        },
+        "max_v2": 2,
+        "even_invariant_factors": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "first_full_visibility_witt_depth": 3,
+        "witt_module_ranks": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 28,
+          "W_4 (Z/16Z)": 28,
+          "W_5 (Z/32Z)": 28,
+          "W_6 (Z/64Z)": 28
+        },
+        "witt_zero_divisor_gaps": {
+          "W_1 (Z/2Z)": 0,
+          "W_2 (Z/4Z)": 0,
+          "W_3 (Z/8Z)": 28,
+          "W_4 (Z/16Z)": 28,
+          "W_5 (Z/32Z)": 28,
+          "W_6 (Z/64Z)": 28
+        },
+        "invariant_factors_Z16": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "module_rank_Z16": 28,
+        "mod16_lift_matches_Z_reduction": true
+      }
+    }
+  },
+  "discovered_closed_form_laws": {
+    "e2_sym_M1": {
+      "formula": "SNF_Z(M_1(e_2^sym)) = (1^{n-1}, n - 1) for all n >= 2",
+      "lean4_proven_universal": true,
+      "first_witt_depth_law": "At n = 2^r + 1, top factor 2^r vanishes in W_j(F_2) for j <= r and emerges at W_{r+1}(F_2) = Z/2^{r+1}Z",
+      "verified_n_range": [
+        2,
+        18
+      ]
+    },
+    "e3_sym_M12": {
+      "formula": "SNF_Z(M_{1,2}(e_3^sym)) = (1^{n-1}, n - 2) for all n >= 3",
+      "verified_for_all_n_3_to_12": true,
+      "first_witt_depth_law": "At n = 2^r + 2, top factor 2^r vanishes in W_j(F_2) for j <= r and emerges at W_{r+1}(F_2) = Z/2^{r+1}Z",
+      "verified_n_range": [
+        3,
+        12
+      ]
+    },
+    "e4_sym_M22_kneser": {
+      "formula_even_n": "SNF_Z(M_{2,2}(e_4^sym)) = (1^{n(n-3)/2}, (n-3)^{n-1}, ((n-2)(n-3)/2)^1) for even n >= 4",
+      "formula_odd_n": "SNF_Z(M_{2,2}(e_4^sym)) = (1^{n(n-3)/2}, ((n-3)/2)^1, (n-3)^{n-2}, ((n-2)(n-3))^1) for odd n >= 5",
+      "verified_for_all_n_4_to_9": true,
+      "v2_spectrum_law_even_n": "(0^{binom(n,2)-1}, v_2(n-2) - 1); single torsion factor emerging at W_{v_2(n-2)}(F_2)",
+      "v2_spectrum_law_odd_n": "Let r = v_2(n-3) >= 1: (0^{n(n-3)/2}, (r-1)^1, r^{n-1}); linear-size block of (n-1) simultaneous 2^r-torsion factors emerging at W_{r+1}(F_2) for n = 2^r + 3",
+      "verified_n_range": [
+        4,
+        9
+      ]
+    },
+    "c2_witt_second_carry_Z16": {
+      "witt_mod16_expansion": "4 * C_2(x) = 4*e_4(x) + 8*e_6(x) + 8*e_8(x) (mod 16) for n <= 8",
+      "Z16_invariant_factors_4C2_sym_match_4e4_sym": true,
+      "ordered_vs_symmetrized_Z16_rank": "4*C_2^{ord} has Z/16Z rank n - 3, whereas 4*C_2^{sym} reaches binom(n, 2) (e.g. 28 vs 5 at n=8); at n=7, 6 factors of 4-torsion in C_2^sym vanish mod 16 under 4x scaling and require W_5(F_2)=Z/32Z",
+      "verified_n_range": [
+        4,
+        8
+      ]
+    }
+  }
+}

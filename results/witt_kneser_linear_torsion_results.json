@@ -1,0 +1,2111 @@
+{
+  "metadata": {
+    "attack": "ATAQUE-12",
+    "title": "Universal Kneser KG(n,2) / e4_sym 2-Adic Torsion & NC-IPS Separation over W_k(F2)",
+    "elapsed_seconds": 0.2316
+  },
+  "e3_sym_M12_n3_to_14": {
+    "3": {
+      "rows": 3,
+      "cols": 9,
+      "rank_Q": 3,
+      "rank_F2": 3,
+      "snf_Z": [
+        1,
+        1,
+        1
+      ],
+      "snf_multiplicities": {
+        "1": 3
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 3
+      },
+      "max_v2": 0,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 3,
+        "Z/4Z": 3,
+        "Z/8Z": 3,
+        "Z/16Z": 3,
+        "Z/32Z": 3
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 0,
+        "Z/8Z": 0,
+        "Z/16Z": 0,
+        "Z/32Z": 0
+      },
+      "johnson_cols": 3,
+      "matches_closed_form": true
+    },
+    "4": {
+      "rows": 4,
+      "cols": 16,
+      "rank_Q": 4,
+      "rank_F2": 3,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "snf_multiplicities": {
+        "1": 3,
+        "2": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "v2_multiplicities": {
+        "0": 3,
+        "1": 1
+      },
+      "max_v2": 1,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 3,
+        "Z/4Z": 4,
+        "Z/8Z": 4,
+        "Z/16Z": 4,
+        "Z/32Z": 4
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 1,
+        "Z/8Z": 1,
+        "Z/16Z": 1,
+        "Z/32Z": 1
+      },
+      "johnson_cols": 6,
+      "matches_closed_form": true
+    },
+    "5": {
+      "rows": 5,
+      "cols": 25,
+      "rank_Q": 5,
+      "rank_F2": 5,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        3
+      ],
+      "snf_multiplicities": {
+        "1": 4,
+        "3": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 5
+      },
+      "max_v2": 0,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 5,
+        "Z/4Z": 5,
+        "Z/8Z": 5,
+        "Z/16Z": 5,
+        "Z/32Z": 5
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 0,
+        "Z/8Z": 0,
+        "Z/16Z": 0,
+        "Z/32Z": 0
+      },
+      "johnson_cols": 10,
+      "matches_closed_form": true
+    },
+    "6": {
+      "rows": 6,
+      "cols": 36,
+      "rank_Q": 6,
+      "rank_F2": 5,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        4
+      ],
+      "snf_multiplicities": {
+        "1": 5,
+        "4": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "v2_multiplicities": {
+        "0": 5,
+        "2": 1
+      },
+      "max_v2": 2,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 5,
+        "Z/4Z": 5,
+        "Z/8Z": 6,
+        "Z/16Z": 6,
+        "Z/32Z": 6
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 0,
+        "Z/8Z": 1,
+        "Z/16Z": 1,
+        "Z/32Z": 1
+      },
+      "johnson_cols": 15,
+      "matches_closed_form": true
+    },
+    "7": {
+      "rows": 7,
+      "cols": 49,
+      "rank_Q": 7,
+      "rank_F2": 7,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        5
+      ],
+      "snf_multiplicities": {
+        "1": 6,
+        "5": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 7
+      },
+      "max_v2": 0,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 7,
+        "Z/4Z": 7,
+        "Z/8Z": 7,
+        "Z/16Z": 7,
+        "Z/32Z": 7
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 0,
+        "Z/8Z": 0,
+        "Z/16Z": 0,
+        "Z/32Z": 0
+      },
+      "johnson_cols": 21,
+      "matches_closed_form": true
+    },
+    "8": {
+      "rows": 8,
+      "cols": 64,
+      "rank_Q": 8,
+      "rank_F2": 7,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        6
+      ],
+      "snf_multiplicities": {
+        "1": 7,
+        "6": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "v2_multiplicities": {
+        "0": 7,
+        "1": 1
+      },
+      "max_v2": 1,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 7,
+        "Z/4Z": 8,
+        "Z/8Z": 8,
+        "Z/16Z": 8,
+        "Z/32Z": 8
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 1,
+        "Z/8Z": 1,
+        "Z/16Z": 1,
+        "Z/32Z": 1
+      },
+      "johnson_cols": 28,
+      "matches_closed_form": true
+    },
+    "9": {
+      "rows": 9,
+      "cols": 81,
+      "rank_Q": 9,
+      "rank_F2": 9,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        7
+      ],
+      "snf_multiplicities": {
+        "1": 8,
+        "7": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 9
+      },
+      "max_v2": 0,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 9,
+        "Z/4Z": 9,
+        "Z/8Z": 9,
+        "Z/16Z": 9,
+        "Z/32Z": 9
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 0,
+        "Z/8Z": 0,
+        "Z/16Z": 0,
+        "Z/32Z": 0
+      },
+      "johnson_cols": 36,
+      "matches_closed_form": true
+    },
+    "10": {
+      "rows": 10,
+      "cols": 100,
+      "rank_Q": 10,
+      "rank_F2": 9,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        8
+      ],
+      "snf_multiplicities": {
+        "1": 9,
+        "8": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "v2_multiplicities": {
+        "0": 9,
+        "3": 1
+      },
+      "max_v2": 3,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 9,
+        "Z/4Z": 9,
+        "Z/8Z": 9,
+        "Z/16Z": 10,
+        "Z/32Z": 10
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 0,
+        "Z/8Z": 0,
+        "Z/16Z": 1,
+        "Z/32Z": 1
+      },
+      "johnson_cols": 45,
+      "matches_closed_form": true
+    },
+    "11": {
+      "rows": 11,
+      "cols": 121,
+      "rank_Q": 11,
+      "rank_F2": 11,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        9
+      ],
+      "snf_multiplicities": {
+        "1": 10,
+        "9": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 11
+      },
+      "max_v2": 0,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 11,
+        "Z/4Z": 11,
+        "Z/8Z": 11,
+        "Z/16Z": 11,
+        "Z/32Z": 11
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 0,
+        "Z/8Z": 0,
+        "Z/16Z": 0,
+        "Z/32Z": 0
+      },
+      "johnson_cols": 55,
+      "matches_closed_form": true
+    },
+    "12": {
+      "rows": 12,
+      "cols": 144,
+      "rank_Q": 12,
+      "rank_F2": 11,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        10
+      ],
+      "snf_multiplicities": {
+        "1": 11,
+        "10": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "v2_multiplicities": {
+        "0": 11,
+        "1": 1
+      },
+      "max_v2": 1,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 11,
+        "Z/4Z": 12,
+        "Z/8Z": 12,
+        "Z/16Z": 12,
+        "Z/32Z": 12
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 1,
+        "Z/8Z": 1,
+        "Z/16Z": 1,
+        "Z/32Z": 1
+      },
+      "johnson_cols": 66,
+      "matches_closed_form": true
+    },
+    "13": {
+      "rows": 13,
+      "cols": 169,
+      "rank_Q": 13,
+      "rank_F2": 13,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        11
+      ],
+      "snf_multiplicities": {
+        "1": 12,
+        "11": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 13
+      },
+      "max_v2": 0,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 13,
+        "Z/4Z": 13,
+        "Z/8Z": 13,
+        "Z/16Z": 13,
+        "Z/32Z": 13
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 0,
+        "Z/8Z": 0,
+        "Z/16Z": 0,
+        "Z/32Z": 0
+      },
+      "johnson_cols": 78,
+      "matches_closed_form": true
+    },
+    "14": {
+      "rows": 14,
+      "cols": 196,
+      "rank_Q": 14,
+      "rank_F2": 13,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        12
+      ],
+      "snf_multiplicities": {
+        "1": 13,
+        "12": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "v2_multiplicities": {
+        "0": 13,
+        "2": 1
+      },
+      "max_v2": 2,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 13,
+        "Z/4Z": 13,
+        "Z/8Z": 14,
+        "Z/16Z": 14,
+        "Z/32Z": 14
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 0,
+        "Z/8Z": 1,
+        "Z/16Z": 1,
+        "Z/32Z": 1
+      },
+      "johnson_cols": 91,
+      "matches_closed_form": true
+    }
+  },
+  "kneser_KG_n_2_and_e4_sym_M22_n4_to_12": {
+    "4": {
+      "rows": 6,
+      "cols": 6,
+      "rank_Q": 6,
+      "rank_F2": 6,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "snf_multiplicities": {
+        "1": 6
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 6
+      },
+      "max_v2": 0,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 6,
+        "Z/4Z": 6,
+        "Z/8Z": 6,
+        "Z/16Z": 6,
+        "Z/32Z": 6
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 0,
+        "Z/8Z": 0,
+        "Z/16Z": 0,
+        "Z/32Z": 0
+      },
+      "M_2_2_dims": [
+        16,
+        16
+      ],
+      "M_2_2_snf_matches_KG_exactly": true,
+      "matches_closed_form": true
+    },
+    "5": {
+      "rows": 10,
+      "cols": 10,
+      "rank_Q": 10,
+      "rank_F2": 6,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        6
+      ],
+      "snf_multiplicities": {
+        "1": 6,
+        "2": 3,
+        "6": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "v2_multiplicities": {
+        "0": 6,
+        "1": 4
+      },
+      "max_v2": 1,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 6,
+        "Z/4Z": 10,
+        "Z/8Z": 10,
+        "Z/16Z": 10,
+        "Z/32Z": 10
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 4,
+        "Z/8Z": 4,
+        "Z/16Z": 4,
+        "Z/32Z": 4
+      },
+      "M_2_2_dims": [
+        25,
+        25
+      ],
+      "M_2_2_snf_matches_KG_exactly": true,
+      "matches_closed_form": true
+    },
+    "6": {
+      "rows": 15,
+      "cols": 15,
+      "rank_Q": 15,
+      "rank_F2": 14,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        6
+      ],
+      "snf_multiplicities": {
+        "1": 9,
+        "3": 5,
+        "6": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "v2_multiplicities": {
+        "0": 14,
+        "1": 1
+      },
+      "max_v2": 1,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 14,
+        "Z/4Z": 15,
+        "Z/8Z": 15,
+        "Z/16Z": 15,
+        "Z/32Z": 15
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 1,
+        "Z/8Z": 1,
+        "Z/16Z": 1,
+        "Z/32Z": 1
+      },
+      "M_2_2_dims": [
+        36,
+        36
+      ],
+      "M_2_2_snf_matches_KG_exactly": true,
+      "matches_closed_form": true
+    },
+    "7": {
+      "rows": 21,
+      "cols": 21,
+      "rank_Q": 21,
+      "rank_F2": 14,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        20
+      ],
+      "snf_multiplicities": {
+        "1": 14,
+        "2": 1,
+        "4": 5,
+        "20": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "v2_multiplicities": {
+        "0": 14,
+        "1": 1,
+        "2": 6
+      },
+      "max_v2": 2,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 14,
+        "Z/4Z": 15,
+        "Z/8Z": 21,
+        "Z/16Z": 21,
+        "Z/32Z": 21
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 1,
+        "Z/8Z": 7,
+        "Z/16Z": 7,
+        "Z/32Z": 7
+      },
+      "M_2_2_dims": [
+        49,
+        49
+      ],
+      "M_2_2_snf_matches_KG_exactly": true,
+      "matches_closed_form": true
+    },
+    "8": {
+      "rows": 28,
+      "cols": 28,
+      "rank_Q": 28,
+      "rank_F2": 28,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        15
+      ],
+      "snf_multiplicities": {
+        "1": 20,
+        "5": 7,
+        "15": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 28
+      },
+      "max_v2": 0,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 28,
+        "Z/4Z": 28,
+        "Z/8Z": 28,
+        "Z/16Z": 28,
+        "Z/32Z": 28
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 0,
+        "Z/8Z": 0,
+        "Z/16Z": 0,
+        "Z/32Z": 0
+      },
+      "M_2_2_dims": [
+        64,
+        64
+      ],
+      "M_2_2_snf_matches_KG_exactly": true,
+      "matches_closed_form": true
+    },
+    "9": {
+      "rows": 36,
+      "cols": 36,
+      "rank_Q": 36,
+      "rank_F2": 28,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        42
+      ],
+      "snf_multiplicities": {
+        "1": 27,
+        "3": 1,
+        "6": 7,
+        "42": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "v2_multiplicities": {
+        "0": 28,
+        "1": 8
+      },
+      "max_v2": 1,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 28,
+        "Z/4Z": 36,
+        "Z/8Z": 36,
+        "Z/16Z": 36,
+        "Z/32Z": 36
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 8,
+        "Z/8Z": 8,
+        "Z/16Z": 8,
+        "Z/32Z": 8
+      },
+      "M_2_2_dims": [
+        81,
+        81
+      ],
+      "M_2_2_snf_matches_KG_exactly": true,
+      "matches_closed_form": true
+    },
+    "10": {
+      "rows": 45,
+      "cols": 45,
+      "rank_Q": 45,
+      "rank_F2": 44,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        28
+      ],
+      "snf_multiplicities": {
+        "1": 35,
+        "7": 9,
+        "28": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "v2_multiplicities": {
+        "0": 44,
+        "2": 1
+      },
+      "max_v2": 2,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 44,
+        "Z/4Z": 44,
+        "Z/8Z": 45,
+        "Z/16Z": 45,
+        "Z/32Z": 45
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 0,
+        "Z/8Z": 1,
+        "Z/16Z": 1,
+        "Z/32Z": 1
+      },
+      "M_2_2_dims": [
+        100,
+        100
+      ],
+      "M_2_2_snf_matches_KG_exactly": true,
+      "matches_closed_form": true
+    },
+    "11": {
+      "rows": 55,
+      "cols": 55,
+      "rank_Q": 55,
+      "rank_F2": 44,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        72
+      ],
+      "snf_multiplicities": {
+        "1": 44,
+        "4": 1,
+        "8": 9,
+        "72": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "v2_multiplicities": {
+        "0": 44,
+        "2": 1,
+        "3": 10
+      },
+      "max_v2": 3,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 44,
+        "Z/4Z": 44,
+        "Z/8Z": 45,
+        "Z/16Z": 55,
+        "Z/32Z": 55
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 0,
+        "Z/8Z": 1,
+        "Z/16Z": 11,
+        "Z/32Z": 11
+      },
+      "M_2_2_dims": [
+        121,
+        121
+      ],
+      "M_2_2_snf_matches_KG_exactly": true,
+      "matches_closed_form": true
+    },
+    "12": {
+      "rows": 66,
+      "cols": 66,
+      "rank_Q": 66,
+      "rank_F2": 66,
+      "snf_Z": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        45
+      ],
+      "snf_multiplicities": {
+        "1": 54,
+        "9": 11,
+        "45": 1
+      },
+      "v2_spectrum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2_multiplicities": {
+        "0": 66
+      },
+      "max_v2": 0,
+      "witt_ranks_mod_2k": {
+        "Z/2Z": 66,
+        "Z/4Z": 66,
+        "Z/8Z": 66,
+        "Z/16Z": 66,
+        "Z/32Z": 66
+      },
+      "witt_torsion_gaps": {
+        "Z/2Z": 0,
+        "Z/4Z": 0,
+        "Z/8Z": 0,
+        "Z/16Z": 0,
+        "Z/32Z": 0
+      },
+      "M_2_2_dims": [
+        144,
+        144
+      ],
+      "M_2_2_snf_matches_KG_exactly": true,
+      "matches_closed_form": true
+    }
+  },
+  "torsion_block_multiplicity_verification": {
+    "4": {
+      "parity": "even",
+      "n_minus_3": 1,
+      "v2_n_minus_3": 0,
+      "max_v2_from_last_factor": 0,
+      "torsion_block_multiplicity_observed": 0
+    },
+    "5": {
+      "parity": "odd",
+      "n_minus_3": 2,
+      "r_v2_n_minus_3": 1,
+      "is_2_pow_r_plus_3": true,
+      "torsion_block_multiplicity_observed": 4,
+      "torsion_block_multiplicity_formula": 4,
+      "rank_jump_Wr_to_Wr1": 4
+    },
+    "6": {
+      "parity": "even",
+      "n_minus_3": 3,
+      "v2_n_minus_3": 0,
+      "max_v2_from_last_factor": 1,
+      "torsion_block_multiplicity_observed": 1
+    },
+    "7": {
+      "parity": "odd",
+      "n_minus_3": 4,
+      "r_v2_n_minus_3": 2,
+      "is_2_pow_r_plus_3": true,
+      "torsion_block_multiplicity_observed": 6,
+      "torsion_block_multiplicity_formula": 6,
+      "rank_jump_Wr_to_Wr1": 6
+    },
+    "8": {
+      "parity": "even",
+      "n_minus_3": 5,
+      "v2_n_minus_3": 0,
+      "max_v2_from_last_factor": 0,
+      "torsion_block_multiplicity_observed": 0
+    },
+    "9": {
+      "parity": "odd",
+      "n_minus_3": 6,
+      "r_v2_n_minus_3": 1,
+      "is_2_pow_r_plus_3": false,
+      "torsion_block_multiplicity_observed": 8,
+      "torsion_block_multiplicity_formula": 8,
+      "rank_jump_Wr_to_Wr1": 8
+    },
+    "10": {
+      "parity": "even",
+      "n_minus_3": 7,
+      "v2_n_minus_3": 0,
+      "max_v2_from_last_factor": 2,
+      "torsion_block_multiplicity_observed": 1
+    },
+    "11": {
+      "parity": "odd",
+      "n_minus_3": 8,
+      "r_v2_n_minus_3": 3,
+      "is_2_pow_r_plus_3": true,
+      "torsion_block_multiplicity_observed": 10,
+      "torsion_block_multiplicity_formula": 10,
+      "rank_jump_Wr_to_Wr1": 10
+    },
+    "12": {
+      "parity": "even",
+      "n_minus_3": 9,
+      "v2_n_minus_3": 0,
+      "max_v2_from_last_factor": 0,
+      "torsion_block_multiplicity_observed": 0
+    }
+  },
+  "nc_ips_vs_ordered_4C2_mod16_n4_to_10": {
+    "4": {
+      "ordered_matrix_dims": [
+        6,
+        6
+      ],
+      "symmetrized_matrix_dims": [
+        6,
+        6
+      ],
+      "ordered_rank_Z16": 1,
+      "nc_ips_nisan_rank_Z16": 6,
+      "separation_gap_Z16": 5,
+      "ratio_nc_over_ordered": 6.0,
+      "ordered_invariant_factors_Z16": [
+        4
+      ],
+      "nc_symmetrized_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "four_times_KG_n_2_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "matches_4_times_KG_n_2_mod_16": true
+    },
+    "5": {
+      "ordered_matrix_dims": [
+        10,
+        20
+      ],
+      "symmetrized_matrix_dims": [
+        10,
+        20
+      ],
+      "ordered_rank_Z16": 2,
+      "nc_ips_nisan_rank_Z16": 10,
+      "separation_gap_Z16": 8,
+      "ratio_nc_over_ordered": 5.0,
+      "ordered_invariant_factors_Z16": [
+        4,
+        4
+      ],
+      "nc_symmetrized_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        8,
+        8,
+        8,
+        8
+      ],
+      "four_times_KG_n_2_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        8,
+        8,
+        8,
+        8
+      ],
+      "matches_4_times_KG_n_2_mod_16": true
+    },
+    "6": {
+      "ordered_matrix_dims": [
+        15,
+        50
+      ],
+      "symmetrized_matrix_dims": [
+        15,
+        50
+      ],
+      "ordered_rank_Z16": 3,
+      "nc_ips_nisan_rank_Z16": 15,
+      "separation_gap_Z16": 12,
+      "ratio_nc_over_ordered": 5.0,
+      "ordered_invariant_factors_Z16": [
+        4,
+        4,
+        4
+      ],
+      "nc_symmetrized_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        8
+      ],
+      "four_times_KG_n_2_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        8
+      ],
+      "matches_4_times_KG_n_2_mod_16": true
+    },
+    "7": {
+      "ordered_matrix_dims": [
+        21,
+        112
+      ],
+      "symmetrized_matrix_dims": [
+        21,
+        112
+      ],
+      "ordered_rank_Z16": 4,
+      "nc_ips_nisan_rank_Z16": 15,
+      "separation_gap_Z16": 11,
+      "ratio_nc_over_ordered": 3.75,
+      "ordered_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "nc_symmetrized_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        8
+      ],
+      "four_times_KG_n_2_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        8
+      ],
+      "matches_4_times_KG_n_2_mod_16": true
+    },
+    "8": {
+      "ordered_matrix_dims": [
+        28,
+        238
+      ],
+      "symmetrized_matrix_dims": [
+        28,
+        238
+      ],
+      "ordered_rank_Z16": 5,
+      "nc_ips_nisan_rank_Z16": 28,
+      "separation_gap_Z16": 23,
+      "ratio_nc_over_ordered": 5.6,
+      "ordered_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "nc_symmetrized_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "four_times_KG_n_2_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "matches_4_times_KG_n_2_mod_16": true
+    },
+    "9": {
+      "ordered_matrix_dims": [
+        36,
+        492
+      ],
+      "symmetrized_matrix_dims": [
+        36,
+        492
+      ],
+      "ordered_rank_Z16": 6,
+      "nc_ips_nisan_rank_Z16": 36,
+      "separation_gap_Z16": 30,
+      "ratio_nc_over_ordered": 6.0,
+      "ordered_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "nc_symmetrized_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "four_times_KG_n_2_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "matches_4_times_KG_n_2_mod_16": true
+    },
+    "10": {
+      "ordered_matrix_dims": [
+        45,
+        1002
+      ],
+      "symmetrized_matrix_dims": [
+        45,
+        1002
+      ],
+      "ordered_rank_Z16": 7,
+      "nc_ips_nisan_rank_Z16": 45,
+      "separation_gap_Z16": 38,
+      "ratio_nc_over_ordered": 6.4286,
+      "ordered_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "nc_symmetrized_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        8
+      ],
+      "four_times_KG_n_2_invariant_factors_Z16": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "matches_4_times_KG_n_2_mod_16": false
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "veripb_version": "3.0.2",
+  "kissat_version": "4.0.4",
+  "php_suite": [
+    {
+      "instance": "PHP_7_6",
+      "n": 6,
+      "vars": 42,
+      "clauses": 133,
+      "dom_g1": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "emit_ms": 0.3,
+        "veripb_ms": 13.76,
+        "dom_steps": 36,
+        "rup_steps": 22,
+        "pbp_lines": 84,
+        "pbp_bytes": 8226,
+        "pbp_file": "results/dominance_g1_pbp/php_7_6_dom_g1.pbp"
+      },
+      "cp_v04": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "veripb_ms": 8.85,
+        "pol_steps": 31,
+        "pbp_lines": 36,
+        "pbp_bytes": 1210,
+        "pbp_file": "results/dominance_g1_pbp/php_7_6_cp_v04.pbp"
+      },
+      "kissat": {
+        "status": "UNSAT",
+        "time_ms": 20.4
+      }
+    },
+    {
+      "instance": "PHP_9_8",
+      "n": 8,
+      "vars": 72,
+      "clauses": 297,
+      "dom_g1": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "emit_ms": 0.48,
+        "veripb_ms": 19.74,
+        "dom_steps": 64,
+        "rup_steps": 37,
+        "pbp_lines": 127,
+        "pbp_bytes": 18180,
+        "pbp_file": "results/dominance_g1_pbp/php_9_8_dom_g1.pbp"
+      },
+      "cp_v04": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "veripb_ms": 10.39,
+        "pol_steps": 57,
+        "pbp_lines": 62,
+        "pbp_bytes": 2558,
+        "pbp_file": "results/dominance_g1_pbp/php_9_8_cp_v04.pbp"
+      },
+      "kissat": {
+        "status": "UNSAT",
+        "time_ms": 355.23
+      }
+    },
+    {
+      "instance": "PHP_11_10",
+      "n": 10,
+      "vars": 110,
+      "clauses": 561,
+      "dom_g1": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "emit_ms": 2.73,
+        "veripb_ms": 60.02,
+        "dom_steps": 100,
+        "rup_steps": 56,
+        "pbp_lines": 182,
+        "pbp_bytes": 34727,
+        "pbp_file": "results/dominance_g1_pbp/php_11_10_dom_g1.pbp"
+      },
+      "cp_v04": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "veripb_ms": 19.0,
+        "pol_steps": 91,
+        "pbp_lines": 96,
+        "pbp_bytes": 4628,
+        "pbp_file": "results/dominance_g1_pbp/php_11_10_cp_v04.pbp"
+      },
+      "kissat": {
+        "status": "UNSAT",
+        "time_ms": 9606.68
+      }
+    },
+    {
+      "instance": "PHP_13_12",
+      "n": 12,
+      "vars": 156,
+      "clauses": 949,
+      "dom_g1": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "emit_ms": 4.55,
+        "veripb_ms": 51.42,
+        "dom_steps": 144,
+        "rup_steps": 79,
+        "pbp_lines": 249,
+        "pbp_bytes": 61750,
+        "pbp_file": "results/dominance_g1_pbp/php_13_12_dom_g1.pbp"
+      },
+      "cp_v04": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "veripb_ms": 14.77,
+        "pol_steps": 133,
+        "pbp_lines": 138,
+        "pbp_bytes": 7676,
+        "pbp_file": "results/dominance_g1_pbp/php_13_12_cp_v04.pbp"
+      },
+      "kissat": {
+        "status": "TIMEOUT_30s",
+        "time_ms": 30000.0
+      }
+    },
+    {
+      "instance": "PHP_17_16",
+      "n": 16,
+      "vars": 272,
+      "clauses": 2193,
+      "dom_g1": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "emit_ms": 9.75,
+        "veripb_ms": 366.68,
+        "dom_steps": 256,
+        "rup_steps": 137,
+        "pbp_lines": 419,
+        "pbp_bytes": 151752,
+        "pbp_file": "results/dominance_g1_pbp/php_17_16_dom_g1.pbp"
+      },
+      "cp_v04": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "veripb_ms": 17.73,
+        "pol_steps": 241,
+        "pbp_lines": 246,
+        "pbp_bytes": 18153,
+        "pbp_file": "results/dominance_g1_pbp/php_17_16_cp_v04.pbp"
+      },
+      "kissat": {
+        "status": "TIMEOUT_30s",
+        "time_ms": 30000.0
+      }
+    }
+  ],
+  "weak_rank_and_bijection_suite": [
+    {
+      "instance": "Permuted_PHP_7_6",
+      "family": "Permuted_PHP",
+      "n": 6,
+      "vars": 42,
+      "clauses": 133,
+      "dom_g1": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "emit_ms": 0.37,
+        "veripb_ms": 16.22,
+        "dom_steps": 36,
+        "rup_steps": 22,
+        "pbp_lines": 84,
+        "pbp_bytes": 8540,
+        "pbp_file": "results/dominance_g1_pbp/permuted_php_7_6_dom_g1.pbp"
+      },
+      "kissat": {
+        "status": "UNSAT",
+        "time_ms": 22.41
+      }
+    },
+    {
+      "instance": "Permuted_PHP_9_8",
+      "family": "Permuted_PHP",
+      "n": 8,
+      "vars": 72,
+      "clauses": 297,
+      "dom_g1": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "emit_ms": 0.93,
+        "veripb_ms": 26.32,
+        "dom_steps": 64,
+        "rup_steps": 37,
+        "pbp_lines": 127,
+        "pbp_bytes": 19358,
+        "pbp_file": "results/dominance_g1_pbp/permuted_php_9_8_dom_g1.pbp"
+      },
+      "kissat": {
+        "status": "UNSAT",
+        "time_ms": 260.9
+      }
+    },
+    {
+      "instance": "Permuted_PHP_11_10",
+      "family": "Permuted_PHP",
+      "n": 10,
+      "vars": 110,
+      "clauses": 561,
+      "dom_g1": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "emit_ms": 3.37,
+        "veripb_ms": 42.57,
+        "dom_steps": 100,
+        "rup_steps": 56,
+        "pbp_lines": 182,
+        "pbp_bytes": 36614,
+        "pbp_file": "results/dominance_g1_pbp/permuted_php_11_10_dom_g1.pbp"
+      },
+      "kissat": {
+        "status": "UNSAT",
+        "time_ms": 14937.81
+      }
+    },
+    {
+      "instance": "Permuted_PHP_13_12",
+      "family": "Permuted_PHP",
+      "n": 12,
+      "vars": 156,
+      "clauses": 949,
+      "dom_g1": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "emit_ms": 8.22,
+        "veripb_ms": 178.13,
+        "dom_steps": 144,
+        "rup_steps": 79,
+        "pbp_lines": 249,
+        "pbp_bytes": 64838,
+        "pbp_file": "results/dominance_g1_pbp/permuted_php_13_12_dom_g1.pbp"
+      },
+      "kissat": {
+        "status": "TIMEOUT_30s",
+        "time_ms": 30000.0
+      }
+    },
+    {
+      "instance": "Keccak_1Round_Bijection_PHP_6_5",
+      "family": "Keccak_1Round_Bijection_PHP",
+      "n": 5,
+      "vars": 90,
+      "clauses": 291,
+      "dom_g1": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "emit_ms": 0.29,
+        "veripb_ms": 32.5,
+        "dom_steps": 25,
+        "rup_steps": 16,
+        "pbp_lines": 67,
+        "pbp_bytes": 10608,
+        "pbp_file": "results/dominance_g1_pbp/keccak_1round_bijection_php_6_5_dom_g1.pbp"
+      },
+      "kissat": {
+        "status": "UNSAT",
+        "time_ms": 40.65
+      }
+    },
+    {
+      "instance": "Keccak_1Round_Bijection_PHP_11_10",
+      "family": "Keccak_1Round_Bijection_PHP",
+      "n": 10,
+      "vars": 330,
+      "clauses": 1331,
+      "dom_g1": {
+        "status": "VERIFIED UNSATISFIABLE",
+        "emit_ms": 11.99,
+        "veripb_ms": 139.19,
+        "dom_steps": 100,
+        "rup_steps": 56,
+        "pbp_lines": 182,
+        "pbp_bytes": 86742,
+        "pbp_file": "results/dominance_g1_pbp/keccak_1round_bijection_php_11_10_dom_g1.pbp"
+      },
+      "kissat": {
+        "status": "UNSAT",
+        "time_ms": 16062.49
+      }
+    }
+  ]
+}

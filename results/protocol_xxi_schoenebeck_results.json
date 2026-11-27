@@ -1,0 +1,1185 @@
+{
+  "protocol": "Protocolo XXI (ATAQUE-03)",
+  "description": "Schoenebeck Random 3-SAT Adelic Scaling RM(2,3) (+) CG-Witt at alpha=6.2",
+  "alpha": 6.2,
+  "seeds_per_n": 6,
+  "total_wall_s": 1568.6,
+  "summary_by_n": [
+    {
+      "n": 64,
+      "m": 397,
+      "alpha": 6.2,
+      "trials": 6,
+      "algebra_only_unsat_count": 1,
+      "algebra_only_unsat_rate": 0.1667,
+      "algebra_only_mean_ms": 2381.12,
+      "cg_lp_only_unsat_count": 0,
+      "cg_lp_only_unsat_rate": 0.0,
+      "cg_lp_only_mean_ms": 236091.29,
+      "adelic_coupled_unsat_count": 6,
+      "adelic_coupled_unsat_rate": 1.0,
+      "adelic_coupled_mean_ms": 63666.95,
+      "kissat_4_0_4_mean_ms": 25.76,
+      "cryptominisat5_mean_ms": "NOT_AVAILABLE",
+      "cadical_195_mean_ms": 1.22
+    },
+    {
+      "n": 75,
+      "m": 465,
+      "alpha": 6.2,
+      "trials": 6,
+      "algebra_only_unsat_count": 0,
+      "algebra_only_unsat_rate": 0.0,
+      "algebra_only_mean_ms": 2051.52,
+      "cg_lp_only_unsat_count": 0,
+      "cg_lp_only_unsat_rate": 0.0,
+      "cg_lp_only_mean_ms": 235546.61,
+      "adelic_coupled_unsat_count": 3,
+      "adelic_coupled_unsat_rate": 0.5,
+      "adelic_coupled_mean_ms": 338709.8,
+      "kissat_4_0_4_mean_ms": 34.15,
+      "cryptominisat5_mean_ms": "NOT_AVAILABLE",
+      "cadical_195_mean_ms": 2.28
+    },
+    {
+      "n": 90,
+      "m": 558,
+      "alpha": 6.2,
+      "trials": 6,
+      "algebra_only_unsat_count": 0,
+      "algebra_only_unsat_rate": 0.0,
+      "algebra_only_mean_ms": 1413.34,
+      "cg_lp_only_unsat_count": 0,
+      "cg_lp_only_unsat_rate": 0.0,
+      "cg_lp_only_mean_ms": 173317.46,
+      "adelic_coupled_unsat_count": 0,
+      "adelic_coupled_unsat_rate": 0.0,
+      "adelic_coupled_mean_ms": 164991.23,
+      "kissat_4_0_4_mean_ms": 54.93,
+      "cryptominisat5_mean_ms": "NOT_AVAILABLE",
+      "cadical_195_mean_ms": 3.28
+    },
+    {
+      "n": 105,
+      "m": 651,
+      "alpha": 6.2,
+      "trials": 6,
+      "algebra_only_unsat_count": 0,
+      "algebra_only_unsat_rate": 0.0,
+      "algebra_only_mean_ms": 804.08,
+      "cg_lp_only_unsat_count": 0,
+      "cg_lp_only_unsat_rate": 0.0,
+      "cg_lp_only_mean_ms": 189836.62,
+      "adelic_coupled_unsat_count": 0,
+      "adelic_coupled_unsat_rate": 0.0,
+      "adelic_coupled_mean_ms": 215159.18,
+      "kissat_4_0_4_mean_ms": 94.75,
+      "cryptominisat5_mean_ms": "NOT_AVAILABLE",
+      "cadical_195_mean_ms": 5.2
+    },
+    {
+      "n": 120,
+      "m": 744,
+      "alpha": 6.2,
+      "trials": 6,
+      "algebra_only_unsat_count": 0,
+      "algebra_only_unsat_rate": 0.0,
+      "algebra_only_mean_ms": 555.77,
+      "cg_lp_only_unsat_count": 0,
+      "cg_lp_only_unsat_rate": 0.0,
+      "cg_lp_only_mean_ms": 150862.6,
+      "adelic_coupled_unsat_count": 0,
+      "adelic_coupled_unsat_rate": 0.0,
+      "adelic_coupled_mean_ms": 120473.76,
+      "kissat_4_0_4_mean_ms": 67.51,
+      "cryptominisat5_mean_ms": "NOT_AVAILABLE",
+      "cadical_195_mean_ms": 6.59
+    }
+  ],
+  "veripb_proofs": [
+    {
+      "n": 64,
+      "m": 397,
+      "seed_idx": 0,
+      "seed": 2026176600,
+      "algebra_only_unsat": false,
+      "cg_lp_only_unsat": false,
+      "cnf_path": "/home/miguel/certified-arith-preproc/results/protocol_xxi_pbp/schoenebeck_n64_seed0.cnf",
+      "pbp_path": "/home/miguel/certified-arith-preproc/results/protocol_xxi_pbp/schoenebeck_n64_seed0.pbp",
+      "pbp_lines": 5750,
+      "emit_ms": 8099.23,
+      "veripb_check_ms": 31.49,
+      "verified_veripb": true,
+      "verdict": "s VERIFIED UNSATISFIABLE",
+      "reason": "UNSAT_W3_UNIT_M1_PP2_RUP"
+    },
+    {
+      "n": 64,
+      "m": 397,
+      "seed_idx": 1,
+      "seed": 2026176601,
+      "algebra_only_unsat": true,
+      "cg_lp_only_unsat": false,
+      "cnf_path": "/home/miguel/certified-arith-preproc/results/protocol_xxi_pbp/schoenebeck_n64_seed1.cnf",
+      "pbp_path": "/home/miguel/certified-arith-preproc/results/protocol_xxi_pbp/schoenebeck_n64_seed1.pbp",
+      "pbp_lines": 1962,
+      "emit_ms": 697.71,
+      "veripb_check_ms": 25.37,
+      "verified_veripb": true,
+      "verdict": "s VERIFIED UNSATISFIABLE",
+      "reason": "UNSAT_W3_2UNIT_M2_PP1_RUP"
+    }
+  ],
+  "instances": [
+    {
+      "n": 64,
+      "m": 397,
+      "seed_idx": 0,
+      "seed": 2026176600,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 2385.79
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 276102.01
+      },
+      "adelic_coupled": {
+        "unsat": true,
+        "status": "UNSAT_W3_UNIT_M1_PP2 [rm=0,syn=0,merge=0,act=64]",
+        "level": "LVL0",
+        "ms": 31979.36
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 37.89
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 1.46
+      }
+    },
+    {
+      "n": 64,
+      "m": 397,
+      "seed_idx": 1,
+      "seed": 2026176601,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": true,
+        "status": "UNSAT_W3_2UNIT_M2",
+        "ms": 3958.33
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 93911.2
+      },
+      "adelic_coupled": {
+        "unsat": true,
+        "status": "UNSAT_W3_2UNIT_M2_PP1 [rm=0,syn=0,merge=0,act=64]",
+        "level": "LVL0",
+        "ms": 3016.87
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 17.79
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 1.07
+      }
+    },
+    {
+      "n": 64,
+      "m": 397,
+      "seed_idx": 2,
+      "seed": 2026176602,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 2110.22
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 325621.4
+      },
+      "adelic_coupled": {
+        "unsat": true,
+        "status": "UNSAT_W3_2UNIT_M1_PP2 [rm=0,syn=0,merge=0,act=64]",
+        "level": "LVL0",
+        "ms": 47719.66
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 33.45
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 1.1
+      }
+    },
+    {
+      "n": 64,
+      "m": 397,
+      "seed_idx": 3,
+      "seed": 2026176603,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 1834.28
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 315814.23
+      },
+      "adelic_coupled": {
+        "unsat": true,
+        "status": "UNSAT_W3_BCP_M1_PP2 [rm=0,syn=0,merge=0,act=64]",
+        "level": "LVL0",
+        "ms": 90646.55
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 27.73
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 1.12
+      }
+    },
+    {
+      "n": 64,
+      "m": 397,
+      "seed_idx": 4,
+      "seed": 2026176604,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 1981.58
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 117001.69
+      },
+      "adelic_coupled": {
+        "unsat": true,
+        "status": "UNSAT_W3_BCP_M2_PP2 [rm=0,syn=0,merge=0,act=64]",
+        "level": "LVL0",
+        "ms": 45343.27
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 19.93
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 1.35
+      }
+    },
+    {
+      "n": 64,
+      "m": 397,
+      "seed_idx": 5,
+      "seed": 2026176605,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 2016.53
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 288097.23
+      },
+      "adelic_coupled": {
+        "unsat": true,
+        "status": "UNSAT_W3_UNIT_M1_PP3 [rm=0,syn=0,merge=0,act=64]",
+        "level": "LVL0",
+        "ms": 163295.99
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 17.79
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 1.22
+      }
+    },
+    {
+      "n": 75,
+      "m": 465,
+      "seed_idx": 0,
+      "seed": 2026187600,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 2749.25
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 347553.22
+      },
+      "adelic_coupled": {
+        "unsat": true,
+        "status": "UNSAT_W3_BCP_M1_PP2 [rm=0,syn=0,merge=0,act=75]",
+        "level": "LVL0",
+        "ms": 21047.14
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 48.9
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 1.43
+      }
+    },
+    {
+      "n": 75,
+      "m": 465,
+      "seed_idx": 1,
+      "seed": 2026187601,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 1892.83
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 105298.54
+      },
+      "adelic_coupled": {
+        "unsat": true,
+        "status": "UNSAT_W3_UNIT_M2_PP4 [rm=0,syn=0,merge=0,act=75]",
+        "level": "LVL0",
+        "ms": 453421.82
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 26.99
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 1.38
+      }
+    },
+    {
+      "n": 75,
+      "m": 465,
+      "seed_idx": 2,
+      "seed": 2026187602,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 1965.14
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 271235.73
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=75]",
+        "level": "LVL0",
+        "ms": 440636.78
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 30.4
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 1.55
+      }
+    },
+    {
+      "n": 75,
+      "m": 465,
+      "seed_idx": 3,
+      "seed": 2026187603,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 2019.67
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 427875.15
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=75]",
+        "level": "LVL0",
+        "ms": 285386.89
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 29.18
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 6.02
+      }
+    },
+    {
+      "n": 75,
+      "m": 465,
+      "seed_idx": 4,
+      "seed": 2026187604,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 2181.14
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 90404.32
+      },
+      "adelic_coupled": {
+        "unsat": true,
+        "status": "UNSAT_W3_BCP_M3_PP4 [rm=0,syn=0,merge=0,act=75]",
+        "level": "LVL0",
+        "ms": 439729.9
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 39.08
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 1.47
+      }
+    },
+    {
+      "n": 75,
+      "m": 465,
+      "seed_idx": 5,
+      "seed": 2026187605,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 1501.11
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 170912.68
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=75]",
+        "level": "LVL0",
+        "ms": 392036.25
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 30.35
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 1.83
+      }
+    },
+    {
+      "n": 90,
+      "m": 558,
+      "seed_idx": 0,
+      "seed": 2026202600,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 2539.97
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 135773.45
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=90]",
+        "level": "LVL0",
+        "ms": 141344.86
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 25.97
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 1.6
+      }
+    },
+    {
+      "n": 90,
+      "m": 558,
+      "seed_idx": 1,
+      "seed": 2026202601,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 1728.01
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 222662.9
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=90]",
+        "level": "LVL0",
+        "ms": 289731.46
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 54.57
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 1.95
+      }
+    },
+    {
+      "n": 90,
+      "m": 558,
+      "seed_idx": 2,
+      "seed": 2026202602,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 1225.01
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 220152.52
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=90]",
+        "level": "LVL0",
+        "ms": 108807.65
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 41.6
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 2.48
+      }
+    },
+    {
+      "n": 90,
+      "m": 558,
+      "seed_idx": 3,
+      "seed": 2026202603,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 1406.81
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 123622.18
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=90]",
+        "level": "LVL0",
+        "ms": 109787.67
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 78.03
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 4.99
+      }
+    },
+    {
+      "n": 90,
+      "m": 558,
+      "seed_idx": 4,
+      "seed": 2026202604,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 608.76
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 101540.88
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=90]",
+        "level": "LVL0",
+        "ms": 101827.86
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 59.2
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 6.54
+      }
+    },
+    {
+      "n": 90,
+      "m": 558,
+      "seed_idx": 5,
+      "seed": 2026202605,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 971.46
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 236152.85
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=90]",
+        "level": "LVL0",
+        "ms": 238447.89
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 70.19
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 2.1
+      }
+    },
+    {
+      "n": 105,
+      "m": 651,
+      "seed_idx": 0,
+      "seed": 2026217600,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 909.16
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 141497.32
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=105]",
+        "level": "LVL0",
+        "ms": 123533.11
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 149.85
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 5.77
+      }
+    },
+    {
+      "n": 105,
+      "m": 651,
+      "seed_idx": 1,
+      "seed": 2026217601,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 582.25
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 135034.66
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=105]",
+        "level": "LVL0",
+        "ms": 113287.69
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 38.46
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 2.45
+      }
+    },
+    {
+      "n": 105,
+      "m": 651,
+      "seed_idx": 2,
+      "seed": 2026217602,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 598.2
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 331497.6
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=105]",
+        "level": "LVL0",
+        "ms": 303858.49
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 31.95
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 2.82
+      }
+    },
+    {
+      "n": 105,
+      "m": 651,
+      "seed_idx": 3,
+      "seed": 2026217603,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 1115.42
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 210852.67
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=105]",
+        "level": "LVL0",
+        "ms": 320888.36
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 100.29
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 3.95
+      }
+    },
+    {
+      "n": 105,
+      "m": 651,
+      "seed_idx": 4,
+      "seed": 2026217604,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 1017.75
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 202977.91
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=105]",
+        "level": "LVL0",
+        "ms": 308821.42
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 127.8
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 4.87
+      }
+    },
+    {
+      "n": 105,
+      "m": 651,
+      "seed_idx": 5,
+      "seed": 2026217605,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 601.71
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 117159.54
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=105]",
+        "level": "LVL0",
+        "ms": 120566.01
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 120.14
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 11.36
+      }
+    },
+    {
+      "n": 120,
+      "m": 744,
+      "seed_idx": 0,
+      "seed": 2026232600,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 533.98
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 148638.07
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=120]",
+        "level": "LVL0",
+        "ms": 152564.49
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 120.6
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 9.85
+      }
+    },
+    {
+      "n": 120,
+      "m": 744,
+      "seed_idx": 1,
+      "seed": 2026232601,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 604.4
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 163828.99
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=120]",
+        "level": "LVL0",
+        "ms": 163193.14
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 50.34
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 6.34
+      }
+    },
+    {
+      "n": 120,
+      "m": 744,
+      "seed_idx": 2,
+      "seed": 2026232602,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 444.92
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 157937.47
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=120]",
+        "level": "LVL0",
+        "ms": 161406.46
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 103.65
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 8.87
+      }
+    },
+    {
+      "n": 120,
+      "m": 744,
+      "seed_idx": 3,
+      "seed": 2026232603,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 381.9
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 143036.47
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=120]",
+        "level": "LVL0",
+        "ms": 119036.09
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 50.5
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 5.67
+      }
+    },
+    {
+      "n": 120,
+      "m": 744,
+      "seed_idx": 4,
+      "seed": 2026232604,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 580.75
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 147871.11
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=120]",
+        "level": "LVL0",
+        "ms": 67034.67
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 47.01
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 3.94
+      }
+    },
+    {
+      "n": 120,
+      "m": 744,
+      "seed_idx": 5,
+      "seed": 2026232605,
+      "sampling_attempts": 1,
+      "algebra_only": {
+        "unsat": false,
+        "status": "OK",
+        "ms": 788.66
+      },
+      "cg_lp_only": {
+        "unsat": false,
+        "status": "FEASIBLE",
+        "ms": 143863.51
+      },
+      "adelic_coupled": {
+        "unsat": false,
+        "status": "FEASIBLE [rm=0,syn=0,merge=0,act=120]",
+        "level": "LVL0",
+        "ms": 59607.7
+      },
+      "kissat": {
+        "result": "UNSAT",
+        "ms": 32.96
+      },
+      "cryptominisat5": {
+        "result": "NOT_AVAILABLE",
+        "ms": 0.0
+      },
+      "cadical195": {
+        "result": "UNSAT",
+        "ms": 4.87
+      }
+    }
+  ]
+}

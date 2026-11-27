@@ -1,0 +1,104 @@
+[
+  {
+    "instance": "Goldreich_TSA_5Local_V44",
+    "n_vars_orig": 1474,
+    "n_clauses_orig": 2112,
+    "n_extension_vars": 278,
+    "separator_size": 0,
+    "separator_vars": [],
+    "fiber_engines": {
+      "()": "veronese_rm2_homological"
+    },
+    "pbp_lines": 9650,
+    "emit_ms": 153.91,
+    "veripb_ms": 48.72,
+    "total_ms": 202.63,
+    "verdict": "s VERIFIED UNSATISFIABLE"
+  },
+  {
+    "instance": "Goldreich_TSA_5Local_V64",
+    "n_vars_orig": 2144,
+    "n_clauses_orig": 3072,
+    "n_extension_vars": 460,
+    "separator_size": 0,
+    "separator_vars": [],
+    "fiber_engines": {
+      "()": "veronese_rm2_homological"
+    },
+    "pbp_lines": 14756,
+    "emit_ms": 266.92,
+    "veripb_ms": 100.11,
+    "total_ms": 367.03,
+    "verdict": "s VERIFIED UNSATISFIABLE"
+  },
+  {
+    "instance": "Homological_XOR3_MAJ3_5Local_V44",
+    "n_vars_orig": 1474,
+    "n_clauses_orig": 2112,
+    "n_extension_vars": 474,
+    "separator_size": 0,
+    "separator_vars": [],
+    "fiber_engines": {
+      "()": "veronese_rm2_homological"
+    },
+    "pbp_lines": 13166,
+    "emit_ms": 211.61,
+    "veripb_ms": 80.22,
+    "total_ms": 291.83,
+    "verdict": "s VERIFIED UNSATISFIABLE"
+  },
+  {
+    "instance": "Homological_XOR3_MAJ3_5Local_V64",
+    "n_vars_orig": 2144,
+    "n_clauses_orig": 3072,
+    "n_extension_vars": 648,
+    "separator_size": 0,
+    "separator_vars": [],
+    "fiber_engines": {
+      "()": "veronese_rm2_homological"
+    },
+    "pbp_lines": 18608,
+    "emit_ms": 266.24,
+    "veripb_ms": 91.49,
+    "total_ms": 357.73,
+    "verdict": "s VERIFIED UNSATISFIABLE"
+  },
+  {
+    "instance": "Homological_XOR3_MAJ3_6Local_V44",
+    "n_vars_orig": 4290,
+    "n_clauses_orig": 5632,
+    "n_extension_vars": 548,
+    "separator_size": 0,
+    "separator_vars": [],
+    "fiber_engines": {
+      "()": "veronese_rm2_homological"
+    },
+    "pbp_lines": 27172,
+    "emit_ms": 470.61,
+    "veripb_ms": 139.34,
+    "total_ms": 609.95,
+    "verdict": "s VERIFIED UNSATISFIABLE"
+  },
+  {
+    "instance": "PHP12_11_OR2_Homological_XOR3_MAJ3_V36",
+    "n_vars_orig": 10232,
+    "n_clauses_orig": 13920,
+    "n_extension_vars": 756,
+    "separator_size": 2,
+    "separator_vars": [
+      1688,
+      9970
+    ],
+    "fiber_engines": {
+      "(0, 0)": "guarded_php_cg",
+      "(0, 1)": "veronese_rm2_homological",
+      "(1, 0)": "veronese_rm2_homological",
+      "(1, 1)": "guarded_php_cg"
+    },
+    "pbp_lines": 30504,
+    "emit_ms": 1160.8,
+    "veripb_ms": 229.54,
+    "total_ms": 1390.34,
+    "verdict": "s VERIFIED UNSATISFIABLE"
+  }
+]

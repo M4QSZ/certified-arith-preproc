@@ -7,4 +7,17 @@ build/
 results/*.pbp
 results/*.cnf
 results/veripb_proofs/
+results/interpolant_proofs/
+results/interpolant_bench_cnf/
+results/interpolant_bench_pbp/
+results/veronese_prg_proofs/
+results/veronese_prg_bench_cnf/
+results/veronese_prg_bench_pbp/
+results/v04_bench_cnf/
+results/v04_bench_pbp/
+results/ataque14_pbp/
+results/dominance_g1_pbp/
+results/protocol_xxi_pbp/
+rust_core/target/
+schoenebeck_rs/target/
 .DS_Store
